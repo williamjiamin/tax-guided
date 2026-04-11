@@ -80,18 +80,24 @@ export function Header() {
             Explore Guides
           </Link>
 
+          <Link href="/news" className="text-gray-300 hover:text-white transition-colors">
+            News
+          </Link>
+
+          <Link href="/scenarios" className="text-gray-300 hover:text-white transition-colors">
+            Scenarios
+          </Link>
+
+          <Link href="/compare" className="text-gray-300 hover:text-white transition-colors">
+            US vs China
+          </Link>
+
           <Link href="/tools/quick-tax-check" className="text-gray-300 hover:text-white transition-colors">
             Tools
           </Link>
 
-          <Link href="/learn" className="text-gray-300 hover:text-white transition-colors">
-            Learn
-          </Link>
           <Link href="/community" className="text-gray-300 hover:text-white transition-colors">
             Community
-          </Link>
-          <Link href="/quiz" className="text-gray-300 hover:text-white transition-colors">
-            Tax Quiz
           </Link>
 
           <a
