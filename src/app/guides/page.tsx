@@ -51,6 +51,19 @@ const GUIDE_SECTIONS = [
     ],
   },
   {
+    title: "Country Tax Systems",
+    guides: [
+      { title: "Singapore Tax System", href: "/guides/tax-system-singapore", desc: "17% corporate, 0% capital gains, territorial taxation" },
+      { title: "UAE Tax System", href: "/guides/tax-system-uae", desc: "9% corporate, 0% personal income tax, free zones" },
+      { title: "Ireland Tax System", href: "/guides/tax-system-ireland", desc: "12.5% corporate, Knowledge Development Box, R&D credits" },
+      { title: "Hong Kong Tax System", href: "/guides/tax-system-hong-kong", desc: "8.25%/16.5% profits tax, no VAT, territorial source" },
+      { title: "Estonia Tax System", href: "/guides/tax-system-estonia", desc: "0% on retained profits, e-Residency, flat 20% income tax" },
+      { title: "Switzerland Tax System", href: "/guides/tax-system-switzerland", desc: "12-14% effective corporate, cantonal competition, no private CGT" },
+      { title: "Netherlands Tax System", href: "/guides/tax-system-netherlands", desc: "19%/25.8% corporate, participation exemption, 30% ruling" },
+      { title: "Indonesia Tax System", href: "/guides/tax-system-indonesia", desc: "22% corporate, MSME incentives, tax holidays" },
+    ],
+  },
+  {
     title: "International Wire Transfers",
     guides: [
       { title: "Transfer — Australia", href: "/guides/transfer-australia" },

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-03-12T05:26:11.608Z",
+  "fetchedAt": "2026-04-11T13:19:51.309Z",
   "latestItems": [
     {
       "id": "irb-internal-revenue-bulletin-2026-11-1emlwa9",
@@ -449,8 +449,8 @@
           "officialSourceUrl": "https://www.irs.gov/irb/2025-52_IRB"
         }
       ],
-      "error": null,
-      "itemCount": 12
+      "itemCount": 12,
+      "error": "fetch failed (kept 12 cached items)"
     },
     {
       "id": "us-irs-news-releases",
@@ -516,8 +516,8 @@
           "officialSourceUrl": "https://www.irs.gov/newsroom/irs-published-schedule-taxpayers-will-use-to-claim-deductions-on-no-tax-on-tips-no-tax-on-overtime-no-tax-on-car-loans-no-tax-on-seniors"
         }
       ],
-      "error": null,
-      "itemCount": 7
+      "itemCount": 7,
+      "error": "fetch failed (kept 7 cached items)"
     },
     {
       "id": "cn-sta-policy-library",
@@ -623,9 +623,13 @@
           "officialSourceUrl": "https://fgk.chinatax.gov.cn/zcfgk/c102416/c5247779/content.html"
         }
       ],
-      "error": null,
-      "itemCount": 12
+      "itemCount": 12,
+      "error": "fetch failed (kept 12 cached items)"
     }
   ],
-  "warnings": []
+  "warnings": [
+    "us-irs-irb: fetch failed",
+    "us-irs-news-releases: fetch failed",
+    "cn-sta-policy-library: fetch failed"
+  ]
 }

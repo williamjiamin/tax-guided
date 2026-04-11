@@ -209,7 +209,7 @@ export default function Home() {
               <h2 className="text-3xl font-extrabold text-gray-900 mb-3">More to Explore</h2>
               <p className="text-gray-500">Stay informed with live updates, real-world scenarios, and data-driven comparisons.</p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-5">
               <Link href="/news" className="group p-5 bg-white rounded-xl border border-gray-200 hover:border-gold hover:shadow-lg transition-all">
                 <div className="w-10 h-10 bg-red-50 rounded-lg flex items-center justify-center text-red-600 mb-3 group-hover:bg-gold/10 group-hover:text-gold-dark transition-colors">
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" /></svg>
@@ -237,6 +237,13 @@ export default function Home() {
                 </div>
                 <h3 className="font-bold text-gray-900 mb-1">Tax Shorts</h3>
                 <p className="text-sm text-gray-500">Quick explainers on common tax topics</p>
+              </Link>
+              <Link href="/tools/incorporate" className="group p-5 bg-white rounded-xl border border-gray-200 hover:border-gold hover:shadow-lg transition-all">
+                <div className="w-10 h-10 bg-navy/5 rounded-lg flex items-center justify-center text-navy mb-3 group-hover:bg-gold/10 group-hover:text-gold-dark transition-colors">
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 2l3 3-3 3" /></svg>
+                </div>
+                <h3 className="font-bold text-gray-900 mb-1">Where to Incorporate</h3>
+                <p className="text-sm text-gray-500">Find the best jurisdiction for your business</p>
               </Link>
             </div>
           </div>
