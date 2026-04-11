@@ -1,0 +1,21 @@
+name = "tax-guided"
+main = ".open-next/worker.js"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+workers_dev = true
+
+# Custom domain
+routes = [
+  { pattern = "taxguided.com", custom_domain = true },
+  { pattern = "www.taxguided.com", custom_domain = true },
+]
+
+# KV namespaces for data storage
+[[kv_namespaces]]
+binding = "SUBSCRIBERS"
+id = "e59bdc1adcad46518d10e8716ae9021d"
+
+# Static assets
+[assets]
+directory = ".open-next/assets"
+binding = "ASSETS"
