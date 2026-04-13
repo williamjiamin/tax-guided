@@ -11,6 +11,15 @@ You are generating SEO content for TaxGuided.com, a global tax knowledge platfor
 - Include accurate "Last updated" dates
 - seoTitle should be a natural search query (what someone would Google)
 - seoDescription should be 150-160 chars, include the main keyword
+- All answer authors MUST use TaxGuided Team (not "ForeignLLCTax Official" or any other name)
+- Vary source URLs across threads — do NOT reuse the same 3-4 URLs in every thread. Use treaty-specific URLs, country tax authority pages, platform documentation, IRS publications, IRC sections, etc.
+- If you create NEW categories (e.g. "saas", "app-dev"), you MUST also output the category label mapping to add to CATEGORIES or QA_CATEGORIES at the end of the batch
+
+**CRITICAL — Every batch MUST include a WIRING section** at the end showing:
+1. Exact import statements to add to aggregator files (qa-content.ts, video-catalog.ts, etc.)
+2. Exact spread entries to add to the combined arrays (SEED_THREADS, RAW_VIDEOS, etc.)
+3. Any new category entries to add to CATEGORIES or QA_CATEGORIES objects
+Without this wiring section, the content cannot be integrated into the site.
 
 ---
 
