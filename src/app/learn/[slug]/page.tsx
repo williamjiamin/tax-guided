@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import {
-  getUniqueVideos,
   getVideoBySlug,
   getVideosByCategory,
   CATEGORIES,
@@ -44,14 +43,12 @@ const IRS_LINKS: Partial<Record<Category, { url: string; label: string }>> = {
   },
 };
 
+export const dynamicParams = true;
+export const revalidate = 3600;
+
 type Props = {
   params: Promise<{ slug: string }>;
 };
-
-export async function generateStaticParams() {
-  const videos = getUniqueVideos();
-  return videos.map((v) => ({ slug: v.slug }));
-}
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;

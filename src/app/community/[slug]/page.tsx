@@ -1,20 +1,17 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import {
-  QA_CATALOG,
   getQABySlug,
-  getAllQASlugs,
   getQAsByCategory,
 } from "@/lib/qa/qa-catalog";
 import { QAThreadClient } from "@/components/community/QAThreadClient";
 
+export const dynamicParams = true;
+export const revalidate = 3600;
+
 type Props = {
   params: Promise<{ slug: string }>;
 };
-
-export async function generateStaticParams() {
-  return getAllQASlugs().map((slug) => ({ slug }));
-}
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;

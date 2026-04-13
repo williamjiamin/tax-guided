@@ -1,17 +1,15 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import {
-  ALL_COUNTRY_CODES,
   getCountryCatalog,
 } from "@/lib/laws/catalog-index";
 import { CountryLawsClient } from "@/components/laws/CountryLawsClient";
 
+export const dynamicParams = true;
+export const revalidate = 86400;
+
 interface Props {
   params: Promise<{ country: string }>;
-}
-
-export function generateStaticParams() {
-  return ALL_COUNTRY_CODES.map((code) => ({ country: code }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
