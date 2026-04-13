@@ -694,7 +694,7 @@ export function RecordKeeping5472GuideClient() {
                 <ul className="space-y-1 text-sm text-green-700 ml-4 list-disc">
                   <li>Adobe Acrobat Reader (free) — the most reliable option for IRS PDFs</li>
                   <li>Preview on Mac — handles most IRS forms correctly</li>
-                  <li>Use ForeignLLCTax.com — our filer generates properly formatted PDFs automatically</li>
+                  <li>Use TaxGuided.com — our filer generates properly formatted PDFs automatically</li>
                 </ul>
               </div>
             </div>

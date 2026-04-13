@@ -3,7 +3,7 @@ import { Section1446GuideClient } from "@/components/guides/Section1446GuideClie
 
 export const metadata: Metadata = {
   title:
-    "Section 1446 Withholding Guide — Partnership Tax on Foreign Partners | ForeignLLCTax.com",
+    "Section 1446 Withholding Guide — Partnership Tax on Foreign Partners | TaxGuided.com",
   description:
     "Complete guide to IRC Section 1446 withholding on effectively connected taxable income allocated to foreign partners. Rates, quarterly payments, Forms 8804/8805/8813, and penalties explained.",
   openGraph: {
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
       "Section 1446 Withholding Guide — Partnership Tax on Foreign Partners",
     description:
       "Everything you need to know about Section 1446 withholding: rates, quarterly schedules, Forms 8804 and 8805, and how foreign partners claim credit.",
-    url: "https://foreignllctax.com/guides/section-1446",
+    url: "https://taxguided.com/guides/section-1446",
     type: "website",
   },
   alternates: {

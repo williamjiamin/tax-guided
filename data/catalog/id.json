@@ -1,0 +1,49 @@
+{
+  "countryCode": "ID",
+  "countryName": "Indonesia",
+  "agencies": [
+    {
+      "id": "id-djp",
+      "name": "Directorate General of Taxes (DJP)",
+      "url": "https://www.pajak.go.id",
+      "category": "tax-authority"
+    },
+    {
+      "id": "id-kemenkeu",
+      "name": "Ministry of Finance",
+      "url": "https://www.kemenkeu.go.id",
+      "category": "government"
+    }
+  ],
+  "entries": [
+    {
+      "id": "id-pph-2026",
+      "title": "Pajak Penghasilan (PPh) - Income Tax",
+      "summary": "Indonesian income tax regulations for individuals and entities.",
+      "publishedDate": "2026-01-01",
+      "url": "https://www.pajak.go.id/id/pajak-penghasilan",
+      "agency": "Directorate General of Taxes (DJP)",
+      "category": "law-and-guidance"
+    },
+    {
+      "id": "id-ppn-vat",
+      "title": "Pajak Pertambahan Nilai (PPN) - VAT",
+      "summary": "Value Added Tax rates and compliance including recent rate adjustments.",
+      "publishedDate": "2026-02-10",
+      "url": "https://www.pajak.go.id/id/pajak-pertambahan-nilai",
+      "agency": "Directorate General of Taxes (DJP)",
+      "category": "regulation"
+    },
+    {
+      "id": "id-tax-amnesty",
+      "title": "Tax Compliance Voluntary Disclosure Program",
+      "summary": "Voluntary disclosure program for taxpayers to regularize their tax affairs.",
+      "publishedDate": "2026-03-01",
+      "url": "https://www.pajak.go.id",
+      "agency": "Directorate General of Taxes (DJP)",
+      "category": "policy"
+    }
+  ],
+  "totalEntries": 3,
+  "lastUpdated": "2026-04-11T00:00:00Z"
+}

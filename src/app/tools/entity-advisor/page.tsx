@@ -3,7 +3,7 @@ import { EntityAdvisorClient } from "@/components/tools/EntityAdvisorClient";
 
 export const metadata: Metadata = {
   title:
-    "LLC Entity Classification Advisor — Disregarded Entity vs Partnership vs C-Corp | ForeignLLCTax.com",
+    "LLC Entity Classification Advisor — Disregarded Entity vs Partnership vs C-Corp | TaxGuided.com",
   description:
     "Free tool to help foreign LLC owners understand their tax classification options. Compare disregarded entity, partnership, and C-corporation status for your US LLC.",
   openGraph: {
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
       "LLC Entity Classification Advisor — Disregarded Entity vs Partnership vs C-Corp",
     description:
       "Free advisor tool for foreign LLC owners. Compare disregarded entity, partnership, and C-corp tax classifications and find the best option for your business.",
-    url: "https://foreignllctax.com/tools/entity-advisor",
+    url: "https://taxguided.com/tools/entity-advisor",
     type: "website",
   },
   alternates: {

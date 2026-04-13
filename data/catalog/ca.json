@@ -1,0 +1,58 @@
+{
+  "countryCode": "CA",
+  "countryName": "Canada",
+  "agencies": [
+    {
+      "id": "ca-cra",
+      "name": "Canada Revenue Agency (CRA)",
+      "url": "https://www.canada.ca/en/revenue-agency.html",
+      "category": "tax-authority"
+    },
+    {
+      "id": "ca-dof",
+      "name": "Department of Finance Canada",
+      "url": "https://www.canada.ca/en/department-finance.html",
+      "category": "government"
+    }
+  ],
+  "entries": [
+    {
+      "id": "ca-t1-2025",
+      "title": "T1 General Income Tax and Benefit Return 2025",
+      "summary": "Individual income tax return form and guide for the 2025 tax year.",
+      "publishedDate": "2026-02-15",
+      "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/tax-packages-years/general-income-tax-benefit-package.html",
+      "agency": "Canada Revenue Agency (CRA)",
+      "category": "forms"
+    },
+    {
+      "id": "ca-gst-hst",
+      "title": "GST/HST Information for Businesses",
+      "summary": "Registration, collection, and remittance guide for Goods and Services Tax.",
+      "publishedDate": "2026-01-20",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses.html",
+      "agency": "Canada Revenue Agency (CRA)",
+      "category": "law-and-guidance"
+    },
+    {
+      "id": "ca-budget-2026",
+      "title": "Federal Budget 2026 Tax Measures",
+      "summary": "Tax-related measures from the 2026 federal budget.",
+      "publishedDate": "2026-03-20",
+      "url": "https://www.budget.canada.ca",
+      "agency": "Department of Finance Canada",
+      "category": "policy"
+    },
+    {
+      "id": "ca-tax-treaties",
+      "title": "Tax Treaties with Other Countries",
+      "summary": "Canada bilateral tax conventions to avoid double taxation.",
+      "publishedDate": "2026-01-10",
+      "url": "https://www.canada.ca/en/department-finance/programs/tax-policy/tax-treaties.html",
+      "agency": "Department of Finance Canada",
+      "category": "law-and-guidance"
+    }
+  ],
+  "totalEntries": 4,
+  "lastUpdated": "2026-04-11T00:00:00Z"
+}

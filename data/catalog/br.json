@@ -1,0 +1,49 @@
+{
+  "countryCode": "BR",
+  "countryName": "Brazil",
+  "agencies": [
+    {
+      "id": "br-rfb",
+      "name": "Receita Federal do Brasil (RFB)",
+      "url": "https://www.gov.br/receitafederal",
+      "category": "tax-authority"
+    },
+    {
+      "id": "br-mf",
+      "name": "Ministry of Finance",
+      "url": "https://www.gov.br/fazenda",
+      "category": "government"
+    }
+  ],
+  "entries": [
+    {
+      "id": "br-irpf-2026",
+      "title": "IRPF 2026 - Declaracao do Imposto de Renda",
+      "summary": "Individual income tax return filing guide and deadlines for 2026.",
+      "publishedDate": "2026-03-01",
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda",
+      "agency": "Receita Federal",
+      "category": "forms"
+    },
+    {
+      "id": "br-simples-nacional",
+      "title": "Simples Nacional - Simplified Tax Regime",
+      "summary": "Tax regime for micro and small enterprises with unified tax collection.",
+      "publishedDate": "2026-01-15",
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/tributos/simples-nacional",
+      "agency": "Receita Federal",
+      "category": "law-and-guidance"
+    },
+    {
+      "id": "br-tax-reform-2026",
+      "title": "Tax Reform Implementation Updates",
+      "summary": "Progress on Brazil tax reform implementation including dual VAT system.",
+      "publishedDate": "2026-02-20",
+      "url": "https://www.gov.br/fazenda/pt-br/assuntos/reforma-tributaria",
+      "agency": "Ministry of Finance",
+      "category": "policy"
+    }
+  ],
+  "totalEntries": 3,
+  "lastUpdated": "2026-04-11T00:00:00Z"
+}

@@ -74,8 +74,8 @@ export default async function CommunityThreadPage({ params }: Props) {
               dateCreated: answer.postedAt,
               author: {
                 "@type": "Organization",
-                name: "ForeignLLCTax",
-                url: "https://foreignllctax.com",
+                name: "TaxGuided",
+                url: "https://taxguided.com",
               },
             },
           }

@@ -1,0 +1,64 @@
+{
+  "countryCode": "IN",
+  "countryName": "India",
+  "agencies": [
+    {
+      "id": "in-cbdt",
+      "name": "Central Board of Direct Taxes (CBDT)",
+      "url": "https://incometaxindia.gov.in",
+      "category": "tax-authority"
+    },
+    {
+      "id": "in-cbic",
+      "name": "Central Board of Indirect Taxes and Customs (CBIC)",
+      "url": "https://www.cbic.gov.in",
+      "category": "tax-authority"
+    },
+    {
+      "id": "in-mof",
+      "name": "Ministry of Finance",
+      "url": "https://www.finmin.nic.in",
+      "category": "government"
+    }
+  ],
+  "entries": [
+    {
+      "id": "in-union-budget-2026",
+      "title": "Union Budget 2026-27 Tax Highlights",
+      "summary": "Key tax proposals from the Union Budget including income tax slabs and corporate tax changes.",
+      "publishedDate": "2026-02-01",
+      "url": "https://www.indiabudget.gov.in",
+      "agency": "Ministry of Finance",
+      "category": "policy"
+    },
+    {
+      "id": "in-gst-updates",
+      "title": "GST Rate Changes and Circulars",
+      "summary": "Latest GST Council decisions on rate changes and compliance circulars.",
+      "publishedDate": "2026-03-10",
+      "url": "https://www.cbic.gov.in/htdocs-cbec/gst",
+      "agency": "CBIC",
+      "category": "regulation"
+    },
+    {
+      "id": "in-itr-forms-2026",
+      "title": "ITR Forms for Assessment Year 2026-27",
+      "summary": "Income tax return forms notification for the assessment year 2026-27.",
+      "publishedDate": "2026-04-01",
+      "url": "https://incometaxindia.gov.in/pages/downloads/income-tax-return.aspx",
+      "agency": "CBDT",
+      "category": "forms"
+    },
+    {
+      "id": "in-tds-rates",
+      "title": "TDS Rate Chart 2026-27",
+      "summary": "Tax Deducted at Source rates applicable for financial year 2026-27.",
+      "publishedDate": "2026-04-01",
+      "url": "https://incometaxindia.gov.in/pages/tools/tds-rate-chart.aspx",
+      "agency": "CBDT",
+      "category": "law-and-guidance"
+    }
+  ],
+  "totalEntries": 4,
+  "lastUpdated": "2026-04-11T00:00:00Z"
+}

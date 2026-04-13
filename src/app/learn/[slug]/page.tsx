@@ -131,12 +131,12 @@ export default async function LearnArticlePage({ params }: Props) {
           url: `https://foreignllctax.com/learn/${video.slug}`,
           publisher: {
             "@type": "Organization",
-            name: "ForeignLLCTax.com",
-            url: "https://foreignllctax.com",
+            name: "TaxGuided.com",
+            url: "https://taxguided.com",
           },
           author: {
             "@type": "Organization",
-            name: "ForeignLLCTax.com",
+            name: "TaxGuided.com",
           },
         };
 
@@ -160,7 +160,7 @@ export default async function LearnArticlePage({ params }: Props) {
           name: "Can I file my foreign-owned LLC taxes online?",
           acceptedAnswer: {
             "@type": "Answer" as const,
-            text: "Yes. ForeignLLCTax.com lets you generate IRS Form 5472 + pro forma Form 1120 online in 15 minutes for $49. No CPA needed.",
+            text: "Yes. For IRS Form 5472 filing, visit ForeignLLCTax.com — a guided filing tool starting at $49.",
           },
         },
       ];

@@ -1,0 +1,49 @@
+{
+  "countryCode": "AE",
+  "countryName": "United Arab Emirates",
+  "agencies": [
+    {
+      "id": "ae-fta",
+      "name": "Federal Tax Authority (FTA)",
+      "url": "https://tax.gov.ae",
+      "category": "tax-authority"
+    },
+    {
+      "id": "ae-mof",
+      "name": "Ministry of Finance",
+      "url": "https://www.mof.gov.ae",
+      "category": "government"
+    }
+  ],
+  "entries": [
+    {
+      "id": "ae-corp-tax",
+      "title": "Corporate Tax Guide",
+      "summary": "Comprehensive guide to UAE corporate tax introduced in June 2023 with 9% rate.",
+      "publishedDate": "2026-01-15",
+      "url": "https://tax.gov.ae/en/taxes/corporate.tax.aspx",
+      "agency": "Federal Tax Authority (FTA)",
+      "category": "law-and-guidance"
+    },
+    {
+      "id": "ae-vat-guide",
+      "title": "VAT Guide - VATG001",
+      "summary": "General VAT guide covering registration, returns, and compliance.",
+      "publishedDate": "2026-02-10",
+      "url": "https://tax.gov.ae/en/taxes/vat.aspx",
+      "agency": "Federal Tax Authority (FTA)",
+      "category": "regulation"
+    },
+    {
+      "id": "ae-transfer-pricing",
+      "title": "Transfer Pricing Documentation Requirements",
+      "summary": "Transfer pricing rules and documentation requirements for UAE businesses.",
+      "publishedDate": "2026-03-01",
+      "url": "https://tax.gov.ae/en/taxes/corporate.tax.aspx",
+      "agency": "Federal Tax Authority (FTA)",
+      "category": "regulation"
+    }
+  ],
+  "totalEntries": 3,
+  "lastUpdated": "2026-04-11T00:00:00Z"
+}

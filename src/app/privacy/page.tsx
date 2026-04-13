@@ -4,9 +4,9 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — ForeignLLCTax.com",
+  title: "Privacy Policy — TaxGuided.com",
   description:
-    "Privacy Policy for ForeignLLCTax.com. Learn how we collect, use, and protect your personal information when using our tax filing tools.",
+    "Privacy Policy for TaxGuided.com. Learn how we collect, use, and protect your personal information when using our tax filing tools.",
   alternates: { canonical: "/privacy" },
 };
 
@@ -25,7 +25,7 @@ export default function PrivacyPage() {
 
           <h2>1. Introduction</h2>
           <p>
-            ForeignLLCTax.com, operated by RippaX Labs (&quot;we,&quot; &quot;us,&quot; or
+            TaxGuided.com, operated by RippaX Labs (&quot;we,&quot; &quot;us,&quot; or
             &quot;our&quot;), respects your privacy. This Privacy Policy explains what
             information we collect, how we use it, and your rights regarding
             your data.

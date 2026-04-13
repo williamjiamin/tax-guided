@@ -1,0 +1,49 @@
+{
+  "countryCode": "NL",
+  "countryName": "Netherlands",
+  "agencies": [
+    {
+      "id": "nl-belastingdienst",
+      "name": "Belastingdienst (Tax and Customs Administration)",
+      "url": "https://www.belastingdienst.nl",
+      "category": "tax-authority"
+    },
+    {
+      "id": "nl-mof",
+      "name": "Ministry of Finance",
+      "url": "https://www.rijksoverheid.nl/ministeries/ministerie-van-financien",
+      "category": "government"
+    }
+  ],
+  "entries": [
+    {
+      "id": "nl-box-system",
+      "title": "Box 1, 2, 3 Income Tax System",
+      "summary": "Guide to the Dutch three-box income tax system for residents.",
+      "publishedDate": "2026-01-01",
+      "url": "https://www.belastingdienst.nl/wps/wcm/connect/nl/inkomstenbelasting/inkomstenbelasting",
+      "agency": "Belastingdienst",
+      "category": "law-and-guidance"
+    },
+    {
+      "id": "nl-30-ruling",
+      "title": "30% Tax Ruling for Expats",
+      "summary": "Tax benefit for incoming employees with specific expertise.",
+      "publishedDate": "2026-02-15",
+      "url": "https://www.belastingdienst.nl/wps/wcm/connect/en/individuals/content/tax-benefit-30-percent-ruling",
+      "agency": "Belastingdienst",
+      "category": "regulation"
+    },
+    {
+      "id": "nl-vat-btw",
+      "title": "BTW (VAT) Rates and Rules",
+      "summary": "Value Added Tax rates, registration, and filing obligations in the Netherlands.",
+      "publishedDate": "2026-01-20",
+      "url": "https://www.belastingdienst.nl/wps/wcm/connect/nl/btw/btw",
+      "agency": "Belastingdienst",
+      "category": "law-and-guidance"
+    }
+  ],
+  "totalEntries": 3,
+  "lastUpdated": "2026-04-11T00:00:00Z"
+}

@@ -12,10 +12,10 @@ interface EmailCaptureBannerProps {
 }
 
 export function EmailCaptureBanner({
-  title = "Get Filing Reminders & Tax Tips",
-  subtitle = "Join foreign LLC owners who stay compliant. No spam, unsubscribe anytime.",
+  title = "Get Tax Updates & Insights",
+  subtitle = "Join thousands who stay on top of global tax changes. No spam, unsubscribe anytime.",
   successTitle = "You're subscribed!",
-  successSubtitle = "We'll send you filing reminders and tax tips for foreign-owned LLCs.",
+  successSubtitle = "We'll send you tax law updates, deadline reminders, and educational insights.",
   ctaLabel = "Subscribe",
   source = "tool-page",
 }: EmailCaptureBannerProps) {

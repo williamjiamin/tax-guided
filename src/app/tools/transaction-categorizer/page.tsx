@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "Form 5472 Transaction Categorizer",
     description:
       "Not sure which line of Form 5472 your transactions go on? We'll categorize them for you — free.",
-    url: "https://foreignllctax.com/tools/transaction-categorizer",
+    url: "https://taxguided.com/tools/transaction-categorizer",
     type: "website",
   },
   alternates: {

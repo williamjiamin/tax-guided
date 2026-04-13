@@ -3,7 +3,7 @@ import { RegisterUsCompanyGuideClient } from "@/components/guides/RegisterUsComp
 
 export const metadata: Metadata = {
   title:
-    "How to Register a US Company as a Foreigner — Stripe Atlas vs Doola vs Firstbase vs DIY | ForeignLLCTax.com",
+    "How to Register a US Company as a Foreigner — Stripe Atlas vs Doola vs Firstbase vs DIY | TaxGuided.com",
   description:
     "Compare the top US company registration services for foreign founders. Stripe Atlas, Doola, Firstbase, and DIY Wyoming — costs, timelines, pros and cons.",
   openGraph: {
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
       "How to Register a US Company as a Foreigner — Stripe Atlas vs Doola vs Firstbase vs DIY",
     description:
       "Compare the top US company registration services for foreign founders. Stripe Atlas, Doola, Firstbase, and DIY Wyoming — costs, timelines, pros and cons.",
-    url: "https://foreignllctax.com/guides/register-us-company",
+    url: "https://taxguided.com/guides/register-us-company",
     type: "website",
   },
   alternates: {

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     title: "Tax Scenarios — Real Situations, Clear Next Steps | TaxGuided.com",
     description:
       "Walk through real-world tax scenarios for creators, freelancers, and foreign LLC owners.",
-    url: "https://foreignllctax.com/scenarios",
+    url: "https://taxguided.com/scenarios",
     type: "website",
   },
   alternates: {

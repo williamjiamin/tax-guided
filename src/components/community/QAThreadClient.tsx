@@ -19,6 +19,7 @@ import {
   Eye,
   BookOpen,
   ChevronRight,
+  AlertTriangle,
 } from "lucide-react";
 
 interface QAThreadClientProps {
@@ -57,6 +58,16 @@ export function QAThreadClient({ thread, relatedThreads }: QAThreadClientProps) 
       <Header />
 
       <main className="flex-1">
+        {/* Disclaimer banner */}
+        <div className="bg-amber-50 border-b border-amber-200 px-6 py-3">
+          <div className="max-w-4xl mx-auto flex items-start gap-2.5">
+            <AlertTriangle className="w-4 h-4 text-amber-600 mt-0.5 shrink-0" />
+            <p className="text-xs text-amber-800 leading-relaxed">
+              All answers on TaxGuided are community-contributed and for educational purposes only. This is not professional tax, legal, or accounting advice. Always consult a qualified professional for your specific situation.
+            </p>
+          </div>
+        </div>
+
         {/* Breadcrumb */}
         <div className="bg-gray-50/70 border-b border-gray-100 px-6 py-3">
           <div className="max-w-4xl mx-auto">

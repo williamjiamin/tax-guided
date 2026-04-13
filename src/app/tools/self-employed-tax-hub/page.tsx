@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: "Self-Employed Tax Hub (2026)",
     description:
       "Free tools and clear next steps for freelancers, side hustles, and 1099 workers before full filing.",
-    url: "https://foreignllctax.com/tools/self-employed-tax-hub",
+    url: "https://taxguided.com/tools/self-employed-tax-hub",
     type: "website",
   },
   alternates: {

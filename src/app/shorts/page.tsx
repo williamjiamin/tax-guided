@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "Tax Shorts — Tax Concepts in Under 60 Seconds | TaxGuided.com",
     description:
       "Bite-sized tax explainers for freelancers, creators, students, and expats.",
-    url: "https://foreignllctax.com/shorts",
+    url: "https://taxguided.com/shorts",
     type: "website",
   },
   alternates: {

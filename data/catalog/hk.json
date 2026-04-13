@@ -1,0 +1,49 @@
+{
+  "countryCode": "HK",
+  "countryName": "Hong Kong",
+  "agencies": [
+    {
+      "id": "hk-ird",
+      "name": "Inland Revenue Department (IRD)",
+      "url": "https://www.ird.gov.hk",
+      "category": "tax-authority"
+    },
+    {
+      "id": "hk-fstb",
+      "name": "Financial Services and the Treasury Bureau",
+      "url": "https://www.fstb.gov.hk",
+      "category": "government"
+    }
+  ],
+  "entries": [
+    {
+      "id": "hk-profits-tax",
+      "title": "Profits Tax Guide 2025-26",
+      "summary": "Guide to Hong Kong profits tax including two-tiered rates and exemptions.",
+      "publishedDate": "2026-01-10",
+      "url": "https://www.ird.gov.hk/eng/tax/bus_pft.htm",
+      "agency": "Inland Revenue Department (IRD)",
+      "category": "law-and-guidance"
+    },
+    {
+      "id": "hk-salaries-tax",
+      "title": "Salaries Tax and Personal Assessment",
+      "summary": "Individual taxation guide including allowances and deductions.",
+      "publishedDate": "2026-02-01",
+      "url": "https://www.ird.gov.hk/eng/tax/ind_sal.htm",
+      "agency": "Inland Revenue Department (IRD)",
+      "category": "forms"
+    },
+    {
+      "id": "hk-budget-2026",
+      "title": "2026-27 Budget Tax Proposals",
+      "summary": "Tax-related measures from the Hong Kong government budget speech.",
+      "publishedDate": "2026-02-26",
+      "url": "https://www.budget.gov.hk",
+      "agency": "Financial Services and the Treasury Bureau",
+      "category": "policy"
+    }
+  ],
+  "totalEntries": 3,
+  "lastUpdated": "2026-04-11T00:00:00Z"
+}

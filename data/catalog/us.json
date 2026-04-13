@@ -1,0 +1,199 @@
+{
+  "countryCode": "US",
+  "countryName": "United States",
+  "agencies": [
+    {
+      "id": "us-irs",
+      "name": "Internal Revenue Service",
+      "url": "https://www.irs.gov",
+      "category": "tax-authority"
+    },
+    {
+      "id": "us-treasury",
+      "name": "U.S. Department of the Treasury",
+      "url": "https://home.treasury.gov",
+      "category": "government"
+    },
+    {
+      "id": "us-tta",
+      "name": "Tax Court of the United States",
+      "url": "https://www.ustaxcourt.gov",
+      "category": "judicial"
+    }
+  ],
+  "entries": [
+    {
+      "id": "irb-internal-revenue-bulletin-2026-11-1emlwa9",
+      "title": "Internal Revenue Bulletin: 2026-11",
+      "summary": "Authoritative weekly IRS bulletin publishing official rulings, procedures, notices, and announcements.",
+      "publishedDate": "2026-03-09",
+      "url": "https://www.irs.gov/irb/2026-11_IRB",
+      "agency": "Internal Revenue Bulletin",
+      "category": "regulation"
+    },
+    {
+      "id": "ir-2026-34",
+      "title": "2026 IRS Nationwide Tax Forum registration is now open",
+      "summary": "IR-2026-34, March 6, 2026 — The Internal Revenue Service today announced that registration is now open for the 2026 IRS Nationwide Tax Forum, the agency’s largest annual outreach event designed specifically for the tax professional community.",
+      "publishedDate": "2026-03-06",
+      "url": "https://www.irs.gov/newsroom/2026-irs-nationwide-tax-forum-registration-is-now-open",
+      "agency": "News Releases (Current Month)",
+      "category": "law-and-guidance"
+    },
+    {
+      "id": "ir-2026-33",
+      "title": "Treasury, IRS issue proposed regulations on how to open initial Trump Accounts under the One, Big, Beautiful Bill",
+      "summary": "IR-2026-33, March 6, 2026 —The Department of the Treasury and the Internal Revenue Service today issued proposed regulations providing general requirements for Trump Accounts, certain definitions relating to Trump Accounts, election rules to open an initial Trump Account by an authorized individual for an eligible individual, and rules for who is the responsible party for the initial Trump Account once the account has been opened.",
+      "publishedDate": "2026-03-06",
+      "url": "https://www.irs.gov/newsroom/treasury-irs-issue-proposed-regulations-on-how-to-open-initial-trump-accounts-under-the-one-big-beautiful-bill",
+      "agency": "News Releases (Current Month)",
+      "category": "law-and-guidance"
+    },
+    {
+      "id": "ir-2026-32",
+      "title": "IRS announces extended weekday and Saturday hours at Taxpayer Assistance Centers through spring",
+      "summary": "IR-2026-32, March 6, 2026 — The Internal Revenue Service today announced that it is extending weekly office hours at more than 200 Taxpayer Assistance Centers nationwide to provide taxpayers with additional time to receive in-person assistance during the filing season.",
+      "publishedDate": "2026-03-06",
+      "url": "https://www.irs.gov/newsroom/irs-announces-extended-weekday-and-saturday-hours-at-taxpayer-assistance-centers-through-spring",
+      "agency": "News Releases (Current Month)",
+      "category": "law-and-guidance"
+    },
+    {
+      "id": "ir-2026-31",
+      "title": "Treasury, IRS issue proposed regulations for Trump Accounts contribution pilot program, Treasury Department to deposit $1,000 into the account of each eligible child",
+      "summary": "IR-2026-31, March 6, 2026 — The Department of the Treasury and the Internal Revenue Service today issued proposed regulations providing guidance regarding the pilot program for Trump Accounts, which are a new type of individual retirement account for eligible children.",
+      "publishedDate": "2026-03-06",
+      "url": "https://www.irs.gov/newsroom/treasury-irs-issue-proposed-regulations-for-trump-accounts-contribution-pilot-program-treasury-department-to-deposit-1000-into-the-account-of-each-eligible-child",
+      "agency": "News Releases (Current Month)",
+      "category": "law-and-guidance"
+    },
+    {
+      "id": "ir-2026-30",
+      "title": "Dirty Dozen tax scams for 2026: IRS reminds taxpayers to watch out for dangerous threats",
+      "summary": "IR-2026-30, March 5, 2026 — The Internal Revenue Service today announced its annual Dirty Dozen list of tax scams for 2026 that threaten the tax and financial information of taxpayers, businesses, and tax professionals.",
+      "publishedDate": "2026-03-05",
+      "url": "https://www.irs.gov/newsroom/dirty-dozen-tax-scams-for-2026-irs-reminds-taxpayers-to-watch-out-for-dangerous-threats",
+      "agency": "News Releases (Current Month)",
+      "category": "law-and-guidance"
+    },
+    {
+      "id": "ir-2026-29",
+      "title": "Treasury, IRS issue proposed regulations to make it easier for digital asset brokers to provide 1099-DA statements electronically",
+      "summary": "IR-2026-29, March 5, 2026 — The Department of the Treasury and the Internal Revenue Service today issued proposed regulations to make it easier for digital asset brokers to provide statements electronically to customers, rather than sending paper copies.",
+      "publishedDate": "2026-03-05",
+      "url": "https://www.irs.gov/newsroom/treasury-irs-issue-proposed-regulations-to-make-it-easier-for-digital-asset-brokers-to-provide-1099-da-statements-electronically",
+      "agency": "News Releases (Current Month)",
+      "category": "law-and-guidance"
+    },
+    {
+      "id": "irb-internal-revenue-bulletin-2026-10-8sn8fe",
+      "title": "Internal Revenue Bulletin: 2026-10",
+      "summary": "Authoritative weekly IRS bulletin publishing official rulings, procedures, notices, and announcements.",
+      "publishedDate": "2026-03-02",
+      "url": "https://www.irs.gov/irb/2026-10_IRB",
+      "agency": "Internal Revenue Bulletin",
+      "category": "regulation"
+    },
+    {
+      "id": "ir-2026-28",
+      "title": "IRS published schedule taxpayers will use to claim deductions on no tax on tips, no tax on overtime, no tax on car loans, no tax on seniors",
+      "summary": "IR-2026-28, March 2, 2026 – The Internal Revenue Service published, for tax year 2025, a new schedule that taxpayers will use to realize important tax benefits of the One, Big, Beautiful Bill, including no tax on tips, no tax on overtime, no tax on car loans, and no tax on seniors.",
+      "publishedDate": "2026-03-02",
+      "url": "https://www.irs.gov/newsroom/irs-published-schedule-taxpayers-will-use-to-claim-deductions-on-no-tax-on-tips-no-tax-on-overtime-no-tax-on-car-loans-no-tax-on-seniors",
+      "agency": "News Releases (Current Month)",
+      "category": "law-and-guidance"
+    },
+    {
+      "id": "irb-internal-revenue-bulletin-2026-09-11j6o4k",
+      "title": "Internal Revenue Bulletin: 2026-09",
+      "summary": "Authoritative weekly IRS bulletin publishing official rulings, procedures, notices, and announcements.",
+      "publishedDate": "2026-02-23",
+      "url": "https://www.irs.gov/irb/2026-09_IRB",
+      "agency": "Internal Revenue Bulletin",
+      "category": "regulation"
+    },
+    {
+      "id": "irb-internal-revenue-bulletin-2026-08-14vly6b",
+      "title": "Internal Revenue Bulletin: 2026-08",
+      "summary": "Authoritative weekly IRS bulletin publishing official rulings, procedures, notices, and announcements.",
+      "publishedDate": "2026-02-17",
+      "url": "https://www.irs.gov/irb/2026-08_IRB",
+      "agency": "Internal Revenue Bulletin",
+      "category": "regulation"
+    },
+    {
+      "id": "irb-internal-revenue-bulletin-2026-07-1ph88u2",
+      "title": "Internal Revenue Bulletin: 2026-07",
+      "summary": "Authoritative weekly IRS bulletin publishing official rulings, procedures, notices, and announcements.",
+      "publishedDate": "2026-02-09",
+      "url": "https://www.irs.gov/irb/2026-07_IRB",
+      "agency": "Internal Revenue Bulletin",
+      "category": "regulation"
+    },
+    {
+      "id": "irb-internal-revenue-bulletin-2026-06-di9ta9",
+      "title": "Internal Revenue Bulletin: 2026-06",
+      "summary": "Authoritative weekly IRS bulletin publishing official rulings, procedures, notices, and announcements.",
+      "publishedDate": "2026-02-02",
+      "url": "https://www.irs.gov/irb/2026-06_IRB",
+      "agency": "Internal Revenue Bulletin",
+      "category": "regulation"
+    },
+    {
+      "id": "irb-internal-revenue-bulletin-2026-05-sny0c8",
+      "title": "Internal Revenue Bulletin: 2026-05",
+      "summary": "Authoritative weekly IRS bulletin publishing official rulings, procedures, notices, and announcements.",
+      "publishedDate": "2026-01-26",
+      "url": "https://www.irs.gov/irb/2026-05_IRB",
+      "agency": "Internal Revenue Bulletin",
+      "category": "regulation"
+    },
+    {
+      "id": "irb-internal-revenue-bulletin-2026-04-w2o0vr",
+      "title": "Internal Revenue Bulletin: 2026-04",
+      "summary": "Authoritative weekly IRS bulletin publishing official rulings, procedures, notices, and announcements.",
+      "publishedDate": "2026-01-20",
+      "url": "https://www.irs.gov/irb/2026-04_IRB",
+      "agency": "Internal Revenue Bulletin",
+      "category": "regulation"
+    },
+    {
+      "id": "irb-internal-revenue-bulletin-2026-03-uqbvku",
+      "title": "Internal Revenue Bulletin: 2026-03",
+      "summary": "Authoritative weekly IRS bulletin publishing official rulings, procedures, notices, and announcements.",
+      "publishedDate": "2026-01-12",
+      "url": "https://www.irs.gov/irb/2026-03_IRB",
+      "agency": "Internal Revenue Bulletin",
+      "category": "regulation"
+    },
+    {
+      "id": "irb-internal-revenue-bulletin-2026-02-1e55u85",
+      "title": "Internal Revenue Bulletin: 2026-02",
+      "summary": "Authoritative weekly IRS bulletin publishing official rulings, procedures, notices, and announcements.",
+      "publishedDate": "2026-01-05",
+      "url": "https://www.irs.gov/irb/2026-02_IRB",
+      "agency": "Internal Revenue Bulletin",
+      "category": "regulation"
+    },
+    {
+      "id": "irb-internal-revenue-bulletin-2026-01-913ju4",
+      "title": "Internal Revenue Bulletin: 2026-01",
+      "summary": "Authoritative weekly IRS bulletin publishing official rulings, procedures, notices, and announcements.",
+      "publishedDate": "2025-12-29",
+      "url": "https://www.irs.gov/irb/2026-01_IRB",
+      "agency": "Internal Revenue Bulletin",
+      "category": "regulation"
+    },
+    {
+      "id": "irb-internal-revenue-bulletin-2025-52-zi98lr",
+      "title": "Internal Revenue Bulletin: 2025-52",
+      "summary": "Authoritative weekly IRS bulletin publishing official rulings, procedures, notices, and announcements.",
+      "publishedDate": "2025-12-22",
+      "url": "https://www.irs.gov/irb/2025-52_IRB",
+      "agency": "Internal Revenue Bulletin",
+      "category": "regulation"
+    }
+  ],
+  "totalEntries": 19,
+  "lastUpdated": "2026-04-11T00:00:00Z"
+}

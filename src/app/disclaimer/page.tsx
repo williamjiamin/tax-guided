@@ -4,9 +4,9 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
-  title: "Disclaimer — ForeignLLCTax.com",
+  title: "Disclaimer — TaxGuided.com",
   description:
-    "Legal disclaimer for ForeignLLCTax.com. Important information about the limitations of our tax filing tools and educational content.",
+    "Legal disclaimer for TaxGuided.com. Important information about the limitations of our tax filing tools and educational content.",
   alternates: { canonical: "/disclaimer" },
 };
 
@@ -25,7 +25,7 @@ export default function DisclaimerPage() {
 
           <h2>Not Tax or Legal Advice</h2>
           <p>
-            The information provided on ForeignLLCTax.com — including articles,
+            The information provided on TaxGuided.com — including articles,
             guides, calculators, Q&amp;A content, and filing tools — is for
             general educational and informational purposes only. It does not
             constitute tax advice, legal advice, or professional consulting of
@@ -48,7 +48,7 @@ export default function DisclaimerPage() {
 
           <h2>IRS Registered Tax Professional</h2>
           <p>
-            The founder of ForeignLLCTax.com is an IRS-registered tax
+            The founder of TaxGuided.com is an IRS-registered tax
             professional. Credentials can be verified through the{" "}
             <a
               href="https://irs.treasury.gov/rpo/rpo.jsf"
@@ -98,7 +98,7 @@ export default function DisclaimerPage() {
 
           <h2>Limitation of Liability</h2>
           <p>
-            ForeignLLCTax.com and RippaX Labs shall not be held liable for any
+            TaxGuided.com and RippaX Labs shall not be held liable for any
             losses, penalties, interest, or damages arising from your use of
             this website or reliance on information provided herein. See our{" "}
             <Link href="/terms" className="text-blue-600 hover:underline">

@@ -1,0 +1,49 @@
+{
+  "countryCode": "JP",
+  "countryName": "Japan",
+  "agencies": [
+    {
+      "id": "jp-nta",
+      "name": "National Tax Agency (NTA)",
+      "url": "https://www.nta.go.jp",
+      "category": "tax-authority"
+    },
+    {
+      "id": "jp-mof",
+      "name": "Ministry of Finance Japan",
+      "url": "https://www.mof.go.jp",
+      "category": "government"
+    }
+  ],
+  "entries": [
+    {
+      "id": "jp-shotokuzei-2026",
+      "title": "Income Tax Guide for 2026",
+      "summary": "National Tax Agency guidance on income tax filing for individuals in Japan.",
+      "publishedDate": "2026-02-01",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kakutei.htm",
+      "agency": "National Tax Agency (NTA)",
+      "category": "forms"
+    },
+    {
+      "id": "jp-consumption-tax",
+      "title": "Consumption Tax (Shouhizei) Rate Guide",
+      "summary": "Overview of Japan consumption tax rates including the invoice system requirements.",
+      "publishedDate": "2026-01-10",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/shou.htm",
+      "agency": "National Tax Agency (NTA)",
+      "category": "law-and-guidance"
+    },
+    {
+      "id": "jp-corp-tax-2026",
+      "title": "Corporation Tax Law Updates",
+      "summary": "Updates to corporate taxation including rates, deductions, and reporting for FY2026.",
+      "publishedDate": "2026-03-01",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/hou.htm",
+      "agency": "National Tax Agency (NTA)",
+      "category": "regulation"
+    }
+  ],
+  "totalEntries": 3,
+  "lastUpdated": "2026-04-11T00:00:00Z"
+}

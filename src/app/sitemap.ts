@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { getUniqueVideos } from "@/lib/learn/video-catalog";
 import { QA_CATALOG } from "@/lib/qa/qa-catalog";
+import { ALL_COUNTRY_CODES } from "@/lib/laws/catalog-index";
 
 const BASE_URL = "https://foreignllctax.com";
 
@@ -179,5 +180,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ];
 
-  return [...core, ...filers, ...services, ...tools, ...guides, ...learnArticles, ...communityPages];
+  // Laws — global tax law database
+  const lawsPages: MetadataRoute.Sitemap = [
+    { url: `${BASE_URL}/laws`, lastModified: now, changeFrequency: "weekly" as const, priority: 0.7 },
+    ...ALL_COUNTRY_CODES.map((code) => ({
+      url: `${BASE_URL}/laws/${code}`,
+      lastModified: now,
+      changeFrequency: "weekly" as const,
+      priority: 0.6,
+    })),
+  ];
+
+  return [...core, ...filers, ...services, ...tools, ...guides, ...learnArticles, ...communityPages, ...lawsPages];
 }

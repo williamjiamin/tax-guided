@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "Missed Filing Form 5472? Here's How to Catch Up",
     description:
       "Step-by-step guide to catching up on missed Form 5472 filings for foreign-owned LLCs.",
-    url: "https://foreignllctax.com/tools/catch-up",
+    url: "https://taxguided.com/tools/catch-up",
     type: "website",
   },
   alternates: {

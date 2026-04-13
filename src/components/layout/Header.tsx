@@ -30,6 +30,18 @@ const NAV_SECTIONS = [
       { label: "Entity Advisor", href: "/tools/entity-advisor" },
     ],
   },
+  {
+    id: "laws",
+    label: "Laws",
+    items: [
+      { label: "All Countries", href: "/laws" },
+      { label: "United States", href: "/laws/us" },
+      { label: "China", href: "/laws/cn" },
+      { label: "United Kingdom", href: "/laws/gb" },
+      { label: "Canada", href: "/laws/ca" },
+      { label: "Singapore", href: "/laws/sg" },
+    ],
+  },
 ];
 
 export function Header() {

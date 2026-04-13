@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: "How to Get an EIN for Your Foreign-Owned LLC",
     description:
       "Step-by-step guide to getting an EIN for your LLC. Online, fax, or mail options explained.",
-    url: "https://foreignllctax.com/tools/ein-guide",
+    url: "https://taxguided.com/tools/ein-guide",
     type: "website",
   },
   alternates: {

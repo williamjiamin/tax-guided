@@ -60,24 +60,46 @@ function slugify(text: string): string {
     .slice(0, 80);
 }
 
-// Q&A categories (reuse from video-catalog + community-specific)
+// Q&A categories — global tax topics
 export const QA_CATEGORIES = {
+  // US-specific
   "form-5472": "Form 5472 & Foreign-Owned LLCs",
-  "form-1120": "Form 1120 Corporate Tax Return",
+  "form-1120": "Corporate Tax Returns",
   "ein-itin": "EIN & ITIN Applications",
-  "compliance": "IRS Compliance & Penalties",
-  "entity-setup": "LLC Formation & Entity Setup",
+  "compliance": "Tax Compliance & Penalties",
+  "entity-setup": "Business Formation & Entity Setup",
   "filing-process": "Filing Process & Procedures",
-  "international": "International Tax Issues",
+  "state-tax": "US State Tax",
+  // International & cross-border
+  "international": "International Tax",
   "firpta": "FIRPTA & Foreign Real Estate",
   "international-corporate": "GILTI, Subpart F & BEAT",
-  "state-tax": "State Tax for Foreign LLCs",
+  "withholding": "Withholding & Tax Treaties",
+  "transfer-pricing": "Transfer Pricing",
+  "cross-border": "Cross-Border Business",
+  // Industry & topic
   "ecommerce": "E-Commerce & Digital Sellers",
   "crypto": "Cryptocurrency & Digital Assets",
-  "estate-gift": "Estate & Gift Tax for NRAs",
+  "estate-gift": "Estate & Gift Tax",
   "aml-compliance": "AML, BSA & OFAC Compliance",
   "payroll": "Payroll & Employment Tax",
-  "withholding": "Withholding & Tax Treaties",
+  "bookkeeping": "Bookkeeping & Accounting",
+  "vat-gst": "VAT & GST",
+  "self-employed": "Self-Employed & Freelancers",
+  // Country-specific
+  "us-tax": "United States Tax",
+  "cn-tax": "China Tax",
+  "uk-tax": "United Kingdom Tax",
+  "sg-tax": "Singapore Tax",
+  "ae-tax": "UAE Tax",
+  "hk-tax": "Hong Kong Tax",
+  "ie-tax": "Ireland Tax",
+  "de-tax": "Germany Tax",
+  "ee-tax": "Estonia Tax",
+  "jp-tax": "Japan Tax",
+  "ca-tax": "Canada Tax",
+  "au-tax": "Australia Tax",
+  "other-country": "Other Country Tax",
 } as const;
 
 export type QACategory = keyof typeof QA_CATEGORIES;

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: "IRS Refund Status Guide",
     description:
       "Post-filing guidance for refund tracking and IRS processing status, without sharing SSN details outside irs.gov.",
-    url: "https://foreignllctax.com/tools/refund-status",
+    url: "https://taxguided.com/tools/refund-status",
     type: "website",
   },
   alternates: {

@@ -1,0 +1,49 @@
+{
+  "countryCode": "DE",
+  "countryName": "Germany",
+  "agencies": [
+    {
+      "id": "de-bmf",
+      "name": "Federal Ministry of Finance (BMF)",
+      "url": "https://www.bundesfinanzministerium.de",
+      "category": "government"
+    },
+    {
+      "id": "de-bzst",
+      "name": "Federal Central Tax Office (BZSt)",
+      "url": "https://www.bzst.de",
+      "category": "tax-authority"
+    }
+  ],
+  "entries": [
+    {
+      "id": "de-estg-2026",
+      "title": "Einkommensteuergesetz (EStG) Updates 2026",
+      "summary": "Income Tax Act amendments effective for the 2026 tax year including updated brackets and deductions.",
+      "publishedDate": "2026-01-01",
+      "url": "https://www.bundesfinanzministerium.de/Web/DE/Themen/Steuern/Steuerarten/Einkommensteuer/einkommensteuer.html",
+      "agency": "Federal Ministry of Finance (BMF)",
+      "category": "law-and-guidance"
+    },
+    {
+      "id": "de-ustg-vat",
+      "title": "Umsatzsteuergesetz (UStG) - VAT Law",
+      "summary": "Value Added Tax regulations for businesses operating in Germany.",
+      "publishedDate": "2026-02-15",
+      "url": "https://www.bzst.de/DE/Unternehmen/Umsatzsteuer/umsatzsteuer_node.html",
+      "agency": "Federal Central Tax Office (BZSt)",
+      "category": "regulation"
+    },
+    {
+      "id": "de-dba-treaties",
+      "title": "Double Taxation Agreements (DBA)",
+      "summary": "Overview of German double taxation agreements with treaty partner countries.",
+      "publishedDate": "2026-01-20",
+      "url": "https://www.bundesfinanzministerium.de/Web/DE/Themen/Steuern/Internationales_Steuerrecht/Staatenbezogene_Informationen/staatenbezogene_info.html",
+      "agency": "Federal Ministry of Finance (BMF)",
+      "category": "law-and-guidance"
+    }
+  ],
+  "totalEntries": 3,
+  "lastUpdated": "2026-04-11T00:00:00Z"
+}

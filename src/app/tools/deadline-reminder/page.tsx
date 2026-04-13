@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: "Form 5472 Filing Deadline Reminder",
     description:
       "Track your Form 5472 filing deadline and get free email reminders before it's due.",
-    url: "https://foreignllctax.com/tools/deadline-reminder",
+    url: "https://taxguided.com/tools/deadline-reminder",
     type: "website",
   },
   alternates: {

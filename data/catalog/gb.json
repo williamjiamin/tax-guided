@@ -1,0 +1,58 @@
+{
+  "countryCode": "GB",
+  "countryName": "United Kingdom",
+  "agencies": [
+    {
+      "id": "gb-hmrc",
+      "name": "HM Revenue & Customs",
+      "url": "https://www.gov.uk/government/organisations/hm-revenue-customs",
+      "category": "tax-authority"
+    },
+    {
+      "id": "gb-treasury",
+      "name": "HM Treasury",
+      "url": "https://www.gov.uk/government/organisations/hm-treasury",
+      "category": "government"
+    }
+  ],
+  "entries": [
+    {
+      "id": "gb-spring-statement-2026",
+      "title": "Spring Statement 2026: Tax Policy Changes",
+      "summary": "Key tax measures announced in the 2026 Spring Statement including updates to income tax thresholds and corporation tax.",
+      "publishedDate": "2026-03-15",
+      "url": "https://www.gov.uk/government/publications/spring-statement-2026",
+      "agency": "HM Treasury",
+      "category": "policy"
+    },
+    {
+      "id": "gb-vat-notice-700",
+      "title": "VAT Notice 700: The VAT Guide",
+      "summary": "Comprehensive guidance on Value Added Tax registration, rates, and compliance requirements.",
+      "publishedDate": "2026-01-15",
+      "url": "https://www.gov.uk/guidance/vat-guide-notice-700",
+      "agency": "HM Revenue & Customs",
+      "category": "law-and-guidance"
+    },
+    {
+      "id": "gb-sa-2026",
+      "title": "Self Assessment Tax Returns 2025-26",
+      "summary": "Guidance for individuals completing Self Assessment tax returns for the 2025-26 tax year.",
+      "publishedDate": "2026-02-01",
+      "url": "https://www.gov.uk/self-assessment-tax-returns",
+      "agency": "HM Revenue & Customs",
+      "category": "forms"
+    },
+    {
+      "id": "gb-corp-tax-rates",
+      "title": "Corporation Tax Rates and Reliefs",
+      "summary": "Current corporation tax rates, small profits rate, and available reliefs for UK companies.",
+      "publishedDate": "2026-01-10",
+      "url": "https://www.gov.uk/corporation-tax-rates",
+      "agency": "HM Revenue & Customs",
+      "category": "law-and-guidance"
+    }
+  ],
+  "totalEntries": 4,
+  "lastUpdated": "2026-04-11T00:00:00Z"
+}

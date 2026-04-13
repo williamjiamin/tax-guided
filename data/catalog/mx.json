@@ -1,0 +1,49 @@
+{
+  "countryCode": "MX",
+  "countryName": "Mexico",
+  "agencies": [
+    {
+      "id": "mx-sat",
+      "name": "Servicio de Administracion Tributaria (SAT)",
+      "url": "https://www.sat.gob.mx",
+      "category": "tax-authority"
+    },
+    {
+      "id": "mx-shcp",
+      "name": "Secretaria de Hacienda y Credito Publico",
+      "url": "https://www.gob.mx/shcp",
+      "category": "government"
+    }
+  ],
+  "entries": [
+    {
+      "id": "mx-isr-2026",
+      "title": "Ley del Impuesto sobre la Renta (ISR) 2026",
+      "summary": "Mexican income tax law updates for individuals and corporations.",
+      "publishedDate": "2026-01-01",
+      "url": "https://www.sat.gob.mx/consultas/97490/conoce-el-impuesto-sobre-la-renta-(isr)",
+      "agency": "SAT",
+      "category": "law-and-guidance"
+    },
+    {
+      "id": "mx-iva",
+      "title": "Impuesto al Valor Agregado (IVA)",
+      "summary": "Mexico VAT law at 16% rate with exemptions and zero-rated supplies.",
+      "publishedDate": "2026-02-15",
+      "url": "https://www.sat.gob.mx/consultas/27979/conoce-el-impuesto-al-valor-agregado-(iva)",
+      "agency": "SAT",
+      "category": "regulation"
+    },
+    {
+      "id": "mx-cfdi",
+      "title": "CFDI Electronic Invoicing Requirements",
+      "summary": "Digital tax receipt requirements for all business transactions in Mexico.",
+      "publishedDate": "2026-01-20",
+      "url": "https://www.sat.gob.mx/consultas/43074/conoce-la-factura-electronica",
+      "agency": "SAT",
+      "category": "forms"
+    }
+  ],
+  "totalEntries": 3,
+  "lastUpdated": "2026-04-11T00:00:00Z"
+}

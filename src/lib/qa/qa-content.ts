@@ -22,6 +22,7 @@ import { COUNTRY_THREADS } from "./qa-content-countries";
 import { VISA_THREADS } from "./qa-content-visa";
 import { TAX_PLANNING_THREADS } from "./qa-content-tax-planning";
 import { BANKING_THREADS } from "./qa-content-banking";
+import { GLOBAL_TAX_THREADS } from "./qa-content-global";
 
 const OFFICIAL_AUTHOR: QAAuthor = {
   displayName: "ForeignLLCTax Official",
@@ -10240,4 +10241,5 @@ export const SEED_THREADS: QAThread[] = [
   ...VISA_THREADS,
   ...TAX_PLANNING_THREADS,
   ...BANKING_THREADS,
+  ...GLOBAL_TAX_THREADS,
 ];

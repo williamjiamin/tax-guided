@@ -1,0 +1,49 @@
+{
+  "countryCode": "SG",
+  "countryName": "Singapore",
+  "agencies": [
+    {
+      "id": "sg-iras",
+      "name": "Inland Revenue Authority of Singapore (IRAS)",
+      "url": "https://www.iras.gov.sg",
+      "category": "tax-authority"
+    },
+    {
+      "id": "sg-mof",
+      "name": "Ministry of Finance Singapore",
+      "url": "https://www.mof.gov.sg",
+      "category": "government"
+    }
+  ],
+  "entries": [
+    {
+      "id": "sg-budget-2026",
+      "title": "Singapore Budget 2026 Tax Changes",
+      "summary": "Tax measures announced in Singapore Budget 2026 including corporate and personal tax updates.",
+      "publishedDate": "2026-02-18",
+      "url": "https://www.mof.gov.sg/singaporebudget",
+      "agency": "Ministry of Finance Singapore",
+      "category": "policy"
+    },
+    {
+      "id": "sg-corp-tax",
+      "title": "Corporate Income Tax Filing Guide",
+      "summary": "Guide to filing corporate income tax returns in Singapore including exemptions.",
+      "publishedDate": "2026-01-15",
+      "url": "https://www.iras.gov.sg/taxes/corporate-income-tax",
+      "agency": "IRAS",
+      "category": "forms"
+    },
+    {
+      "id": "sg-gst-rate",
+      "title": "GST Rate Increase to 9%",
+      "summary": "Implementation details of the GST rate increase and transitional rules.",
+      "publishedDate": "2026-01-01",
+      "url": "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)",
+      "agency": "IRAS",
+      "category": "regulation"
+    }
+  ],
+  "totalEntries": 3,
+  "lastUpdated": "2026-04-11T00:00:00Z"
+}

@@ -1,0 +1,58 @@
+{
+  "countryCode": "CH",
+  "countryName": "Switzerland",
+  "agencies": [
+    {
+      "id": "ch-estv",
+      "name": "Federal Tax Administration (FTA/ESTV)",
+      "url": "https://www.estv.admin.ch",
+      "category": "tax-authority"
+    },
+    {
+      "id": "ch-sif",
+      "name": "State Secretariat for International Finance",
+      "url": "https://www.sif.admin.ch",
+      "category": "government"
+    }
+  ],
+  "entries": [
+    {
+      "id": "ch-federal-tax",
+      "title": "Federal Direct Tax Act (DBG)",
+      "summary": "Federal income tax law covering individuals and legal entities.",
+      "publishedDate": "2026-01-01",
+      "url": "https://www.estv.admin.ch/estv/en/home/federal-direct-tax.html",
+      "agency": "Federal Tax Administration",
+      "category": "law-and-guidance"
+    },
+    {
+      "id": "ch-vat-mwst",
+      "title": "Value Added Tax (MWST)",
+      "summary": "Swiss VAT rates, registration, and compliance requirements.",
+      "publishedDate": "2026-01-15",
+      "url": "https://www.estv.admin.ch/estv/en/home/value-added-tax.html",
+      "agency": "Federal Tax Administration",
+      "category": "regulation"
+    },
+    {
+      "id": "ch-dta-network",
+      "title": "Double Taxation Agreements",
+      "summary": "Switzerland network of tax treaties to avoid double taxation.",
+      "publishedDate": "2026-02-10",
+      "url": "https://www.sif.admin.ch/sif/en/home/bilateral/tax-agreements/double-taxation-agreements.html",
+      "agency": "State Secretariat for International Finance",
+      "category": "law-and-guidance"
+    },
+    {
+      "id": "ch-withholding-tax",
+      "title": "Withholding Tax (Verrechnungssteuer)",
+      "summary": "35% withholding tax on investment income and how to reclaim it.",
+      "publishedDate": "2026-03-01",
+      "url": "https://www.estv.admin.ch/estv/en/home/withholding-tax.html",
+      "agency": "Federal Tax Administration",
+      "category": "regulation"
+    }
+  ],
+  "totalEntries": 4,
+  "lastUpdated": "2026-04-11T00:00:00Z"
+}

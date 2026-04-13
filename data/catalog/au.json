@@ -1,0 +1,49 @@
+{
+  "countryCode": "AU",
+  "countryName": "Australia",
+  "agencies": [
+    {
+      "id": "au-ato",
+      "name": "Australian Taxation Office (ATO)",
+      "url": "https://www.ato.gov.au",
+      "category": "tax-authority"
+    },
+    {
+      "id": "au-treasury",
+      "name": "The Treasury",
+      "url": "https://treasury.gov.au",
+      "category": "government"
+    }
+  ],
+  "entries": [
+    {
+      "id": "au-individual-tax-2026",
+      "title": "Individual Income Tax Rates 2025-26",
+      "summary": "Income tax rates and thresholds for Australian residents and non-residents.",
+      "publishedDate": "2026-01-01",
+      "url": "https://www.ato.gov.au/rates/individual-income-tax-rates/",
+      "agency": "Australian Taxation Office (ATO)",
+      "category": "law-and-guidance"
+    },
+    {
+      "id": "au-gst-guide",
+      "title": "GST - Goods and Services Tax",
+      "summary": "Registration, reporting, and payment guide for Australian GST.",
+      "publishedDate": "2026-02-10",
+      "url": "https://www.ato.gov.au/business/gst/",
+      "agency": "Australian Taxation Office (ATO)",
+      "category": "law-and-guidance"
+    },
+    {
+      "id": "au-super-changes",
+      "title": "Superannuation Changes 2026",
+      "summary": "Updates to superannuation guarantee rate and contribution caps.",
+      "publishedDate": "2026-03-01",
+      "url": "https://www.ato.gov.au/super/",
+      "agency": "Australian Taxation Office (ATO)",
+      "category": "regulation"
+    }
+  ],
+  "totalEntries": 3,
+  "lastUpdated": "2026-04-11T00:00:00Z"
+}

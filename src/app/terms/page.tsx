@@ -4,9 +4,9 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
-  title: "Terms of Service — ForeignLLCTax.com",
+  title: "Terms of Service — TaxGuided.com",
   description:
-    "Terms of Service for ForeignLLCTax.com. Read our terms governing the use of our IRS tax filing tools and services for foreign-owned U.S. LLCs.",
+    "Terms of Service for TaxGuided.com. Read our terms governing the use of our IRS tax filing tools and services for foreign-owned U.S. LLCs.",
   alternates: { canonical: "/terms" },
 };
 
@@ -25,14 +25,14 @@ export default function TermsPage() {
 
           <h2>1. Acceptance of Terms</h2>
           <p>
-            By accessing or using ForeignLLCTax.com (the &quot;Site&quot;), operated by
+            By accessing or using TaxGuided.com (the &quot;Site&quot;), operated by
             RippaX Labs (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;), you agree to be bound by
             these Terms of Service. If you do not agree, do not use the Site.
           </p>
 
           <h2>2. Description of Services</h2>
           <p>
-            ForeignLLCTax.com provides self-service tax form preparation tools
+            TaxGuided.com provides educational tax form preparation tools
             that help foreign-owned U.S. LLC owners generate IRS Form 5472, pro
             forma Form 1120, and related tax documents. We also provide
             educational articles, calculators, and guides.
@@ -75,7 +75,7 @@ export default function TermsPage() {
 
           <h2>5. Intellectual Property</h2>
           <p>
-            All content on ForeignLLCTax.com — including text, guides, tools,
+            All content on TaxGuided.com — including text, guides, tools,
             software, graphics, and design — is owned by RippaX Labs or its
             licensors and is protected by copyright and intellectual property
             laws. IRS forms and instructions are public domain U.S. government
@@ -84,7 +84,7 @@ export default function TermsPage() {
 
           <h2>6. Limitation of Liability</h2>
           <p>
-            To the maximum extent permitted by law, ForeignLLCTax.com and RippaX
+            To the maximum extent permitted by law, TaxGuided.com and RippaX
             Labs shall not be liable for any indirect, incidental, special,
             consequential, or punitive damages arising from your use of the
             Site, including but not limited to IRS penalties, late filing fees,

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: "File a Tax Extension Fast",
     description:
       "Find the fastest legitimate extension path for individuals, nonresident filers, partnerships, and foreign-owned LLCs.",
-    url: "https://foreignllctax.com/tools/file-tax-extension",
+    url: "https://taxguided.com/tools/file-tax-extension",
     type: "website",
   },
   alternates: {

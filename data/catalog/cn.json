@@ -1,0 +1,136 @@
+{
+  "countryCode": "CN",
+  "countryName": "China",
+  "agencies": [
+    {
+      "id": "cn-sta",
+      "name": "State Taxation Administration",
+      "url": "https://www.chinatax.gov.cn",
+      "category": "tax-authority"
+    },
+    {
+      "id": "cn-mof",
+      "name": "Ministry of Finance",
+      "url": "http://www.mof.gov.cn",
+      "category": "government"
+    },
+    {
+      "id": "cn-customs",
+      "name": "General Administration of Customs",
+      "url": "http://www.customs.gov.cn",
+      "category": "government"
+    }
+  ],
+  "entries": [
+    {
+      "id": "sta-2026a-v2hel8",
+      "title": "国家税务总局关于发布出口退税率文库2026A版的通知",
+      "summary": "工作通知",
+      "publishedDate": "2026-03-03",
+      "url": "https://fgk.chinatax.gov.cn/zcfgk/c102424/c5248035/content.html",
+      "agency": "Policy Library (政策法规库)",
+      "category": "law-and-guidance"
+    },
+    {
+      "id": "sta-8d22-653f-90e8-6d77-5173-603b-7f72-7a0e-52a1-603b-5c40-5173-1i5598i",
+      "title": "财政部海关总署税务总局关于“十五五”期间中国进出口商品交易会展期内销售的进口展品税收优惠政策的通知",
+      "summary": "财税文件",
+      "publishedDate": "2026-02-28",
+      "url": "https://fgk.chinatax.gov.cn/zcfgk/c102416/c5248029/content.html",
+      "agency": "Policy Library (政策法规库)",
+      "category": "law-and-guidance"
+    },
+    {
+      "id": "sta-8d22-653f-90e8-6d77-5173-603b-7f72-7a0e-52a1-603b-5c40-5173-pwpyh9",
+      "title": "财政部海关总署税务总局关于“十五五”期间中西部地区国际性展会展期内销售的进口展品税收优惠政策的通知",
+      "summary": "财税文件",
+      "publishedDate": "2026-02-28",
+      "url": "https://fgk.chinatax.gov.cn/zcfgk/c102416/c5248026/content.html",
+      "agency": "Policy Library (政策法规库)",
+      "category": "law-and-guidance"
+    },
+    {
+      "id": "sta-8d22-653f-90e8-6d77-5173-603b-7f72-7a0e-52a1-603b-5c40-5173-18snimo",
+      "title": "财政部海关总署税务总局关于中国国际服务贸易交易会展期内销售的进口展品税收优惠政策的通知",
+      "summary": "财税文件",
+      "publishedDate": "2026-02-28",
+      "url": "https://fgk.chinatax.gov.cn/zcfgk/c102416/c5248023/content.html",
+      "agency": "Policy Library (政策法规库)",
+      "category": "law-and-guidance"
+    },
+    {
+      "id": "sta-8d22-653f-90e8-6d77-5173-603b-7f72-7a0e-52a1-603b-5c40-5173-15t77yy",
+      "title": "财政部海关总署税务总局关于“十五五”期间种子种源进口税收优惠政策的通知",
+      "summary": "财税文件",
+      "publishedDate": "2026-02-13",
+      "url": "https://fgk.chinatax.gov.cn/zcfgk/c102416/c5247802/content.html",
+      "agency": "Policy Library (政策法规库)",
+      "category": "law-and-guidance"
+    },
+    {
+      "id": "sta-8d22-653f-90e8-56fd-5bb6-53d1-5c55-6539-9769-59d4-5de5-4e1a-l1sytr",
+      "title": "财政部国家发展改革委工业和信息化部海关总署税务总局国家能源局关于“十五五”期间能源资源勘探开发利用进口税收优惠政策管理办法的通知",
+      "summary": "财税文件",
+      "publishedDate": "2026-02-13",
+      "url": "https://fgk.chinatax.gov.cn/zcfgk/c102416/c5247807/content.html",
+      "agency": "Policy Library (政策法规库)",
+      "category": "law-and-guidance"
+    },
+    {
+      "id": "sta-8d22-653f-90e8-6d77-5173-603b-7f72-7a0e-52a1-603b-5c40-5173-l5upvt",
+      "title": "财政部海关总署税务总局关于“十五五”期间能源资源勘探开发利用进口税收优惠政策的通知",
+      "summary": "财税文件",
+      "publishedDate": "2026-02-13",
+      "url": "https://fgk.chinatax.gov.cn/zcfgk/c102416/c5247799/content.html",
+      "agency": "Policy Library (政策法规库)",
+      "category": "law-and-guidance"
+    },
+    {
+      "id": "sta-8d22-653f-90e8-6d77-5173-603b-7f72-7a0e-52a1-603b-5c40-5173-1qwqfwx",
+      "title": "财政部海关总署税务总局关于“十五五”期间国家综合性消防救援队伍进口税收优惠政策的通知",
+      "summary": "财税文件",
+      "publishedDate": "2026-02-13",
+      "url": "https://fgk.chinatax.gov.cn/zcfgk/c102416/c5247791/content.html",
+      "agency": "Policy Library (政策法规库)",
+      "category": "law-and-guidance"
+    },
+    {
+      "id": "sta-8d22-653f-90e8-4e2d-592e-5ba3-4f20-90e8-79d1-6280-90e8-5de5-10su25r",
+      "title": "财政部中央宣传部科技部工业和信息化部海关总署税务总局广电总局关于“十五五”期间支持科普事业发展进口税收优惠政策管理办法的通知",
+      "summary": "财税文件",
+      "publishedDate": "2026-02-13",
+      "url": "https://fgk.chinatax.gov.cn/zcfgk/c102416/c5247788/content.html",
+      "agency": "Policy Library (政策法规库)",
+      "category": "law-and-guidance"
+    },
+    {
+      "id": "sta-8d22-653f-90e8-6d77-5173-603b-7f72-7a0e-52a1-603b-5c40-5173-qaailu",
+      "title": "财政部海关总署税务总局关于“十五五”期间进口科学研究、科技开发和教学用品免税清单的通知",
+      "summary": "财税文件",
+      "publishedDate": "2026-02-13",
+      "url": "https://fgk.chinatax.gov.cn/zcfgk/c102416/c5247785/content.html",
+      "agency": "Policy Library (政策法规库)",
+      "category": "law-and-guidance"
+    },
+    {
+      "id": "sta-8d22-653f-90e8-4e2d-592e-5ba3-4f20-90e8-56fd-5bb6-53d1-5c55-1oytsad",
+      "title": "财政部中央宣传部国家发展改革委教育部科技部工业和信息化部民政部商务部文化和旅游部国家卫生健康委海关总署税务总局关于“十五五”期间支持科技创新进口税收优惠政策管理办法的通知",
+      "summary": "财税文件",
+      "publishedDate": "2026-02-13",
+      "url": "https://fgk.chinatax.gov.cn/zcfgk/c102416/c5247782/content.html",
+      "agency": "Policy Library (政策法规库)",
+      "category": "law-and-guidance"
+    },
+    {
+      "id": "sta-8d22-653f-90e8-6d77-5173-603b-7f72-7a0e-52a1-603b-5c40-5173-b691tr",
+      "title": "财政部海关总署税务总局关于“十五五”期间支持科技创新进口税收优惠政策的通知",
+      "summary": "财税文件",
+      "publishedDate": "2026-02-13",
+      "url": "https://fgk.chinatax.gov.cn/zcfgk/c102416/c5247779/content.html",
+      "agency": "Policy Library (政策法规库)",
+      "category": "law-and-guidance"
+    }
+  ],
+  "totalEntries": 12,
+  "lastUpdated": "2026-04-11T00:00:00Z"
+}

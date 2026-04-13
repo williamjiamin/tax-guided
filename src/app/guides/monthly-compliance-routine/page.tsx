@@ -3,14 +3,14 @@ import { MonthlyComplianceGuideClient } from "@/components/guides/MonthlyComplia
 
 export const metadata: Metadata = {
   title:
-    "Monthly Compliance Routine for Foreign-Owned LLCs (60 Minutes) | ForeignLLCTax.com",
+    "Monthly Compliance Routine for Foreign-Owned LLCs (60 Minutes) | TaxGuided.com",
   description:
     "A 60-minute monthly compliance routine for foreign-owned LLCs. Month-by-month checklist covering transactions, expenses, state compliance, and IRS requirements.",
   openGraph: {
     title: "Monthly Compliance Routine for Foreign-Owned LLCs (60 Minutes)",
     description:
       "Stay compliant year-round with a simple 60-minute monthly routine for your foreign-owned LLC.",
-    url: "https://foreignllctax.com/guides/monthly-compliance-routine",
+    url: "https://taxguided.com/guides/monthly-compliance-routine",
     type: "website",
   },
   alternates: {

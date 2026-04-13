@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     title: "Tax Education Hub — Free Video Guides on U.S. Tax Topics",
     description:
       "Free video guides and articles on U.S. tax topics. Learn about Form 5472, Form 1120, and filing strategies for foreign-owned LLCs.",
-    url: "https://foreignllctax.com/learn",
+    url: "https://taxguided.com/learn",
     type: "website",
   },
   alternates: {

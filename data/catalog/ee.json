@@ -1,0 +1,49 @@
+{
+  "countryCode": "EE",
+  "countryName": "Estonia",
+  "agencies": [
+    {
+      "id": "ee-emta",
+      "name": "Estonian Tax and Customs Board (EMTA)",
+      "url": "https://www.emta.ee",
+      "category": "tax-authority"
+    },
+    {
+      "id": "ee-mof",
+      "name": "Ministry of Finance",
+      "url": "https://www.fin.ee",
+      "category": "government"
+    }
+  ],
+  "entries": [
+    {
+      "id": "ee-cit-distributed",
+      "title": "Corporate Income Tax on Distributed Profits",
+      "summary": "Estonia unique 0% corporate tax on reinvested profits, 20% on distributions.",
+      "publishedDate": "2026-01-01",
+      "url": "https://www.emta.ee/eng/business-client/income-expenses-supply-profit/corporate-income-tax",
+      "agency": "Estonian Tax and Customs Board",
+      "category": "law-and-guidance"
+    },
+    {
+      "id": "ee-e-residency-tax",
+      "title": "E-Residency Tax Obligations",
+      "summary": "Tax compliance guide for e-residents operating Estonian companies.",
+      "publishedDate": "2026-02-15",
+      "url": "https://www.emta.ee/eng/business-client",
+      "agency": "Estonian Tax and Customs Board",
+      "category": "law-and-guidance"
+    },
+    {
+      "id": "ee-vat-guide",
+      "title": "VAT Registration and Filing",
+      "summary": "Value Added Tax obligations for Estonian and EU businesses.",
+      "publishedDate": "2026-01-20",
+      "url": "https://www.emta.ee/eng/business-client/registration-obligation-vat",
+      "agency": "Estonian Tax and Customs Board",
+      "category": "regulation"
+    }
+  ],
+  "totalEntries": 3,
+  "lastUpdated": "2026-04-11T00:00:00Z"
+}

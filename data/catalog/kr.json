@@ -1,0 +1,49 @@
+{
+  "countryCode": "KR",
+  "countryName": "South Korea",
+  "agencies": [
+    {
+      "id": "kr-nts",
+      "name": "National Tax Service (NTS)",
+      "url": "https://www.nts.go.kr",
+      "category": "tax-authority"
+    },
+    {
+      "id": "kr-mosf",
+      "name": "Ministry of Strategy and Finance",
+      "url": "https://english.moef.go.kr",
+      "category": "government"
+    }
+  ],
+  "entries": [
+    {
+      "id": "kr-income-tax-2026",
+      "title": "2026 Income Tax Filing Guide",
+      "summary": "Comprehensive guide for individual income tax filing in South Korea.",
+      "publishedDate": "2026-02-15",
+      "url": "https://www.nts.go.kr/english/main.do",
+      "agency": "National Tax Service (NTS)",
+      "category": "forms"
+    },
+    {
+      "id": "kr-vat-guide",
+      "title": "Value Added Tax Overview",
+      "summary": "VAT registration, rates, and compliance requirements for businesses in South Korea.",
+      "publishedDate": "2026-01-20",
+      "url": "https://www.nts.go.kr/english/main.do",
+      "agency": "National Tax Service (NTS)",
+      "category": "law-and-guidance"
+    },
+    {
+      "id": "kr-corp-tax",
+      "title": "Corporate Tax Rates 2026",
+      "summary": "Updated corporate tax rates and incentives for Korean corporations.",
+      "publishedDate": "2026-01-01",
+      "url": "https://www.nts.go.kr/english/main.do",
+      "agency": "National Tax Service (NTS)",
+      "category": "regulation"
+    }
+  ],
+  "totalEntries": 3,
+  "lastUpdated": "2026-04-11T00:00:00Z"
+}

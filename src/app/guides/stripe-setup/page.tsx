@@ -3,7 +3,7 @@ import { StripeSetupGuideClient } from "@/components/guides/StripeSetupGuideClie
 
 export const metadata: Metadata = {
   title:
-    "How to Set Up Stripe for Your US LLC — Step-by-Step Activation Guide | ForeignLLCTax.com",
+    "How to Set Up Stripe for Your US LLC — Step-by-Step Activation Guide | TaxGuided.com",
   description:
     "Complete guide to activating Stripe payments for your foreign-owned US LLC. Covers business verification, bank account linking, and tax configuration.",
   openGraph: {
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
       "How to Set Up Stripe for Your US LLC — Step-by-Step Activation Guide",
     description:
       "Complete guide to activating Stripe payments for your foreign-owned US LLC. Covers business verification, bank account linking, and tax configuration.",
-    url: "https://foreignllctax.com/guides/stripe-setup",
+    url: "https://taxguided.com/guides/stripe-setup",
     type: "website",
   },
   alternates: {

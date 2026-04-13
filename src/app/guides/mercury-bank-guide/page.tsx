@@ -3,7 +3,7 @@ import { MercuryBankGuideClient } from "@/components/guides/MercuryBankGuideClie
 
 export const metadata: Metadata = {
   title:
-    "Mercury Bank Account Guide — How to Open a US Business Bank Account for Your LLC | ForeignLLCTax.com",
+    "Mercury Bank Account Guide — How to Open a US Business Bank Account for Your LLC | TaxGuided.com",
   description:
     "Step-by-step guide to opening a Mercury bank account for your foreign-owned US LLC. Covers application process, required documents, fees, and tips for approval.",
   openGraph: {
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
       "Mercury Bank Account Guide — How to Open a US Business Bank Account for Your LLC",
     description:
       "Step-by-step guide to opening a Mercury bank account for your foreign-owned US LLC. Covers application process, required documents, fees, and tips for approval.",
-    url: "https://foreignllctax.com/guides/mercury-bank-guide",
+    url: "https://taxguided.com/guides/mercury-bank-guide",
     type: "website",
   },
   alternates: {

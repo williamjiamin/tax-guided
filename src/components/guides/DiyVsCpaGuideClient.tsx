@@ -189,7 +189,7 @@ export function DiyVsCpaGuideClient() {
             </p>
             <div className="bg-blue-50 border border-blue-200 rounded-xl p-5">
               <h3 className="text-sm font-semibold text-blue-900 mb-2">
-                ForeignLLCTax.com — The guided DIY approach
+                TaxGuided.com — The guided DIY approach
               </h3>
               <p className="text-sm text-blue-800 leading-relaxed mb-3">
                 Our platform is designed specifically for foreign-owned LLC owners who want to

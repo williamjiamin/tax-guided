@@ -3,7 +3,7 @@ import { CompanyWithdrawalGuideClient } from "@/components/guides/CompanyWithdra
 
 export const metadata: Metadata = {
   title:
-    "How to Withdraw Funds from Your US LLC to Personal Account — Compliant Distribution Guide | ForeignLLCTax.com",
+    "How to Withdraw Funds from Your US LLC to Personal Account — Compliant Distribution Guide | TaxGuided.com",
   description:
     "Step-by-step guide to legally moving money from your US company bank account to your personal bank account. Covers distribution methods, compliance requirements, and tax reporting.",
   openGraph: {
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
       "How to Withdraw Funds from Your US LLC to Personal Account — Compliant Distribution Guide",
     description:
       "Step-by-step guide to legally moving money from your US company bank account to your personal bank account. Covers distribution methods, compliance requirements, and tax reporting.",
-    url: "https://foreignllctax.com/guides/company-to-personal-withdrawal",
+    url: "https://taxguided.com/guides/company-to-personal-withdrawal",
     type: "website",
   },
   alternates: {

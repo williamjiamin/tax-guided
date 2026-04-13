@@ -1,0 +1,49 @@
+{
+  "countryCode": "FR",
+  "countryName": "France",
+  "agencies": [
+    {
+      "id": "fr-dgfip",
+      "name": "Direction generale des Finances publiques (DGFiP)",
+      "url": "https://www.impots.gouv.fr",
+      "category": "tax-authority"
+    },
+    {
+      "id": "fr-mef",
+      "name": "Ministry of Economy and Finance",
+      "url": "https://www.economie.gouv.fr",
+      "category": "government"
+    }
+  ],
+  "entries": [
+    {
+      "id": "fr-ir-2026",
+      "title": "Impot sur le revenu 2026 - Bareme",
+      "summary": "Updated income tax brackets and rates for the 2026 fiscal year in France.",
+      "publishedDate": "2026-01-01",
+      "url": "https://www.impots.gouv.fr/particulier/questions/quels-sont-les-taux-dimposition",
+      "agency": "DGFiP",
+      "category": "law-and-guidance"
+    },
+    {
+      "id": "fr-tva-rates",
+      "title": "Taux de TVA en vigueur",
+      "summary": "Current VAT rates applicable in France including standard, reduced, and super-reduced rates.",
+      "publishedDate": "2026-02-10",
+      "url": "https://www.impots.gouv.fr/professionnel/tva",
+      "agency": "DGFiP",
+      "category": "regulation"
+    },
+    {
+      "id": "fr-is-corp",
+      "title": "Impot sur les societes - Corporate Tax",
+      "summary": "Corporate income tax rates and rules for companies operating in France.",
+      "publishedDate": "2026-01-15",
+      "url": "https://www.impots.gouv.fr/professionnel/impot-sur-les-societes",
+      "agency": "DGFiP",
+      "category": "law-and-guidance"
+    }
+  ],
+  "totalEntries": 3,
+  "lastUpdated": "2026-04-11T00:00:00Z"
+}

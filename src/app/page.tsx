@@ -6,52 +6,63 @@ import { Footer } from "@/components/layout/Footer";
 
 const GUIDE_CATEGORIES = [
   {
-    title: "U.S. Tax for Foreign LLCs",
-    description: "Form 5472, 1120, ECI rules, and compliance requirements for foreign-owned U.S. entities.",
-    href: "/guides",
+    title: "Tax Law Database",
+    description: "Browse official tax regulations, rulings, and guidance from 20 countries. Updated regularly.",
+    href: "/laws",
+    icon: (
+      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+      </svg>
+    ),
+    count: "20 countries",
+  },
+  {
+    title: "Q&A Community",
+    description: "Ask tax questions, get expert answers. Stack Overflow meets Quora — for tax and bookkeeping.",
+    href: "/community",
+    icon: (
+      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+      </svg>
+    ),
+    count: "300+ threads",
+  },
+  {
+    title: "Compare Tax Systems",
+    description: "Side-by-side comparison of corporate rates, brackets, VAT, and withholding for any 2-3 countries.",
+    href: "/compare",
+    icon: (
+      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+      </svg>
+    ),
+    count: "20 countries",
+  },
+  {
+    title: "Where to Incorporate",
+    description: "Find the most tax-efficient jurisdiction for your business. Ranked by your priorities.",
+    href: "/tools/incorporate",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
       </svg>
     ),
-    count: "30+ guides",
-  },
-  {
-    title: "International Tax Treaties",
-    description: "Bilateral tax treaty analysis, withholding rates, and treaty benefits by country.",
-    href: "/tools/treaty-lookup",
-    icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-      </svg>
-    ),
-    count: "50+ countries",
-  },
-  {
-    title: "Transfer Pricing",
-    description: "Arm's length standards, documentation requirements, and country-by-country reporting.",
-    href: "/guides",
-    icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
-      </svg>
-    ),
-    count: "20+ guides",
+    count: "3-step wizard",
   },
   {
     title: "Country Tax Guides",
-    description: "Tax obligations when operating a U.S. LLC from your home country. Region-specific advice.",
+    description: "Domestic tax systems explained: Singapore, UAE, Ireland, Estonia, Hong Kong, and more.",
     href: "/guides",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9" />
       </svg>
     ),
-    count: "11 countries",
+    count: "20 countries",
   },
   {
     title: "Free Tax Tools",
-    description: "Calculators, assessments, and interactive tools to check your compliance status.",
+    description: "Calculators, assessments, scenario guides, and the incorporation optimizer.",
     href: "/tools/quick-tax-check",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -59,17 +70,6 @@ const GUIDE_CATEGORIES = [
       </svg>
     ),
     count: "15+ tools",
-  },
-  {
-    title: "Wire Transfer Guides",
-    description: "How to send money internationally for tax payments, LLC capital, and business operations.",
-    href: "/guides",
-    icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" />
-      </svg>
-    ),
-    count: "20+ routes",
   },
 ];
 
@@ -92,29 +92,29 @@ export default function Home() {
         <section className="bg-gradient-to-b from-navy-dark to-navy pt-20 pb-16 px-6">
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-flex items-center gap-2 bg-navy-light/60 text-gold px-4 py-1.5 rounded-full text-xs font-semibold tracking-wide uppercase mb-8 border border-gold/20">
-              Expert-Sourced Tax Education
+              The World&apos;s Tax Knowledge Base
             </div>
             <h1 className="text-4xl md:text-6xl font-extrabold text-white mb-6 leading-[1.1] tracking-tight">
-              Your Complete Guide to{" "}
-              <span className="text-gold">Tax Laws</span>{" "}
-              Around the World
+              Tax Laws, Q&A &{" "}
+              <span className="text-gold">Expert Guides</span>{" "}
+              for 20+ Countries
             </h1>
             <p className="text-lg text-gray-300 mb-10 max-w-2xl mx-auto leading-relaxed">
-              Comprehensive, expert-sourced guides covering international tax compliance,
-              IRS form requirements, treaty benefits, and strategies for businesses operating across borders.
+              Search tax regulations, ask questions, compare jurisdictions, and find the best place to incorporate.
+              A global tax database built for entrepreneurs, professionals, and curious minds.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link
-                href="/guides"
+                href="/laws"
                 className="bg-gold text-navy-dark px-8 py-3.5 rounded-xl font-bold text-base hover:bg-gold-light transition-colors shadow-lg shadow-gold/20"
               >
-                Explore All Guides
+                Browse Tax Laws
               </Link>
               <Link
-                href="/tools/quick-tax-check"
+                href="/community"
                 className="border border-gray-500 text-white px-8 py-3.5 rounded-xl font-medium text-base hover:bg-navy-light transition-colors"
               >
-                Free Tax Check
+                Ask a Question
               </Link>
             </div>
           </div>
@@ -124,10 +124,10 @@ export default function Home() {
         <section className="bg-white border-b border-gray-100 py-8 px-6">
           <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             {[
-              { stat: "85+", label: "Tax Guides" },
-              { stat: "50+", label: "Countries Covered" },
+              { stat: "20", label: "Countries" },
+              { stat: "300+", label: "Q&A Threads" },
+              { stat: "100+", label: "Tax Guides" },
               { stat: "15+", label: "Free Tools" },
-              { stat: "100+", label: "Q&A Topics" },
             ].map((item) => (
               <div key={item.label}>
                 <div className="text-3xl font-extrabold text-navy">{item.stat}</div>

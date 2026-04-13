@@ -24,6 +24,15 @@ export function Footer() {
     { label: "Cost Comparison", href: "/tools/cost-comparison" },
   ];
 
+  const laws = [
+    { label: "All Countries", href: "/laws" },
+    { label: "United States", href: "/laws/us" },
+    { label: "China", href: "/laws/cn" },
+    { label: "United Kingdom", href: "/laws/gb" },
+    { label: "Canada", href: "/laws/ca" },
+    { label: "Singapore", href: "/laws/sg" },
+  ];
+
   const resources = [
     { label: "Learning Hub", href: "/learn" },
     { label: "Community Q&A", href: "/community" },
@@ -34,7 +43,7 @@ export function Footer() {
     <footer className="bg-gray-900">
       {/* Main footer content */}
       <div className="max-w-7xl mx-auto px-6 pt-16 pb-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-10">
           {/* Brand */}
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center gap-3 mb-4">
@@ -87,6 +96,20 @@ export function Footer() {
             <h3 className="text-white font-semibold text-sm mb-4">Free Tools</h3>
             <ul className="space-y-2.5">
               {tools.map((item) => (
+                <li key={item.href}>
+                  <Link href={item.href} className="text-sm text-gray-400 hover:text-white transition-colors">
+                    {item.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Tax Laws */}
+          <div>
+            <h3 className="text-white font-semibold text-sm mb-4">Tax Laws</h3>
+            <ul className="space-y-2.5">
+              {laws.map((item) => (
                 <li key={item.href}>
                   <Link href={item.href} className="text-sm text-gray-400 hover:text-white transition-colors">
                     {item.label}

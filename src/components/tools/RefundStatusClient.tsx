@@ -322,7 +322,7 @@ export function RefundStatusClient() {
                 Use the right next step for the filing you actually sent
               </h2>
               <p className="mt-4 text-sm leading-7 text-slate-700">
-                ForeignLLCTax helps with a mix of informational and refund-related filings.
+                TaxGuided helps with a mix of informational and refund-related filings.
                 Standard consumer advice often assumes a Form 1040 refund, but many of our
                 users really need submission proof, IRS processing guidance, or annual
                 deadline reminders instead.

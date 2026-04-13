@@ -3,7 +3,7 @@ import { UsPhoneNumberGuideClient } from "@/components/guides/UsPhoneNumberGuide
 
 export const metadata: Metadata = {
   title:
-    "How to Get a US Phone Number — Guide for Foreign LLC Owners | ForeignLLCTax.com",
+    "How to Get a US Phone Number — Guide for Foreign LLC Owners | TaxGuided.com",
   description:
     "Complete guide to getting a US phone number for your foreign-owned LLC. Covers Ultra Mobile PayGo, Tello, and other options with pricing and setup instructions.",
   openGraph: {
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
       "How to Get a US Phone Number — Guide for Foreign LLC Owners",
     description:
       "Complete guide to getting a US phone number for your foreign-owned LLC. Covers Ultra Mobile PayGo, Tello, and other options with pricing and setup instructions.",
-    url: "https://foreignllctax.com/guides/us-phone-number",
+    url: "https://taxguided.com/guides/us-phone-number",
     type: "website",
   },
   alternates: {

@@ -3,7 +3,7 @@ import { CrossBorderPaymentsGuideClient } from "@/components/guides/CrossBorderP
 
 export const metadata: Metadata = {
   title:
-    "Cross-Border Payment Platform Comparison — Stripe vs PayPal vs Wise vs Paddle | ForeignLLCTax.com",
+    "Cross-Border Payment Platform Comparison — Stripe vs PayPal vs Wise vs Paddle | TaxGuided.com",
   description:
     "In-depth comparison of cross-border payment platforms for foreign-owned US LLCs. Covers fees, currency conversion, payout speeds, and best use cases.",
   openGraph: {
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
       "Cross-Border Payment Platform Comparison — Stripe vs PayPal vs Wise vs Paddle",
     description:
       "In-depth comparison of cross-border payment platforms for foreign-owned US LLCs. Covers fees, currency conversion, payout speeds, and best use cases.",
-    url: "https://foreignllctax.com/guides/cross-border-payments",
+    url: "https://taxguided.com/guides/cross-border-payments",
     type: "website",
   },
   alternates: {

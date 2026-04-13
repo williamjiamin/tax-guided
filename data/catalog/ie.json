@@ -1,0 +1,49 @@
+{
+  "countryCode": "IE",
+  "countryName": "Ireland",
+  "agencies": [
+    {
+      "id": "ie-revenue",
+      "name": "Revenue Commissioners",
+      "url": "https://www.revenue.ie",
+      "category": "tax-authority"
+    },
+    {
+      "id": "ie-dof",
+      "name": "Department of Finance",
+      "url": "https://www.gov.ie/en/organisation/department-of-finance/",
+      "category": "government"
+    }
+  ],
+  "entries": [
+    {
+      "id": "ie-corp-tax-12_5",
+      "title": "Corporation Tax - 12.5% Rate",
+      "summary": "Ireland corporation tax rate information and qualifying conditions.",
+      "publishedDate": "2026-01-10",
+      "url": "https://www.revenue.ie/en/companies-and-charities/corporation-tax/index.aspx",
+      "agency": "Revenue Commissioners",
+      "category": "law-and-guidance"
+    },
+    {
+      "id": "ie-paye-2026",
+      "title": "PAYE Employee Guide 2026",
+      "summary": "Pay As You Earn tax system guide for employees in Ireland.",
+      "publishedDate": "2026-01-01",
+      "url": "https://www.revenue.ie/en/jobs-and-pensions/index.aspx",
+      "agency": "Revenue Commissioners",
+      "category": "forms"
+    },
+    {
+      "id": "ie-budget-2026",
+      "title": "Budget 2026 Tax Summary",
+      "summary": "Summary of tax changes from Budget 2026 including income tax and USC.",
+      "publishedDate": "2025-10-15",
+      "url": "https://www.revenue.ie/en/corporate/press-office/budget-information/index.aspx",
+      "agency": "Revenue Commissioners",
+      "category": "policy"
+    }
+  ],
+  "totalEntries": 3,
+  "lastUpdated": "2026-04-11T00:00:00Z"
+}

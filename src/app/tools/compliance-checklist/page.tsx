@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "Foreign-Owned LLC Compliance Checklist",
     description:
       "Free interactive checklist — verify you have everything before filing Form 5472 + pro forma 1120.",
-    url: "https://foreignllctax.com/tools/compliance-checklist",
+    url: "https://taxguided.com/tools/compliance-checklist",
     type: "website",
   },
   alternates: {
