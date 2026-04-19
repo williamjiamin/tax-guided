@@ -24,6 +24,34 @@ import { TAX_PLANNING_THREADS } from "./qa-content-tax-planning";
 import { BANKING_THREADS } from "./qa-content-banking";
 import { GLOBAL_TAX_THREADS } from "./qa-content-global";
 
+// New Codex-generated Tier 1 country Q&A content (all in one file due to cross-references)
+import {
+  GB_TAX_THREADS,
+  CA_TAX_THREADS,
+  DE_TAX_THREADS,
+  FR_TAX_THREADS,
+  JP_TAX_THREADS,
+  KR_TAX_THREADS,
+  IN_TAX_THREADS,
+  BR_TAX_THREADS,
+  AU_TAX_THREADS,
+  SG_TAX_THREADS,
+} from "./qa-content-tier1";
+
+// New Codex-generated Tier 2 country Q&A content
+import { HK_TAX_THREADS } from "./qa-content-hk";
+import { IE_TAX_THREADS } from "./qa-content-ie";
+import { AE_TAX_THREADS } from "./qa-content-ae";
+import { NL_TAX_THREADS } from "./qa-content-nl";
+import { EE_TAX_THREADS } from "./qa-content-ee";
+import { CH_TAX_THREADS } from "./qa-content-ch";
+import { MX_TAX_THREADS } from "./qa-content-mx";
+import { ID_TAX_THREADS } from "./qa-content-id";
+
+// New Codex-generated cross-border and industry Q&A content
+import { CROSS_BORDER_THREADS as NEW_CROSS_BORDER_THREADS } from "./qa-content-cross-border-new";
+import { INDUSTRY_THREADS as NEW_INDUSTRY_THREADS } from "./qa-content-industry-new";
+
 const OFFICIAL_AUTHOR: QAAuthor = {
   displayName: "ForeignLLCTax Official",
   avatarSeed: "rippa-official",
@@ -10242,4 +10270,27 @@ export const SEED_THREADS: QAThread[] = [
   ...TAX_PLANNING_THREADS,
   ...BANKING_THREADS,
   ...GLOBAL_TAX_THREADS,
+  // Tier 1 country threads
+  ...GB_TAX_THREADS,
+  ...CA_TAX_THREADS,
+  ...DE_TAX_THREADS,
+  ...FR_TAX_THREADS,
+  ...JP_TAX_THREADS,
+  ...KR_TAX_THREADS,
+  ...IN_TAX_THREADS,
+  ...BR_TAX_THREADS,
+  ...AU_TAX_THREADS,
+  ...SG_TAX_THREADS,
+  // Tier 2 country threads
+  ...HK_TAX_THREADS,
+  ...IE_TAX_THREADS,
+  ...AE_TAX_THREADS,
+  ...NL_TAX_THREADS,
+  ...EE_TAX_THREADS,
+  ...CH_TAX_THREADS,
+  ...MX_TAX_THREADS,
+  ...ID_TAX_THREADS,
+  // Cross-border & industry
+  ...NEW_CROSS_BORDER_THREADS,
+  ...NEW_INDUSTRY_THREADS,
 ];

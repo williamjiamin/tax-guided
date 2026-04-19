@@ -2,15 +2,23 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
+import { ALL_EDITORIAL_GUIDES } from "@/lib/editorial";
 
 export const metadata: Metadata = {
   title: "Tax Guides — Comprehensive International Tax Education",
   description:
-    "Browse 85+ expert-sourced guides covering IRS forms, international tax compliance, country-specific rules, transfer pricing, and business tax strategies.",
+    "Browse 130+ expert-sourced guides covering IRS forms, international tax compliance, country-specific rules, tax treaties, and business tax strategies.",
   alternates: {
     canonical: "/guides",
   },
 };
+
+// Editorial guides split by type
+const COUNTRY_GUIDES = ALL_EDITORIAL_GUIDES.filter((g) => g.type === "country");
+const COMPARISON_GUIDES = ALL_EDITORIAL_GUIDES.filter((g) => g.type === "comparison");
+const OTHER_EDITORIAL = ALL_EDITORIAL_GUIDES.filter(
+  (g) => g.type !== "country" && g.type !== "comparison"
+);
 
 const GUIDE_SECTIONS = [
   {
@@ -133,10 +141,83 @@ export default function GuidesIndexPage() {
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-extrabold text-white mb-4">Tax Guides</h1>
             <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-              85+ expert-sourced guides covering IRS forms, international compliance, country-specific rules, and business strategies.
+              130+ expert-sourced guides covering IRS forms, international compliance, country tax systems, tax treaties, and business strategies.
             </p>
           </div>
         </section>
+
+        {/* Editorial Guides — dynamic content */}
+        {ALL_EDITORIAL_GUIDES.length > 0 && (
+          <section className="py-12 px-6 bg-gradient-to-br from-navy/5 to-gold/5 border-b border-gray-200">
+            <div className="max-w-5xl mx-auto">
+              <div className="mb-8">
+                <p className="inline-block bg-gold/20 text-gold-dark text-xs font-semibold px-3 py-1 rounded-full border border-gold/30 uppercase mb-3">
+                  Editorial tax library
+                </p>
+                <h2 className="text-2xl md:text-3xl font-extrabold text-gray-900 mb-2">
+                  Deep-dive country guides, treaty explainers & form breakdowns
+                </h2>
+                <p className="text-gray-600">
+                  {ALL_EDITORIAL_GUIDES.length} long-form guides researched from official tax authorities.
+                </p>
+              </div>
+
+              {COUNTRY_GUIDES.length > 0 && (
+                <div className="mb-8">
+                  <h3 className="text-lg font-bold text-gray-900 mb-4">Country tax guides</h3>
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+                    {COUNTRY_GUIDES.slice(0, 12).map((g) => (
+                      <Link
+                        key={g.id}
+                        href={`/guides/article/${g.slug}`}
+                        className="bg-white border border-gray-200 rounded-xl p-4 hover:border-gold hover:shadow-md transition-all"
+                      >
+                        <p className="font-semibold text-gray-900 text-sm mb-1 leading-snug">{g.title}</p>
+                        <p className="text-xs text-gray-500 line-clamp-2">{g.summary}</p>
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {COMPARISON_GUIDES.length > 0 && (
+                <div className="mb-8">
+                  <h3 className="text-lg font-bold text-gray-900 mb-4">Country comparisons</h3>
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+                    {COMPARISON_GUIDES.slice(0, 9).map((g) => (
+                      <Link
+                        key={g.id}
+                        href={`/guides/article/${g.slug}`}
+                        className="bg-white border border-gray-200 rounded-xl p-4 hover:border-gold hover:shadow-md transition-all"
+                      >
+                        <p className="font-semibold text-gray-900 text-sm mb-1 leading-snug">{g.title}</p>
+                        <p className="text-xs text-gray-500 line-clamp-2">{g.summary}</p>
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {OTHER_EDITORIAL.length > 0 && (
+                <div>
+                  <h3 className="text-lg font-bold text-gray-900 mb-4">Forms, treaties & niche topics</h3>
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+                    {OTHER_EDITORIAL.slice(0, 12).map((g) => (
+                      <Link
+                        key={g.id}
+                        href={`/guides/article/${g.slug}`}
+                        className="bg-white border border-gray-200 rounded-xl p-4 hover:border-gold hover:shadow-md transition-all"
+                      >
+                        <p className="font-semibold text-gray-900 text-sm mb-1 leading-snug">{g.title}</p>
+                        <p className="text-xs text-gray-500 line-clamp-2">{g.summary}</p>
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+          </section>
+        )}
 
         {/* Guide Sections */}
         <section className="py-16 px-6">
