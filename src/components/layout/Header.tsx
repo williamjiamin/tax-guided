@@ -101,7 +101,7 @@ export function Header() {
           </Link>
 
           <Link href="/compare" className="text-gray-300 hover:text-white transition-colors">
-            US vs China
+            Compare Countries
           </Link>
 
           <Link href="/tools/quick-tax-check" className="text-gray-300 hover:text-white transition-colors">

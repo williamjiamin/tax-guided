@@ -11,7 +11,7 @@ import type { TaxSystem, TaxBracket } from "@/lib/tax-data";
 /* ------------------------------------------------------------------ */
 
 const MAX_COUNTRIES = 3;
-const DEFAULT_CODES = ["US", "CN"];
+const DEFAULT_CODES = ["US", "GB", "SG"];
 
 /* ------------------------------------------------------------------ */
 /*  Helpers                                                            */

@@ -20,8 +20,8 @@ export default function NewsPage() {
             </div>
             <h1 className="text-4xl md:text-5xl font-extrabold text-white mb-4">Tax News & Updates</h1>
             <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-              Latest regulation updates from the IRS and China State Taxation Administration,
-              plus original commentary on rules affecting foreign-owned LLCs and cross-border founders.
+              Regulation updates from tax authorities worldwide &mdash; IRS, HMRC, CRA, ATO, NTA, IRAS, and more &mdash;
+              plus original commentary on rules affecting cross-border founders and international taxpayers.
             </p>
             <p className="text-xs text-gray-500 mt-4">
               Last synced: {new Date(FEED_FETCHED_AT).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}
