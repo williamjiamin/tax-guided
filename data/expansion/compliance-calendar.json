@@ -1,0 +1,232 @@
+[
+  {
+    "id": "us-form-5472-calendar-year-2026",
+    "country": "us",
+    "jurisdiction": "federal",
+    "taxType": "information-return",
+    "description": "Calendar-year domestic reporting corporation filing Form 1120 with attached Form 5472.",
+    "dueDate": "2026-04-15",
+    "affectedTaxpayers": ["foreign-owned-corporation", "disregarded-entity"],
+    "formsRequired": ["us-irs-5472"],
+    "extensionAvailable": true,
+    "extensionForm": "us-irs-7004",
+    "penalty": "$25,000 base penalty for failure to file or maintain records.",
+    "sources": [
+      {
+        "label": "Instructions for Form 5472 (12/2024)",
+        "url": "https://www.irs.gov/instructions/i5472",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "Instructions for Form 1120 (2025)",
+        "url": "https://www.irs.gov/instructions/i1120",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "us-ca-llc-annual-tax-2026",
+    "country": "us",
+    "jurisdiction": "california",
+    "taxType": "annual-llc-tax",
+    "description": "California LLC annual tax payment for calendar-year entities using FTB 3522.",
+    "dueDate": "2026-04-15",
+    "affectedTaxpayers": ["llc"],
+    "formsRequired": ["us-ca-ftb-3522"],
+    "extensionAvailable": false,
+    "extensionForm": null,
+    "penalty": "Late-payment penalties and interest may apply.",
+    "sources": [
+      {
+        "label": "California LLC filing requirements",
+        "url": "https://www.ftb.ca.gov/file/business/types/limited-liability-company/index.html",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "Web Pay LLC payment types",
+        "url": "https://webapp.ftb.ca.gov/WebPay/Help/LLC",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "us-tx-franchise-report-2026",
+    "country": "us",
+    "jurisdiction": "texas",
+    "taxType": "franchise-tax",
+    "description": "Texas annual franchise tax report and associated information report.",
+    "dueDate": "2026-05-15",
+    "affectedTaxpayers": ["corporation", "llc", "limited-partnership"],
+    "formsRequired": ["us-tx-franchise-report", "us-tx-pir"],
+    "extensionAvailable": true,
+    "extensionForm": null,
+    "penalty": "$50 late-filing penalty can apply even when no tax is due.",
+    "sources": [
+      {
+        "label": "Texas Franchise Tax",
+        "url": "https://comptroller.texas.gov/taxes/franchise/",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "Texas Franchise Tax Overview",
+        "url": "https://comptroller.texas.gov/taxes/publications/98-806.php",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "us-de-llc-annual-tax-2026",
+    "country": "us",
+    "jurisdiction": "delaware",
+    "taxType": "annual-llc-tax",
+    "description": "Delaware annual LLC tax due for LLCs formed in Delaware.",
+    "dueDate": "2026-06-01",
+    "affectedTaxpayers": ["delaware-llc"],
+    "formsRequired": ["us-de-annual-llc-tax"],
+    "extensionAvailable": false,
+    "extensionForm": null,
+    "penalty": "$200 penalty plus 1.5% monthly interest can apply when the annual tax is not paid on time.",
+    "sources": [
+      {
+        "label": "Delaware annual report and tax information",
+        "url": "https://corp.delaware.gov/frtax/",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "us-fl-annual-report-2026",
+    "country": "us",
+    "jurisdiction": "florida",
+    "taxType": "annual-report",
+    "description": "Florida annual report deadline for LLCs, profit corporations, LPs, and LLLPs.",
+    "dueDate": "2026-05-01",
+    "affectedTaxpayers": ["llc", "corporation", "limited-partnership"],
+    "formsRequired": ["us-fl-annual-report"],
+    "extensionAvailable": false,
+    "extensionForm": null,
+    "penalty": "For LLCs, a $400 late fee generally applies after May 1 if the company wants to remain active.",
+    "sources": [
+      {
+        "label": "Florida annual report overview",
+        "url": "https://efile.sunbiz.org/sbs_ar_instr.html",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "Florida LLC annual report help",
+        "url": "https://efile.sunbiz.org/llc_ar_help.html",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "uk-self-assessment-registration-2026",
+    "country": "gb",
+    "jurisdiction": "hmrc",
+    "taxType": "registration",
+    "description": "Register for Self Assessment if you need to send a return for the 2025-2026 UK tax year and have not sent one before.",
+    "dueDate": "2026-10-05",
+    "affectedTaxpayers": ["self-employed", "landlord", "individual"],
+    "formsRequired": [],
+    "extensionAvailable": false,
+    "extensionForm": null,
+    "penalty": "HMRC says late registrants are sent a different filing deadline, generally 3 months from the date on the letter or email.",
+    "sources": [
+      {
+        "label": "Check how to register for Self Assessment",
+        "url": "https://www.gov.uk/register-for-self-assessment",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "uk-self-assessment-online-filing-2027",
+    "country": "gb",
+    "jurisdiction": "hmrc",
+    "taxType": "return-filing",
+    "description": "Online filing and general payment deadline for the 2025-2026 Self Assessment tax year.",
+    "dueDate": "2027-01-31",
+    "affectedTaxpayers": ["individual"],
+    "formsRequired": ["gb-hmrc-self-assessment"],
+    "extensionAvailable": false,
+    "extensionForm": null,
+    "penalty": "Late filing starts with a £100 penalty and can escalate after 3, 6, and 12 months.",
+    "sources": [
+      {
+        "label": "HMRC Self Assessment legal framework",
+        "url": "https://www.gov.uk/hmrc-internal-manuals/self-assessment-legal-framework/salf202",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "Self Assessment tax returns: penalties",
+        "url": "https://www.gov.uk/self-assessment-tax-returns/penalties",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "us-ca-llc-estimated-fee-2026",
+    "country": "us",
+    "jurisdiction": "california",
+    "taxType": "estimated-llc-fee",
+    "description": "California estimated LLC fee payment for calendar-year entities using FTB 3536.",
+    "dueDate": "2026-06-15",
+    "affectedTaxpayers": ["llc"],
+    "formsRequired": ["us-ca-ftb-3536"],
+    "extensionAvailable": false,
+    "extensionForm": null,
+    "penalty": "Late-payment penalties and interest can apply if the California LLC estimated fee is underpaid or paid late.",
+    "sources": [
+      {
+        "label": "California business due dates",
+        "url": "https://www.ftb.ca.gov/file/when-to-file/due-dates-business.html",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "Web Pay LLC payment types",
+        "url": "https://webapp.ftb.ca.gov/WebPay/Help/LLC",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "us-fl-corporate-income-tax-calendar-year-2026",
+    "country": "us",
+    "jurisdiction": "florida",
+    "taxType": "corporate-income-tax",
+    "description": "Florida corporate income or franchise tax return due date example for a calendar-year taxpayer with a December 31, 2025 year end.",
+    "dueDate": "2026-05-01",
+    "affectedTaxpayers": ["corporation"],
+    "formsRequired": ["us-fl-f1120"],
+    "extensionAvailable": true,
+    "extensionForm": null,
+    "penalty": "Florida says the return is generally due the later of the state-law due date or the 15th day after the related federal return due date without extension, so late-filing and late-payment exposure still needs a Florida-specific check.",
+    "sources": [
+      {
+        "label": "Florida corporate income tax",
+        "url": "https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "ch-vat-quarterly-60-day-rule-2026-q1",
+    "country": "ch",
+    "jurisdiction": "federal",
+    "taxType": "vat",
+    "description": "Swiss VAT return and payment rule for a quarter ending March 31, 2026: generally due within 60 days after the reporting period.",
+    "dueDate": "2026-05-30",
+    "affectedTaxpayers": ["vat-registered-business"],
+    "formsRequired": ["ch-vat-return"],
+    "extensionAvailable": false,
+    "extensionForm": null,
+    "penalty": "Late filing or payment can create Swiss VAT exposure even when the invoice rate itself was correct.",
+    "sources": [
+      {
+        "label": "Paying VAT",
+        "url": "https://www.estv.admin.ch/estv/en/home/value-added-tax/paying-vat.html",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  }
+]

@@ -1,0 +1,233 @@
+[
+  {
+    "id": "us-ecommerce-marketplace-facilitator",
+    "slug": "ecommerce",
+    "country": "us",
+    "industry": "ecommerce",
+    "title": "U.S. e-commerce marketplace facilitator guide",
+    "sections": [
+      {
+        "heading": "Marketplace collection helps, but it does not erase the rest of the tax map",
+        "body": "California and Texas both make an important point that online sellers regularly miss. Marketplace facilitator rules can shift the collection burden for marketplace sales, but they do not automatically erase direct-sales duties, recordkeeping needs, or other tax consequences."
+      },
+      {
+        "heading": "California treats the marketplace facilitator as the retailer for qualifying marketplace sales",
+        "body": "The California marketplace facilitator materials explain that beginning October 1, 2019, a marketplace facilitator is generally considered the retailer and is responsible for collecting, reporting, and paying tax on retail sales made through its marketplace for delivery to California customers. That is a real compliance relief for sellers using large platforms."
+      },
+      {
+        "heading": "Texas draws a separate line between sales-tax collection and franchise-tax exposure",
+        "body": "Texas says a marketplace seller may still need a permit and may still have franchise-tax obligations if it has the required nexus. That means marketplace collection is not the same thing as total state-tax immunity."
+      }
+    ],
+    "keyForms": [],
+    "keyDeductions": ["cost of goods sold", "merchant processing fees", "advertising", "shipping and fulfillment costs"],
+    "commonPitfalls": [
+      "Assuming marketplace collection covers direct website sales.",
+      "Ignoring state franchise or income-tax consequences because sales tax is being handled by the platform.",
+      "Failing to reconcile marketplace reports to bookkeeping records."
+    ],
+    "recentChanges": [
+      {
+        "date": "2019-10-01",
+        "description": "California marketplace facilitator regime began for qualifying marketplace sales."
+      }
+    ],
+    "sources": [
+      {
+        "label": "California Marketplace Facilitator Act guide",
+        "url": "https://www.cdtfa.ca.gov/industry/MPFAct.htm",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "Texas marketplace providers and marketplace sellers",
+        "url": "https://comptroller.texas.gov/taxes/sales/marketplace-providers-sellers.php",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "us-crypto-digital-assets",
+    "slug": "crypto",
+    "country": "us",
+    "industry": "crypto",
+    "title": "U.S. digital assets tax guide",
+    "sections": [
+      {
+        "heading": "Start with the IRS framing, not with token folklore",
+        "body": "The IRS treats digital assets as a category taxpayers must report directly. The right educational page should therefore begin with ordinary tax logic applied to crypto transactions, not with internet myths about crypto existing outside tax law."
+      },
+      {
+        "heading": "The recordkeeping problem is often bigger than the classification problem",
+        "body": "Many taxpayers know in the abstract that crypto can be taxable. Their real operational problem is that they do not keep the transaction-level records needed to calculate gains, losses, and other tax consequences cleanly."
+      }
+    ],
+    "keyForms": ["Form 1040", "Form 8949", "Schedule D"],
+    "keyDeductions": ["capital losses subject to applicable rules", "ordinary business expenses for active crypto businesses"],
+    "commonPitfalls": [
+      "No transaction ledger for swaps, transfers, and dispositions.",
+      "Assuming no conversion to cash means no taxable event.",
+      "Treating exchange data exports as a full compliance file."
+    ],
+    "recentChanges": [],
+    "sources": [
+      {
+        "label": "IRS digital assets page",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "us-real-estate-firpta",
+    "slug": "real-estate",
+    "country": "us",
+    "industry": "real-estate",
+    "title": "U.S. real estate FIRPTA guide",
+    "sections": [
+      {
+        "heading": "FIRPTA is a withholding system before it is a final-return discussion",
+        "body": "Foreign sellers often focus on the final gain calculation and miss the cash-flow impact at closing. The operational starting point is the withholding rule, because that is what affects deal execution immediately."
+      },
+      {
+        "heading": "Entity structure changes the mechanics, not just the paperwork",
+        "body": "Single-member disregarded structures, corporate structures, and partnership structures can produce different withholding mechanics and different follow-on return consequences. A guide that ignores the entity layer is not practical enough."
+      }
+    ],
+    "keyForms": ["Form 8288", "Form 8288-A", "Form 8804", "Form 8805"],
+    "keyDeductions": ["selling expenses", "capital improvements where applicable", "ordinary and necessary operating expenses for rental activity where applicable"],
+    "commonPitfalls": [
+      "Waiting until closing to understand withholding.",
+      "Assuming entity-level structure eliminates FIRPTA instead of shifting where it applies.",
+      "Ignoring partnership-level withholding rules for foreign partners."
+    ],
+    "recentChanges": [],
+    "sources": [
+      {
+        "label": "IRS FIRPTA overview",
+        "url": "https://www.irs.gov/individuals/international-taxpayers/firpta",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "IRS FIRPTA withholding",
+        "url": "https://www.irs.gov/individuals/international-taxpayers/firpta-withholding",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "IRS FIRPTA definitions and procedures",
+        "url": "https://www.irs.gov/individuals/international-taxpayers/definitions-of-terms-and-procedures-unique-to-firpta",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "ae-consulting-natural-person-ct",
+    "slug": "consulting",
+    "country": "ae",
+    "industry": "consulting",
+    "title": "UAE consultant and solo-operator corporate tax guide",
+    "sections": [
+      {
+        "heading": "The threshold question is turnover from business activity",
+        "body": "The UAE Federal Tax Authority says a natural person is subject to Corporate Tax only if the person conducts business or business activity in the UAE and total turnover from that activity exceeds AED 1 million in the calendar year."
+      },
+      {
+        "heading": "Not every inflow is business turnover",
+        "body": "The official guidance separates business turnover from wages, personal investment income, and real estate investment income. Solo operators need that distinction because mixing categories leads to bad conclusions."
+      }
+    ],
+    "keyForms": [],
+    "keyDeductions": ["allowable business expenses under the corporate tax regime where applicable"],
+    "commonPitfalls": [
+      "Treating all personal inflows as one number.",
+      "Relying on outdated 'tax-free UAE' shorthand.",
+      "Ignoring the registration timetable once the threshold is crossed."
+    ],
+    "recentChanges": [
+      {
+        "date": "2025-01-28",
+        "description": "FTA public guidance highlighted the registration timing for natural persons over the AED 1 million turnover threshold."
+      }
+    ],
+    "sources": [
+      {
+        "label": "FTA basis of taxation for natural persons",
+        "url": "https://tax.gov.ae/en/taxes/corporate.tax/corporate.tax.topics/basis.of.taxation.natural.person.aspx",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "UAE Ministry of Finance corporate tax page",
+        "url": "https://mof.gov.ae/en/public-finance/tax/corporate-tax-in-the-uae/",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "ch-hospitality-accommodation-vat",
+    "slug": "hospitality",
+    "country": "ch",
+    "industry": "hospitality",
+    "title": "Swiss hospitality VAT guide",
+    "sections": [
+      {
+        "heading": "Accommodation has its own rate category",
+        "body": "The Swiss Federal Tax Administration says accommodation services, including overnight stay and breakfast in the hotel and accommodation business, are subject to a special 3.8 percent VAT rate."
+      },
+      {
+        "heading": "Mixed supplies still need classification discipline",
+        "body": "A hotel or accommodation business often sells more than a room. Food, add-on services, and other supplies may not sit in the same VAT category as the accommodation component."
+      }
+    ],
+    "keyForms": [],
+    "keyDeductions": [],
+    "commonPitfalls": [
+      "Applying the accommodation rate to every hotel-related charge automatically.",
+      "Ignoring mixed-supply classification.",
+      "Using stale Swiss VAT rates."
+    ],
+    "recentChanges": [
+      {
+        "date": "2024-01-01",
+        "description": "Current Swiss VAT rates, including the 3.8 percent accommodation rate, took effect."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Swiss VAT rates",
+        "url": "https://www.estv.admin.ch/estv/en/home/value-added-tax/vat-rates-switzerland.html",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "ie-vat-thresholds-services-goods",
+    "slug": "vat-thresholds",
+    "country": "ie",
+    "industry": "vat-thresholds",
+    "title": "Ireland VAT thresholds guide",
+    "sections": [
+      {
+        "heading": "Ireland's VAT threshold question begins with what the business sells",
+        "body": "Ireland does not use one universal VAT-registration threshold for all activities. Revenue separates the main threshold analysis by the kind of supplies made, which means founders need to start with the business model rather than with a single memorized number."
+      },
+      {
+        "heading": "Threshold advice is unreliable if it strips away the activity split",
+        "body": "Many internet summaries collapse the thresholds into a single headline figure. Revenue's own page is better because it preserves the distinction between goods and services activity."
+      }
+    ],
+    "keyForms": [],
+    "keyDeductions": [],
+    "commonPitfalls": [
+      "Relying on a single threshold number without checking whether the business mainly sells goods or services.",
+      "Ignoring the possibility of voluntary registration or cross-border VAT rules.",
+      "Using outdated threshold figures."
+    ],
+    "recentChanges": [],
+    "sources": [
+      {
+        "label": "Ireland VAT thresholds",
+        "url": "https://www.revenue.ie/en/vat/vat-registration/who-should-register-for-vat/vat-thresholds.aspx",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  }
+]

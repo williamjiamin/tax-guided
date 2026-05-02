@@ -1,0 +1,319 @@
+[
+  {
+    "id": "us-ca",
+    "country": "us",
+    "state": "California",
+    "code": "CA",
+    "authority": {
+      "name": "California Franchise Tax Board",
+      "url": "https://www.ftb.ca.gov/"
+    },
+    "individualTax": {
+      "hasOwnTax": true,
+      "type": "progressive",
+      "currency": "USD",
+      "notes": "California imposes its own progressive individual income tax regime in addition to federal income tax."
+    },
+    "corporateTax": {
+      "hasOwnTax": true,
+      "rate": 8.84,
+      "notes": "California generally taxes C corporations at 8.84% and also imposes an $800 minimum franchise tax in many cases."
+    },
+    "salesTax": {
+      "hasOwnTax": true,
+      "rate": 7.25,
+      "type": "sales",
+      "nexusRules": "Businesses engaged in business in California generally collect the statewide rate plus any applicable district taxes.",
+      "notes": "Local district taxes can push combined rates above the statewide base."
+    },
+    "propertyTax": {
+      "rate": "Locally assessed",
+      "notes": "Property taxes are administered at the county level rather than by the FTB."
+    },
+    "inheritanceTax": {
+      "hasOwnTax": false
+    },
+    "filingDeadline": "LLC annual tax is generally due by the 15th day of the 4th month of the current tax year; business return due dates vary by entity classification.",
+    "overview": "California is one of the hardest states to treat casually because the LLC annual tax, the income-based LLC fee, and the return itself are separate moving parts. A founder can be current on one of them and still be noncompliant on another.",
+    "practicalPointers": [
+      "The fixed annual LLC tax is generally 800 USD.",
+      "California can impose a separate LLC fee based on California-source total income.",
+      "The annual tax, estimated fee, and return are related but not interchangeable."
+    ],
+    "forms": ["us-ca-ftb-3522", "us-ca-ftb-3536", "us-ca-ftb-568"],
+    "taxYear": "2026",
+    "storageKey": "states/us-ca/overview.json",
+    "sources": [
+      {
+        "label": "Limited liability company",
+        "url": "https://www.ftb.ca.gov/file/business/types/limited-liability-company/index.html",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "Due dates: businesses",
+        "url": "https://www.ftb.ca.gov/file/when-to-file/due-dates-business.html",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "Business tax rates",
+        "url": "https://www.ftb.ca.gov/file/business/tax-rates.html",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "Applying tax to your sales and purchases",
+        "url": "https://cdtfa.ca.gov/taxes-and-fees/applying-tax-sales-purchases-faq.htm",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "us-tx",
+    "country": "us",
+    "state": "Texas",
+    "code": "TX",
+    "authority": {
+      "name": "Texas Comptroller of Public Accounts",
+      "url": "https://comptroller.texas.gov/taxes/"
+    },
+    "individualTax": {
+      "hasOwnTax": false,
+      "type": "none",
+      "currency": "USD",
+      "notes": "Texas does not impose a state individual income tax."
+    },
+    "corporateTax": {
+      "hasOwnTax": true,
+      "notes": "Texas does not use a traditional corporate income tax. It generally imposes a franchise tax and annual information reporting obligations on taxable entities."
+    },
+    "salesTax": {
+      "hasOwnTax": true,
+      "rate": 6.25,
+      "type": "sales",
+      "nexusRules": "Texas imposes a 6.25% state sales and use tax, and local jurisdictions can add up to 2% more for a maximum combined rate of 8.25%.",
+      "notes": "Remote sellers and in-state sellers should review permit, collection, and reporting rules on the Comptroller site."
+    },
+    "propertyTax": {
+      "rate": "Locally assessed",
+      "notes": "Property taxes are generally imposed and administered by local appraisal districts and taxing units."
+    },
+    "inheritanceTax": {
+      "hasOwnTax": false
+    },
+    "filingDeadline": "Annual franchise tax reports and related information reports are generally due May 15 each year.",
+    "overview": "Texas is attractive because there is no individual income tax, but founders should not translate that into no compliance. Texas still runs a franchise-tax and information-reporting system that can create problems even when no tax is ultimately due.",
+    "practicalPointers": [
+      "Franchise-tax reports are generally due May 15.",
+      "Entities at or below the no-tax-due threshold can still have information-report obligations.",
+      "Texas sales-tax nexus and Texas franchise-tax exposure are separate questions."
+    ],
+    "forms": ["us-tx-franchise-report", "us-tx-pir"],
+    "taxYear": "2026",
+    "storageKey": "states/us-tx/overview.json",
+    "sources": [
+      {
+        "label": "Franchise Tax",
+        "url": "https://comptroller.texas.gov/taxes/franchise/",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "Annual Report Instructions",
+        "url": "https://comptroller.texas.gov/help/franchise/information-report.php",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "Sales and Use Tax",
+        "url": "https://comptroller.texas.gov/taxes/sales/",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "Franchise Tax Overview",
+        "url": "https://comptroller.texas.gov/taxes/publications/98-806.php",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "us-de",
+    "country": "us",
+    "state": "Delaware",
+    "code": "DE",
+    "authority": {
+      "name": "Delaware Division of Corporations",
+      "url": "https://corp.delaware.gov/"
+    },
+    "individualTax": {
+      "hasOwnTax": true,
+      "type": "progressive",
+      "currency": "USD",
+      "notes": "Delaware imposes its own individual income tax, but many TaxGuided readers care more about Delaware's entity-maintenance rules than its resident tax system."
+    },
+    "corporateTax": {
+      "hasOwnTax": true,
+      "rate": 8.7,
+      "notes": "Delaware has a corporate income tax and a separate annual LLC tax regime that matters to formation-state comparisons."
+    },
+    "salesTax": {
+      "hasOwnTax": false,
+      "type": "none",
+      "nexusRules": "Delaware does not impose a state sales tax.",
+      "notes": "Delaware formation does not shield the business from other-state sales-tax nexus."
+    },
+    "propertyTax": {
+      "rate": "Locally assessed",
+      "notes": "Property taxes are administered locally."
+    },
+    "inheritanceTax": {
+      "hasOwnTax": false
+    },
+    "filingDeadline": "Delaware LLC annual tax is generally due June 1 each year. LLCs do not file an annual report.",
+    "overview": "Delaware is one of the most common U.S. formation states for foreign founders. The core operational rule is easy to miss: no LLC annual report, but a real annual tax due every year.",
+    "practicalPointers": [
+      "The annual LLC tax is generally 300 USD.",
+      "The due date is June 1.",
+      "Late payment generally adds a 200 USD penalty plus 1.5% monthly interest."
+    ],
+    "forms": ["us-de-annual-llc-tax"],
+    "taxYear": "2026",
+    "storageKey": "states/us-de/overview.json",
+    "sources": [
+      {
+        "label": "Delaware annual report and tax information",
+        "url": "https://corp.delaware.gov/frtax/",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "Delaware pay taxes page",
+        "url": "https://corp.delaware.gov/paytaxes/",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "Delaware tax FAQ",
+        "url": "https://corp.delaware.gov/taxfaq/",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "us-wy",
+    "country": "us",
+    "state": "Wyoming",
+    "code": "WY",
+    "authority": {
+      "name": "Wyoming Secretary of State",
+      "url": "https://sos.wyo.gov/Business/StartBusiness.aspx"
+    },
+    "individualTax": {
+      "hasOwnTax": false,
+      "type": "none",
+      "currency": "USD",
+      "notes": "Wyoming does not impose a state individual income tax."
+    },
+    "corporateTax": {
+      "hasOwnTax": false,
+      "notes": "Wyoming does not impose a traditional state corporate income tax, which is one reason it appears so often in low-cost formation comparisons."
+    },
+    "salesTax": {
+      "hasOwnTax": true,
+      "rate": 4,
+      "type": "sales",
+      "nexusRules": "Wyoming has a statewide sales and use tax and local additions can apply.",
+      "notes": "Formation in Wyoming does not prevent other states from asserting tax nexus where the business operates."
+    },
+    "propertyTax": {
+      "rate": "Locally assessed",
+      "notes": "Property taxes are handled through local systems."
+    },
+    "inheritanceTax": {
+      "hasOwnTax": false
+    },
+    "filingDeadline": "The annual report is due on or before the first day of the month of the entity's initial filing date, beginning with the first anniversary year.",
+    "overview": "Wyoming is the low-cost benchmark state for many foreign-owned LLCs. The burden is light, but the anniversary-based annual-report deadline catches owners who assume every state uses a fixed calendar date.",
+    "practicalPointers": [
+      "The minimum annual report fee is 60 USD.",
+      "The due date is anniversary-based rather than a single statewide filing date.",
+      "Reminder notices are generally sent by email."
+    ],
+    "forms": ["us-wy-annual-report"],
+    "taxYear": "2026",
+    "storageKey": "states/us-wy/overview.json",
+    "sources": [
+      {
+        "label": "Wyoming What's Next guidance",
+        "url": "https://sos.wyo.gov/Forms/WyoBiz/What%27s_Next.pdf",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "Wyoming The Choice is Yours publication",
+        "url": "https://sos.wyo.gov/Forms/Publications/ChoiceIsYours.pdf",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "us-fl",
+    "country": "us",
+    "state": "Florida",
+    "code": "FL",
+    "authority": {
+      "name": "Florida Department of State / Department of Revenue",
+      "url": "https://www.sunbiz.org/"
+    },
+    "individualTax": {
+      "hasOwnTax": false,
+      "type": "none",
+      "currency": "USD",
+      "notes": "Florida does not impose a state individual income tax."
+    },
+    "corporateTax": {
+      "hasOwnTax": true,
+      "rate": 5.5,
+      "notes": "Florida imposes a corporate income/franchise tax on corporations and entities taxed as corporations. The current published rate is 5.5% for taxable years beginning on or after January 1, 2022."
+    },
+    "salesTax": {
+      "hasOwnTax": true,
+      "rate": 6,
+      "type": "sales",
+      "nexusRules": "Florida's general state sales-tax rate is 6%, and discretionary surtax can apply locally.",
+      "notes": "Marketplace and remote-seller facts still need to be verified against Florida rules."
+    },
+    "propertyTax": {
+      "rate": "Locally assessed",
+      "notes": "Property taxes are administered locally."
+    },
+    "inheritanceTax": {
+      "hasOwnTax": false
+    },
+    "filingDeadline": "Florida annual reports are due by May 1 each year. Separate tax-return deadlines can apply for corporations.",
+    "overview": "Florida attracts founders with the no-personal-income-tax headline, but real compliance discipline still matters. The annual report is the state-maintenance issue most LLC owners cannot ignore.",
+    "practicalPointers": [
+      "Florida LLC annual reports are due by May 1.",
+      "The on-time LLC annual report fee is 138.75 USD.",
+      "A 400 USD late fee generally applies after May 1 for LLCs that want to remain active."
+    ],
+    "forms": ["us-fl-annual-report", "us-fl-f1120"],
+    "taxYear": "2026",
+    "storageKey": "states/us-fl/overview.json",
+    "sources": [
+      {
+        "label": "Florida annual report overview",
+        "url": "https://efile.sunbiz.org/sbs_ar_instr.html",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "Florida LLC annual report help",
+        "url": "https://efile.sunbiz.org/llc_ar_help.html",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "Florida corporate income tax",
+        "url": "https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "Florida sales and use tax",
+        "url": "https://floridarevenue.com/taxes/taxesfees/Pages/sales_tax.aspx",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  }
+]

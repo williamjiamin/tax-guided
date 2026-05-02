@@ -1,0 +1,181 @@
+[
+  {
+    "id": "us-irc-11",
+    "slug": "11",
+    "country": "us",
+    "statute": "irc",
+    "section": "11",
+    "subsection": "b",
+    "title": "Tax imposed",
+    "fullText": "A tax is hereby imposed for each taxable year on the taxable income of every corporation. In the current text of subsection (b), the amount of the tax is 21 percent of taxable income.",
+    "effectiveDate": "2018-01-01",
+    "amendmentHistory": [
+      {
+        "date": "2017-12-22",
+        "publicLaw": "Pub. L. 115-97",
+        "description": "The Tax Cuts and Jobs Act replaced the prior graduated corporate rate structure with the current 21 percent rate for taxable years beginning after December 31, 2017."
+      }
+    ],
+    "crossReferences": ["26 U.S.C. 61", "26 U.S.C. 882"],
+    "treasuryRegs": [],
+    "caseLaw": [],
+    "guidesOnSite": ["form-1120-c-corp"],
+    "lastUpdated": "2026-05-01T00:00:00.000Z",
+    "sources": [
+      {
+        "label": "26 U.S.C. section 11",
+        "url": "https://uscode.house.gov/view.xhtml?req=%28title%3A26+section%3A11+edition%3Aprelim%29",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "us-irc-61",
+    "slug": "61",
+    "country": "us",
+    "statute": "irc",
+    "section": "61",
+    "subsection": "a",
+    "title": "Gross income defined",
+    "fullText": "Except as otherwise provided, gross income means all income from whatever source derived, including compensation for services, business income, gains from dealings in property, interest, rents, royalties, dividends, annuities, pensions, and distributive shares of partnership gross income.",
+    "effectiveDate": null,
+    "amendmentHistory": [],
+    "crossReferences": ["26 U.S.C. 162"],
+    "treasuryRegs": [],
+    "caseLaw": [],
+    "guidesOnSite": ["form-1040-nr", "form-1120-f"],
+    "lastUpdated": "2026-05-01T00:00:00.000Z",
+    "sources": [
+      {
+        "label": "26 U.S.C. section 61",
+        "url": "https://uscode.house.gov/view.xhtml?req=%28title%3A26+section%3A61%28a%29+edition%3Aprelim%29",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "us-irc-162",
+    "slug": "162",
+    "country": "us",
+    "statute": "irc",
+    "section": "162",
+    "subsection": "a",
+    "title": "Trade or business expenses",
+    "fullText": "There shall be allowed as a deduction all the ordinary and necessary expenses paid or incurred during the taxable year in carrying on any trade or business, including reasonable compensation, certain travel, and certain rentals or payments for property use.",
+    "effectiveDate": null,
+    "amendmentHistory": [],
+    "crossReferences": ["26 U.S.C. 61"],
+    "treasuryRegs": [],
+    "caseLaw": ["deputy-v-du-pont", "higgins-v-commissioner"],
+    "guidesOnSite": ["quick-tax-check"],
+    "lastUpdated": "2026-05-01T00:00:00.000Z",
+    "sources": [
+      {
+        "label": "26 U.S.C. section 162",
+        "url": "https://uscode.house.gov/view.xhtml?edition=2010&num=0&req=granuleid%3AUSC-2010-title26-section162",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "us-irc-6038a",
+    "slug": "6038a",
+    "country": "us",
+    "statute": "irc",
+    "section": "6038A",
+    "subsection": null,
+    "title": "Information with respect to certain foreign-owned corporations",
+    "fullText": "This section requires specified reporting corporations to furnish information with respect to related parties and transactions and to maintain records as the Secretary may prescribe.",
+    "effectiveDate": null,
+    "amendmentHistory": [],
+    "crossReferences": ["26 U.S.C. 6723"],
+    "treasuryRegs": ["Treas. Reg. 1.6038A-1"],
+    "caseLaw": [],
+    "guidesOnSite": ["form-5472-common-mistakes", "record-keeping-5472"],
+    "lastUpdated": "2026-05-01T00:00:00.000Z",
+    "sources": [
+      {
+        "label": "26 U.S.C. section 6038A",
+        "url": "https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title26-section6038A",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "us-irc-864",
+    "slug": "864",
+    "country": "us",
+    "statute": "irc",
+    "section": "864",
+    "subsection": null,
+    "title": "Definitions and special rules",
+    "fullText": "Section 864 contains key definitions and special rules for determining sources of income and whether income is effectively connected with a U.S. trade or business.",
+    "effectiveDate": null,
+    "amendmentHistory": [],
+    "crossReferences": ["26 U.S.C. 882"],
+    "treasuryRegs": [],
+    "caseLaw": [],
+    "guidesOnSite": ["eci-assessment", "form-1120-f"],
+    "lastUpdated": "2026-05-01T00:00:00.000Z",
+    "sources": [
+      {
+        "label": "26 U.S.C. section 864",
+        "url": "https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title26-section864",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "IRS effectively connected income page",
+        "url": "https://www.irs.gov/individuals/international-taxpayers/effectively-connected-income-eci",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "us-irc-882",
+    "slug": "882",
+    "country": "us",
+    "statute": "irc",
+    "section": "882",
+    "subsection": "a",
+    "title": "Tax on income of foreign corporations connected with United States business",
+    "fullText": "A foreign corporation engaged in trade or business within the United States is taxable on its taxable income that is effectively connected with the conduct of a trade or business within the United States.",
+    "effectiveDate": null,
+    "amendmentHistory": [],
+    "crossReferences": ["26 U.S.C. 864", "26 U.S.C. 11"],
+    "treasuryRegs": [],
+    "caseLaw": [],
+    "guidesOnSite": ["form-1120-f", "protective-filing-1120f"],
+    "lastUpdated": "2026-05-01T00:00:00.000Z",
+    "sources": [
+      {
+        "label": "26 U.S.C. section 882",
+        "url": "https://uscode.house.gov/view.xhtml?req=%28title%3A26+section%3A882+edition%3Aprelim%29",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "us-irc-7701",
+    "slug": "7701",
+    "country": "us",
+    "statute": "irc",
+    "section": "7701",
+    "subsection": "a",
+    "title": "Definitions",
+    "fullText": "Section 7701 is the Internal Revenue Code's general definitions section. For cross-border planning, the most practical parts are the rules defining when a corporation is domestic or foreign and the broader meaning assigned to key tax terms throughout the Code.",
+    "effectiveDate": null,
+    "amendmentHistory": [],
+    "crossReferences": ["26 U.S.C. 7701(a)(4)", "26 U.S.C. 7701(a)(5)"],
+    "treasuryRegs": [],
+    "caseLaw": [],
+    "guidesOnSite": ["register-us-company", "best-states-foreign-llc"],
+    "lastUpdated": "2026-05-01T00:00:00.000Z",
+    "sources": [
+      {
+        "label": "26 U.S.C. section 7701",
+        "url": "https://uscode.house.gov/view.xhtml?req=%28title%3A26+section%3A7701%29",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  }
+]

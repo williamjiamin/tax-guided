@@ -1,0 +1,430 @@
+[
+  {
+    "id": "us-corporate-income-1994",
+    "country": "us",
+    "taxType": "corporate-income",
+    "year": 1994,
+    "brackets": [
+      { "min": 0, "max": 50000, "rate": 15 },
+      { "min": 50000, "max": 75000, "rate": 25 },
+      { "min": 75000, "max": 10000000, "rate": 34 },
+      { "min": 10000000, "max": null, "rate": 35 }
+    ],
+    "inflationAdjustedTo2026": [],
+    "enactingLegislation": {
+      "name": "Omnibus Budget Reconciliation Act of 1993",
+      "citation": "Pub. L. 103-66",
+      "url": "https://www.govinfo.gov/app/details/BILLS-103hr2264pcs"
+    },
+    "notes": "IRS guidance reflects the OBRA 1993 graduated corporate rate structure with additional surtax language in IRC section 11 for higher taxable income bands.",
+    "sources": [
+      {
+        "label": "IRS IRM 3.12.16.23 Corporate Income Tax Rates",
+        "url": "https://www.irs.gov/irm/part3/irm_03-012-016r",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "us-corporate-income-2017",
+    "country": "us",
+    "taxType": "corporate-income",
+    "year": 2017,
+    "brackets": [
+      { "min": 0, "max": 50000, "rate": 15 },
+      { "min": 50000, "max": 75000, "rate": 25 },
+      { "min": 75000, "max": 10000000, "rate": 34 },
+      { "min": 10000000, "max": null, "rate": 35 }
+    ],
+    "inflationAdjustedTo2026": [],
+    "enactingLegislation": {
+      "name": "Internal Revenue Code section 11 (pre-TCJA structure)",
+      "citation": "26 U.S.C. § 11",
+      "url": "https://uscode.house.gov/view.xhtml?req=%28title%3A26+section%3A11%29"
+    },
+    "notes": "The graduated corporate structure remained in effect for tax periods through 2017 before the TCJA moved most corporations to a flat 21% rate.",
+    "sources": [
+      {
+        "label": "IRS IRM 3.12.16.23 Corporate Income Tax Rates",
+        "url": "https://www.irs.gov/irm/part3/irm_03-012-016r",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "us-corporate-income-2018",
+    "country": "us",
+    "taxType": "corporate-income",
+    "year": 2018,
+    "brackets": [
+      { "min": 0, "max": null, "rate": 21 }
+    ],
+    "inflationAdjustedTo2026": [],
+    "enactingLegislation": {
+      "name": "Tax Cuts and Jobs Act of 2017",
+      "citation": "Pub. L. 115-97, § 13001",
+      "url": "https://uscode.house.gov/statutes/pl/115/97.pdf"
+    },
+    "notes": "For taxable years beginning after December 31, 2017, IRC section 11 generally imposes a flat 21% corporate rate.",
+    "sources": [
+      {
+        "label": "26 U.S.C. section 11",
+        "url": "https://uscode.house.gov/view.xhtml?req=%28title%3A26+section%3A11+edition%3Aprelim%29",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "IRS IRM 3.12.16.23 Corporate Income Tax Rates",
+        "url": "https://www.irs.gov/irm/part3/irm_03-012-016r",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "us-corporate-income-2026",
+    "country": "us",
+    "taxType": "corporate-income",
+    "year": 2026,
+    "brackets": [
+      { "min": 0, "max": null, "rate": 21 }
+    ],
+    "inflationAdjustedTo2026": [],
+    "enactingLegislation": {
+      "name": "Current 26 U.S.C. section 11 rate",
+      "citation": "26 U.S.C. § 11(b)",
+      "url": "https://uscode.house.gov/view.xhtml?req=%28title%3A26+section%3A11+edition%3Aprelim%29"
+    },
+    "notes": "As of May 1, 2026, the federal corporate rate in section 11 remains 21% of taxable income for most corporations.",
+    "sources": [
+      {
+        "label": "26 U.S.C. section 11",
+        "url": "https://uscode.house.gov/view.xhtml?req=%28title%3A26+section%3A11+edition%3Aprelim%29",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "us-franchise-thresholds-2024",
+    "country": "us",
+    "taxType": "franchise-thresholds",
+    "year": 2024,
+    "brackets": [],
+    "inflationAdjustedTo2026": [],
+    "tableHeaders": ["Period", "No tax due threshold", "Retail/wholesale rate", "Other entity rate"],
+    "tableRows": [
+      ["2024-2025", "$2,470,000", "0.375%", "0.75%"]
+    ],
+    "enactingLegislation": {
+      "name": "Texas Comptroller published threshold table",
+      "citation": "Franchise Tax page",
+      "url": "https://comptroller.texas.gov/taxes/franchise/"
+    },
+    "notes": "Texas sharply increased the no-tax-due threshold for the 2024 and 2025 report years to $2.47 million while leaving the public rates at 0.375% for retail or wholesale entities and 0.75% for other taxable entities.",
+    "sources": [
+      {
+        "label": "Texas franchise tax page",
+        "url": "https://comptroller.texas.gov/taxes/franchise/",
+        "verifiedAt": "2026-05-02"
+      }
+    ]
+  },
+  {
+    "id": "us-franchise-thresholds-2026",
+    "country": "us",
+    "taxType": "franchise-thresholds",
+    "year": 2026,
+    "brackets": [],
+    "inflationAdjustedTo2026": [],
+    "tableHeaders": ["Period", "No tax due threshold", "Retail/wholesale rate", "Other entity rate"],
+    "tableRows": [
+      ["2026-2027", "$2,650,000", "0.375%", "0.75%"]
+    ],
+    "enactingLegislation": {
+      "name": "Texas Comptroller 2026 forms and instructions",
+      "citation": "2026 franchise tax forms",
+      "url": "https://comptroller.texas.gov/taxes/franchise/forms/2026-franchise.php"
+    },
+    "notes": "For the 2026 and 2027 report years, Texas raised the public no-tax-due threshold to $2.65 million while keeping the 0.375% retail or wholesale rate and the 0.75% general rate.",
+    "sources": [
+      {
+        "label": "Texas franchise tax page",
+        "url": "https://comptroller.texas.gov/taxes/franchise/",
+        "verifiedAt": "2026-05-02"
+      },
+      {
+        "label": "Texas 2026 franchise tax forms",
+        "url": "https://comptroller.texas.gov/taxes/franchise/forms/2026-franchise.php",
+        "verifiedAt": "2026-05-02"
+      }
+    ]
+  },
+  {
+    "id": "us-florida-corporate-income-2019",
+    "country": "us",
+    "taxType": "corporate-income",
+    "year": 2019,
+    "brackets": [
+      { "min": 0, "max": null, "rate": 4.458 }
+    ],
+    "inflationAdjustedTo2026": [],
+    "tableHeaders": ["Taxable year beginning", "Florida corporate income/franchise tax rate"],
+    "tableRows": [
+      ["2019 through 2020", "4.458%"]
+    ],
+    "enactingLegislation": {
+      "name": "Florida Department of Revenue published rate table",
+      "citation": "Florida corporate income tax",
+      "url": "https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx"
+    },
+    "notes": "Florida published a temporary reduced corporate income/franchise tax rate of 4.458% for taxable years beginning January 1, 2019 through December 31, 2020.",
+    "sources": [
+      {
+        "label": "Florida corporate income tax",
+        "url": "https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx",
+        "verifiedAt": "2026-05-02"
+      }
+    ]
+  },
+  {
+    "id": "us-florida-corporate-income-2021",
+    "country": "us",
+    "taxType": "corporate-income",
+    "year": 2021,
+    "brackets": [
+      { "min": 0, "max": null, "rate": 3.535 }
+    ],
+    "inflationAdjustedTo2026": [],
+    "tableHeaders": ["Taxable year beginning", "Florida corporate income/franchise tax rate"],
+    "tableRows": [
+      ["2021", "3.535%"]
+    ],
+    "enactingLegislation": {
+      "name": "Florida Department of Revenue published rate table",
+      "citation": "Florida corporate income tax",
+      "url": "https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx"
+    },
+    "notes": "Florida published a 3.535% corporate income/franchise tax rate for taxable years beginning January 1, 2021 through December 31, 2021.",
+    "sources": [
+      {
+        "label": "Florida corporate income tax",
+        "url": "https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx",
+        "verifiedAt": "2026-05-02"
+      }
+    ]
+  },
+  {
+    "id": "us-florida-corporate-income-2022",
+    "country": "us",
+    "taxType": "corporate-income",
+    "year": 2022,
+    "brackets": [
+      { "min": 0, "max": null, "rate": 5.5 }
+    ],
+    "inflationAdjustedTo2026": [],
+    "tableHeaders": ["Taxable year beginning", "Florida corporate income/franchise tax rate"],
+    "tableRows": [
+      ["On or after January 1, 2022", "5.5%"]
+    ],
+    "enactingLegislation": {
+      "name": "Florida Department of Revenue published rate table",
+      "citation": "Florida corporate income tax",
+      "url": "https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx"
+    },
+    "notes": "Florida returned to a 5.5% published corporate income/franchise tax rate for taxable years beginning on or after January 1, 2022.",
+    "sources": [
+      {
+        "label": "Florida corporate income tax",
+        "url": "https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx",
+        "verifiedAt": "2026-05-02"
+      }
+    ]
+  },
+  {
+    "id": "gb-corporation-tax-2022",
+    "country": "gb",
+    "taxType": "corporate-income",
+    "year": 2022,
+    "brackets": [
+      { "min": 0, "max": null, "rate": 19 }
+    ],
+    "inflationAdjustedTo2026": [],
+    "tableHeaders": ["Period", "Structure"],
+    "tableRows": [
+      ["Up to March 31, 2023", "Single 19% corporation tax rate for non-ring-fence profits"]
+    ],
+    "enactingLegislation": {
+      "name": "HMRC rates and allowances publication",
+      "citation": "Corporation Tax rates and allowances",
+      "url": "https://www.gov.uk/government/publications/rates-and-allowances-corporation-tax/rates-and-allowances-corporation-tax"
+    },
+    "notes": "Before April 1, 2023, the UK still used a single 19% corporation tax rate for non-ring-fence profits, which is why many older internet explainers still repeat that number as if it were the whole current story.",
+    "sources": [
+      {
+        "label": "Corporation Tax rates and allowances",
+        "url": "https://www.gov.uk/government/publications/rates-and-allowances-corporation-tax/rates-and-allowances-corporation-tax",
+        "verifiedAt": "2026-05-02"
+      }
+    ]
+  },
+  {
+    "id": "gb-corporation-tax-2023",
+    "country": "gb",
+    "taxType": "corporate-income",
+    "year": 2023,
+    "brackets": [
+      { "min": 0, "max": 50000, "rate": 19 },
+      { "min": 50000, "max": 250000, "rate": 25 },
+      { "min": 250000, "max": null, "rate": 25 }
+    ],
+    "inflationAdjustedTo2026": [],
+    "tableHeaders": ["Period", "Structure"],
+    "tableRows": [
+      ["From April 1, 2023", "Main rate 25%; small profits rate 19%; marginal relief between £50,000 and £250,000"]
+    ],
+    "enactingLegislation": {
+      "name": "HMRC rates and allowances publication",
+      "citation": "Corporation Tax rates and allowances",
+      "url": "https://www.gov.uk/government/publications/rates-and-allowances-corporation-tax/rates-and-allowances-corporation-tax"
+    },
+    "notes": "From April 1, 2023, the UK stopped using a single corporation tax rate for non-ring-fence profits and moved to the modern 25% main-rate / 19% small-profits structure with marginal relief in between.",
+    "sources": [
+      {
+        "label": "Corporation Tax rates and allowances",
+        "url": "https://www.gov.uk/government/publications/rates-and-allowances-corporation-tax/rates-and-allowances-corporation-tax",
+        "verifiedAt": "2026-05-02"
+      }
+    ]
+  },
+  {
+    "id": "gb-corporation-tax-2026",
+    "country": "gb",
+    "taxType": "corporate-income",
+    "year": 2026,
+    "brackets": [
+      { "min": 0, "max": 50000, "rate": 19 },
+      { "min": 50000, "max": 250000, "rate": 25 },
+      { "min": 250000, "max": null, "rate": 25 }
+    ],
+    "inflationAdjustedTo2026": [],
+    "tableHeaders": ["Rate", "2026"],
+    "tableRows": [
+      ["Small profits rate", "19%"],
+      ["Main rate", "25%"],
+      ["Marginal Relief lower limit", "£50,000"],
+      ["Marginal Relief upper limit", "£250,000"],
+      ["Standard fraction", "3/200"]
+    ],
+    "enactingLegislation": {
+      "name": "HMRC rates and allowances publication updated April 1, 2026",
+      "citation": "Corporation Tax rates and allowances",
+      "url": "https://www.gov.uk/government/publications/rates-and-allowances-corporation-tax/rates-and-allowances-corporation-tax"
+    },
+    "notes": "HMRC updated the published corporation tax rates and allowances for 2026 on April 1, 2026, confirming that the post-2023 split-rate structure remains the current framework.",
+    "sources": [
+      {
+        "label": "Corporation Tax rates and allowances",
+        "url": "https://www.gov.uk/government/publications/rates-and-allowances-corporation-tax/rates-and-allowances-corporation-tax",
+        "verifiedAt": "2026-05-02"
+      }
+    ]
+  },
+  {
+    "id": "us-ca-llc-annual-tax-2021",
+    "country": "us",
+    "taxType": "llc-annual-tax",
+    "year": 2021,
+    "brackets": [],
+    "inflationAdjustedTo2026": [],
+    "tableHeaders": ["Period", "Rule"],
+    "tableRows": [
+      ["Tax years beginning on or after January 1, 2021 and before January 1, 2024", "First-year California LLC annual tax exemption applied"]
+    ],
+    "enactingLegislation": {
+      "name": "California Franchise Tax Board published LLC guidance",
+      "citation": "California LLC page",
+      "url": "https://www.ftb.ca.gov/file/business/types/limited-liability-company/index.html"
+    },
+    "notes": "California temporarily exempted qualifying newly organized, registered, or filing LLCs from the 800 USD annual tax for their first taxable year if that year began on or after January 1, 2021 and before January 1, 2024.",
+    "sources": [
+      {
+        "label": "California LLC filing requirements",
+        "url": "https://www.ftb.ca.gov/file/business/types/limited-liability-company/index.html",
+        "verifiedAt": "2026-05-02"
+      }
+    ]
+  },
+  {
+    "id": "us-ca-llc-annual-tax-2024",
+    "country": "us",
+    "taxType": "llc-annual-tax",
+    "year": 2024,
+    "brackets": [],
+    "inflationAdjustedTo2026": [],
+    "tableHeaders": ["Period", "Rule"],
+    "tableRows": [
+      ["Tax years beginning on or after January 1, 2024", "Temporary first-year relief ended and the normal annual-tax rule resumed"]
+    ],
+    "enactingLegislation": {
+      "name": "California Franchise Tax Board published LLC guidance",
+      "citation": "California LLC page",
+      "url": "https://www.ftb.ca.gov/file/business/types/limited-liability-company/index.html"
+    },
+    "notes": "By 2024, California's temporary first-year annual-tax relief window had ended, which means stale articles describing the exemption as current law are no longer reliable.",
+    "sources": [
+      {
+        "label": "California LLC filing requirements",
+        "url": "https://www.ftb.ca.gov/file/business/types/limited-liability-company/index.html",
+        "verifiedAt": "2026-05-02"
+      }
+    ]
+  },
+  {
+    "id": "ee-distributed-profit-tax-2024",
+    "country": "ee",
+    "taxType": "distributed-profit-tax",
+    "year": 2024,
+    "brackets": [],
+    "inflationAdjustedTo2026": [],
+    "tableHeaders": ["Period", "Rule"],
+    "tableRows": [
+      ["Through December 31, 2024", "Estonia still had the lower 14/86 regime for regularly distributed dividends and related 7% withholding in certain cases"]
+    ],
+    "enactingLegislation": {
+      "name": "Estonian Tax and Customs Board published dividends guidance",
+      "citation": "Taxation of dividends",
+      "url": "https://www.emta.ee/en/business-client/taxes-and-payment/income-and-social-taxes/taxation-dividends"
+    },
+    "notes": "Until the end of 2024, Estonia still preserved the special lower-tax route for certain regular dividend distributions, which is why older summaries often mention the 14/86 system.",
+    "sources": [
+      {
+        "label": "Taxation of dividends",
+        "url": "https://www.emta.ee/en/business-client/taxes-and-payment/income-and-social-taxes/taxation-dividends",
+        "verifiedAt": "2026-05-02"
+      }
+    ]
+  },
+  {
+    "id": "ee-distributed-profit-tax-2025",
+    "country": "ee",
+    "taxType": "distributed-profit-tax",
+    "year": 2025,
+    "brackets": [],
+    "inflationAdjustedTo2026": [],
+    "tableHeaders": ["Period", "Rule"],
+    "tableRows": [
+      ["From January 1, 2025", "Dividends taxed only at the company level at 22/78; lower 14/86 regime and related 7% withholding route no longer apply"]
+    ],
+    "enactingLegislation": {
+      "name": "Estonian Tax and Customs Board published dividends guidance",
+      "citation": "Taxation of dividends",
+      "url": "https://www.emta.ee/en/business-client/taxes-and-payment/income-and-social-taxes/taxation-dividends"
+    },
+    "notes": "From January 1, 2025, Estonia changed the distribution regime materially. That means founder content that still describes the old reduced-rate structure without a date warning is out of date.",
+    "sources": [
+      {
+        "label": "Taxation of dividends",
+        "url": "https://www.emta.ee/en/business-client/taxes-and-payment/income-and-social-taxes/taxation-dividends",
+        "verifiedAt": "2026-05-02"
+      }
+    ]
+  }
+]

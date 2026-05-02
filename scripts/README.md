@@ -35,3 +35,21 @@ Run daily to keep regulation data current. No external dependencies are needed b
 ### Future automation
 
 This will be automated via a Cloudflare cron trigger that runs the sync daily and commits updated data.
+
+## validate-expansion-data
+
+Validates the new expansion seed datasets in `data/expansion`.
+
+### Usage
+
+```sh
+npm run validate:expansion
+```
+
+### What it checks
+
+1. Each dataset file is a JSON array
+2. Required top-level fields are present
+3. IDs are unique within each dataset
+4. Each record has at least one HTTPS source URL
+5. Historical years and compliance due dates parse correctly

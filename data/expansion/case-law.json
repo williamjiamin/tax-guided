@@ -1,0 +1,177 @@
+[
+  {
+    "id": "moline-properties-v-commissioner",
+    "slug": "moline-properties-v-commissioner",
+    "country": "us",
+    "court": "Supreme Court",
+    "citation": "319 U.S. 436 (1943)",
+    "caseName": "Moline Properties, Inc. v. Commissioner",
+    "decisionDate": "1943-05-17",
+    "judges": ["Douglas"],
+    "parties": {
+      "taxpayer": "Moline Properties, Inc.",
+      "respondent": "Commissioner of Internal Revenue"
+    },
+    "taxYears": [],
+    "amountInDispute": null,
+    "holding": "A corporation remains a separate taxable entity when it was formed for a business purpose or actually carried on business activity.",
+    "facts": "The case involved a wholly owned corporation created to hold and dispose of real estate and related obligations. The taxpayer argued that the corporate gains should be treated as the shareholder's gains instead.",
+    "reasoning": "The Supreme Court explained that so long as the corporation's purpose is the equivalent of business activity or the corporation actually carries on business, the corporate form is respected for tax purposes.",
+    "outcome": "for-government",
+    "statutesApplied": ["26 U.S.C. 11"],
+    "formsInvolved": [],
+    "topics": ["entity classification", "corporate separateness"],
+    "fullDecisionUrl": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep319/usrep319436/usrep319436.pdf",
+    "fullDecisionPdfUrl": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep319/usrep319436/usrep319436.pdf",
+    "appealHistory": [],
+    "citingCases": [],
+    "citedCases": [],
+    "sources": [
+      {
+        "label": "Official opinion PDF",
+        "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep319/usrep319436/usrep319436.pdf",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "higgins-v-commissioner",
+    "slug": "higgins-v-commissioner",
+    "country": "us",
+    "court": "Supreme Court",
+    "citation": "312 U.S. 212 (1941)",
+    "caseName": "Higgins v. Commissioner",
+    "decisionDate": "1941-01-06",
+    "judges": ["Roberts"],
+    "parties": {
+      "taxpayer": "Higgins",
+      "respondent": "Commissioner of Internal Revenue"
+    },
+    "taxYears": [],
+    "amountInDispute": null,
+    "holding": "Managing one's own investments, even extensively, did not amount to carrying on a trade or business for the deduction sought.",
+    "facts": "The taxpayer devoted substantial time and staff resources to supervising personal real estate, stocks, and bonds and claimed related deductions as business expenses.",
+    "reasoning": "The Court held that oversight of one's own investment portfolio did not itself become a trade or business simply because it was regular, organized, and large in scale.",
+    "outcome": "for-government",
+    "statutesApplied": ["26 U.S.C. 162"],
+    "formsInvolved": [],
+    "topics": ["trade or business", "deductions", "investments"],
+    "fullDecisionUrl": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep312/usrep312212/usrep312212.pdf",
+    "fullDecisionPdfUrl": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep312/usrep312212/usrep312212.pdf",
+    "appealHistory": [],
+    "citingCases": ["commissioner-v-groetzinger"],
+    "citedCases": [],
+    "sources": [
+      {
+        "label": "Official opinion PDF",
+        "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep312/usrep312212/usrep312212.pdf",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "commissioner-v-groetzinger",
+    "slug": "commissioner-v-groetzinger",
+    "country": "us",
+    "court": "Supreme Court",
+    "citation": "480 U.S. 23 (1987)",
+    "caseName": "Commissioner v. Groetzinger",
+    "decisionDate": "1987-01-13",
+    "judges": ["Blackmun"],
+    "parties": {
+      "taxpayer": "Groetzinger",
+      "respondent": "Commissioner of Internal Revenue"
+    },
+    "taxYears": [],
+    "amountInDispute": null,
+    "holding": "A taxpayer who pursued gambling full time, regularly, and for livelihood was engaged in a trade or business.",
+    "facts": "The taxpayer spent full working time on parimutuel wagering and relied on it as a source of income.",
+    "reasoning": "The Court emphasized continuity, regularity, and profit-oriented livelihood as the practical hallmarks of a trade or business in this context.",
+    "outcome": "for-taxpayer",
+    "statutesApplied": ["26 U.S.C. 162"],
+    "formsInvolved": [],
+    "topics": ["trade or business", "deductions"],
+    "fullDecisionUrl": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep480/usrep480023/usrep480023.pdf",
+    "fullDecisionPdfUrl": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep480/usrep480023/usrep480023.pdf",
+    "appealHistory": [],
+    "citingCases": [],
+    "citedCases": ["higgins-v-commissioner"],
+    "sources": [
+      {
+        "label": "Official opinion PDF",
+        "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep480/usrep480023/usrep480023.pdf",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "deputy-v-du-pont",
+    "slug": "deputy-v-du-pont",
+    "country": "us",
+    "court": "Supreme Court",
+    "citation": "308 U.S. 488 (1940)",
+    "caseName": "Deputy v. du Pont",
+    "decisionDate": "1940-01-02",
+    "judges": ["Douglas"],
+    "parties": {
+      "taxpayer": "du Pont",
+      "respondent": "Deputy, Collector of Internal Revenue"
+    },
+    "taxYears": [],
+    "amountInDispute": null,
+    "holding": "The claimed expenditures were not deductible as ordinary and necessary business expenses of the taxpayer's own business.",
+    "facts": "The taxpayer arranged transactions involving borrowed stock to assist a corporation and sought to deduct related carrying charges.",
+    "reasoning": "The Court focused on whether the expenses were ordinary in the relevant business and whether they truly arose from the taxpayer's own trade or business.",
+    "outcome": "for-government",
+    "statutesApplied": ["26 U.S.C. 162"],
+    "formsInvolved": [],
+    "topics": ["ordinary and necessary", "deductions"],
+    "fullDecisionUrl": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep308/usrep308488/usrep308488.pdf",
+    "fullDecisionPdfUrl": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep308/usrep308488/usrep308488.pdf",
+    "appealHistory": [],
+    "citingCases": [],
+    "citedCases": [],
+    "sources": [
+      {
+        "label": "Official opinion PDF",
+        "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep308/usrep308488/usrep308488.pdf",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "cottage-savings-v-commissioner",
+    "slug": "cottage-savings-v-commissioner",
+    "country": "us",
+    "court": "Supreme Court",
+    "citation": "499 U.S. 554 (1991)",
+    "caseName": "Cottage Savings Association v. Commissioner",
+    "decisionDate": "1991-06-17",
+    "judges": ["Marshall"],
+    "parties": {
+      "taxpayer": "Cottage Savings Association",
+      "respondent": "Commissioner of Internal Revenue"
+    },
+    "taxYears": [],
+    "amountInDispute": null,
+    "holding": "A loss is realized when exchanged properties are materially different, even if they are economically similar in broad market terms.",
+    "facts": "A savings association exchanged mortgage participation interests with another lender and claimed a loss deduction on the swap.",
+    "reasoning": "The Court held that realization occurred because the legal entitlements embodied in the exchanged interests were materially different.",
+    "outcome": "for-taxpayer",
+    "statutesApplied": ["26 U.S.C. 61"],
+    "formsInvolved": [],
+    "topics": ["realization", "losses", "property exchanges"],
+    "fullDecisionUrl": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep499/usrep499554/usrep499554.pdf",
+    "fullDecisionPdfUrl": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep499/usrep499554/usrep499554.pdf",
+    "appealHistory": [],
+    "citingCases": [],
+    "citedCases": [],
+    "sources": [
+      {
+        "label": "Official opinion PDF",
+        "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep499/usrep499554/usrep499554.pdf",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  }
+]

@@ -1,0 +1,133 @@
+[
+  {
+    "id": "us-irs-preparer-directory",
+    "slug": "irs-preparer-directory",
+    "country": "us",
+    "authority": "Internal Revenue Service",
+    "name": "IRS Directory of Federal Tax Return Preparers",
+    "officialUrl": "https://irs.treasury.gov/rpo/rpo.jsf",
+    "description": "Official public directory covering certain federal tax return preparers with active PTINs and recognized credentials or qualifications.",
+    "coverage": "The IRS says the directory covers certain preparers with active PTINs who hold recognized credentials such as enrolled agent, CPA, attorney, enrolled actuary, enrolled retirement plan agent, or Annual Filing Season Program participation.",
+    "whatToCapture": ["name", "city", "state", "ZIP code", "credential category", "directory status date if shown"],
+    "caveats": [
+      "The directory does not include every paid preparer.",
+      "Preparers may opt out of the directory.",
+      "IRS FAQ says updates are weekly and can take up to four weeks to appear."
+    ],
+    "updateCadence": "Weekly",
+    "sources": [
+      {
+        "label": "IRS directory FAQ",
+        "url": "https://www.irs.gov/tax-professionals/faqs-directory-of-federal-tax-return-preparers-with-credentials-and-select-qualifications",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "IRS credential overview",
+        "url": "https://www.irs.gov/tax-professionals/understanding-tax-return-preparer-credentials-and-qualifications",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "us-irs-enrolled-agents",
+    "slug": "enrolled-agents",
+    "country": "us",
+    "authority": "Internal Revenue Service",
+    "name": "IRS enrolled agent verification",
+    "officialUrl": "https://www.irs.gov/tax-professionals/verify-the-status-of-an-enrolled-agent",
+    "description": "Official verification path for enrolled-agent status and related IRS credential materials.",
+    "coverage": "This is a high-trust verification route for the EA credential rather than a broad commercial directory.",
+    "whatToCapture": ["name", "enrollment status", "verification route", "date verified"],
+    "caveats": [
+      "This is partly a credential-verification workflow, not a general marketplace listing.",
+      "It should be used as a trust layer rather than as a recommendation engine."
+    ],
+    "updateCadence": "As published by IRS",
+    "sources": [
+      {
+        "label": "IRS enrolled agents page",
+        "url": "https://www.irs.gov/tax-professionals/enrolled-agents",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "Verify the status of an enrolled agent",
+        "url": "https://www.irs.gov/tax-professionals/verify-the-status-of-an-enrolled-agent",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "Active enrolled agents file",
+        "url": "https://www.irs.gov/tax-professionals/enrolled-agents/active-enrolled-agents-and-the-freedom-of-information-act",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "us-cpa-verify",
+    "slug": "cpa-verify",
+    "country": "us",
+    "authority": "CPA Verify / state boards of accountancy",
+    "name": "CPA Verify",
+    "officialUrl": "https://cpaverify.org/",
+    "description": "Public CPA lookup tool populated from official state board data.",
+    "coverage": "CPA Verify describes itself as a free public CPA lookup tool populated by official state regulatory data from boards of accountancy.",
+    "whatToCapture": ["individual or firm name", "state board jurisdiction", "license status", "disciplinary markers if shown", "record timestamp if shown"],
+    "caveats": [
+      "Update timing varies by state board.",
+      "This is a credential lookup, not a rating platform."
+    ],
+    "updateCadence": "Varies by board",
+    "sources": [
+      {
+        "label": "CPA Verify",
+        "url": "https://cpaverify.org/",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "au-tpb-register",
+    "slug": "tpb-register",
+    "country": "au",
+    "authority": "Tax Practitioners Board",
+    "name": "TPB Register",
+    "officialUrl": "https://www.tpb.gov.au/help-using-tpb-register",
+    "description": "Official Australian public register for tax practitioners.",
+    "coverage": "The Tax Practitioners Board says the public can search the register using a legal or registration name, ASIC registered business name, or registration number to verify whether a tax practitioner is registered.",
+    "whatToCapture": ["practitioner or business name", "registration number", "registration status", "public contact details", "professional-association details if shown"],
+    "caveats": [
+      "Some displayed details are configurable by the practitioner.",
+      "Directory presence should be treated as verification, not endorsement."
+    ],
+    "updateCadence": "As maintained by TPB",
+    "sources": [
+      {
+        "label": "Help using the TPB Register",
+        "url": "https://www.tpb.gov.au/help-using-tpb-register",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "uk-icaew-directory",
+    "slug": "icaew",
+    "country": "gb",
+    "authority": "Institute of Chartered Accountants in England and Wales",
+    "name": "ICAEW Find a Chartered Accountant",
+    "officialUrl": "https://find.icaew.com/",
+    "description": "Professional directory covering chartered accountants, ICAEW-licensed individuals, and licensed or accredited firms.",
+    "coverage": "This directory helps users search for UK accounting professionals and firms through a professional-body directory with high trust value.",
+    "whatToCapture": ["individual or firm name", "firm location", "membership number if shown", "specialist areas", "business advice service participation if shown"],
+    "caveats": [
+      "This is a professional-body directory rather than a government licensing register.",
+      "A listing is not the same thing as a TaxGuided recommendation."
+    ],
+    "updateCadence": "As maintained by ICAEW",
+    "sources": [
+      {
+        "label": "Find a chartered accountant or firm",
+        "url": "https://find.icaew.com/",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  }
+]

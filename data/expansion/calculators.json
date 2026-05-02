@@ -1,0 +1,157 @@
+[
+  {
+    "id": "form-5472-deadline-calculator",
+    "slug": "form-5472-deadline-calculator",
+    "title": "Form 5472 deadline calculator",
+    "summary": "Calculate the regular due date and extension deadline for a Form 5472 filing package.",
+    "description": "This calculator uses the Form 5472 and Form 7004 rules most relevant to foreign-owned U.S. disregarded entities and reporting corporations. It is designed to give founders a practical filing calendar, not legal advice.",
+    "category": "federal-compliance",
+    "formulas": [
+      "Regular due date = 15th day of the 4th month after tax year end for the seeded corporate-return workflow.",
+      "Extension request due date = same as the regular due date.",
+      "Foreign-owned U.S. disregarded entity filing package = Form 5472 attached to a pro forma Form 1120."
+    ],
+    "caution": "This seeded calculator follows the general Form 1120 timeline used by the public beta pages. Always verify the exact due date against the cited IRS instructions if the entity has a short year, a non-calendar year, or unusual facts.",
+    "sources": [
+      {
+        "label": "Instructions for Form 5472 (12/2024)",
+        "url": "https://www.irs.gov/instructions/i5472",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "Instructions for Form 7004 (12/2025)",
+        "url": "https://www.irs.gov/instructions/i7004",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "california-llc-calendar-calculator",
+    "slug": "california-llc-calendar-calculator",
+    "title": "California LLC calendar calculator",
+    "summary": "Generate the main California LLC payment and return dates for a selected tax-year pattern.",
+    "description": "This calculator turns California's annual tax, estimated fee, and return-due-date rules into a working compliance calendar for LLC owners.",
+    "category": "state-compliance",
+    "formulas": [
+      "Annual tax due date = 15th day of the 4th month of the current taxable year.",
+      "Estimated LLC fee due date = 15th day of the 6th month of the current taxable year.",
+      "Return due date varies by classification, including partnership-style and single-member rules."
+    ],
+    "caution": "California LLC rules differ by entity classification and ownership. This tool is a practical date engine, not a substitute for classification analysis.",
+    "sources": [
+      {
+        "label": "California due dates for businesses",
+        "url": "https://www.ftb.ca.gov/file/when-to-file/due-dates-business.html",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "California LLC filing requirements",
+        "url": "https://www.ftb.ca.gov/file/business/types/limited-liability-company/index.html",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "Web Pay LLC help",
+        "url": "https://webapp.ftb.ca.gov/WebPay/Help/LLC",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "texas-franchise-obligation-checker",
+    "slug": "texas-franchise-obligation-checker",
+    "title": "Texas franchise obligation checker",
+    "summary": "Check whether a taxable entity is above the Texas no-tax-due threshold and estimate the seeded rate logic.",
+    "description": "This calculator uses Texas's current public threshold and rate table for the 2026 and 2027 report years to help users understand whether they are in the no-tax-due zone or in the tax-computation zone.",
+    "category": "state-compliance",
+    "formulas": [
+      "2026 and 2027 no-tax-due threshold = 2,650,000 USD total revenue.",
+      "Retail and wholesale rate = 0.375%.",
+      "Other taxable-entity rate = 0.75%."
+    ],
+    "caution": "This checker simplifies the Texas franchise base and does not replace full margin analysis, E-Z computation eligibility review, or filing-form selection.",
+    "sources": [
+      {
+        "label": "Texas franchise tax page",
+        "url": "https://comptroller.texas.gov/taxes/franchise/",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "Texas 2026 franchise tax forms",
+        "url": "https://comptroller.texas.gov/taxes/franchise/forms/2026-franchise.php",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "switzerland-vat-calculator",
+    "slug": "switzerland-vat-calculator",
+    "title": "Switzerland VAT calculator",
+    "summary": "Calculate Swiss VAT on a net-to-gross or gross-to-net basis using current federal rates.",
+    "description": "This calculator applies the current Swiss VAT rate categories published by the Federal Tax Administration and lets users reverse-engineer net or gross invoice values.",
+    "category": "vat",
+    "formulas": [
+      "Normal rate = 8.1%.",
+      "Reduced rate = 2.6%.",
+      "Special accommodation rate = 3.8%.",
+      "Gross to net formula = gross / (1 + rate)."
+    ],
+    "caution": "This tool calculates arithmetic only. It does not determine which Swiss VAT category legally applies to the supply.",
+    "sources": [
+      {
+        "label": "Swiss VAT rates",
+        "url": "https://www.estv.admin.ch/estv/en/home/value-added-tax/vat-rates-switzerland.html",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "uk-self-assessment-late-filing-calculator",
+    "slug": "uk-self-assessment-late-filing-calculator",
+    "title": "UK Self Assessment late-filing calculator",
+    "summary": "Estimate the late-filing penalty stack for a Self Assessment return.",
+    "description": "This calculator applies the public HMRC late-filing penalty ladder for Self Assessment returns and keeps filing penalties separate from payment penalties.",
+    "category": "penalties",
+    "formulas": [
+      "Immediate late-filing penalty = 100 GBP.",
+      "After 3 months = 10 GBP per day for up to 90 days.",
+      "After 6 months = greater of 5% of tax due or 300 GBP.",
+      "After 12 months = another greater of 5% of tax due or 300 GBP."
+    ],
+    "caution": "This calculator estimates filing penalties only. Late-payment penalties and interest may also apply.",
+    "sources": [
+      {
+        "label": "Self Assessment tax returns: penalties",
+        "url": "https://www.gov.uk/self-assessment-tax-returns/penalties",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "florida-annual-report-cost-calculator",
+    "slug": "florida-annual-report-cost-calculator",
+    "title": "Florida annual report cost calculator",
+    "summary": "Estimate the filing cost of a Florida annual report by entity type and timing.",
+    "description": "This calculator turns the Florida annual report fee table into a fast maintenance-cost estimate for LLCs, corporations, and certain partnerships.",
+    "category": "state-compliance",
+    "formulas": [
+      "LLC on-time filing fee = 138.75 USD.",
+      "Profit corporation on-time filing fee = 150 USD.",
+      "Not-for-profit corporation on-time filing fee = 61.25 USD.",
+      "LP and LLLP on-time filing fee = 500 USD.",
+      "Late fee after May 1 = 400 USD for LLCs, profit corporations, LPs, and LLLPs."
+    ],
+    "caution": "This tool covers the filing-fee side only. It does not address any separate Florida corporate-income-tax consequences.",
+    "sources": [
+      {
+        "label": "Florida annual report overview",
+        "url": "https://efile.sunbiz.org/sbs_ar_instr.html",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "Florida LLC annual report help",
+        "url": "https://efile.sunbiz.org/llc_ar_help.html",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  }
+]

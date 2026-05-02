@@ -1,0 +1,811 @@
+[
+  {
+    "id": "us-irs-5472",
+    "slug": "5472",
+    "country": "us",
+    "authority": "IRS",
+    "formNumber": "5472",
+    "formName": "Information Return of a 25% Foreign-Owned U.S. Corporation or a Foreign Corporation Engaged in a U.S. Trade or Business",
+    "description": "Used to report certain reportable transactions between a reporting corporation or foreign-owned U.S. disregarded entity and related parties.",
+    "category": "informational-return",
+    "currentRevisionYear": 2024,
+    "pdfUrl": "https://www.irs.gov/pub/irs-pdf/f5472.pdf",
+    "instructionsUrl": "https://www.irs.gov/instructions/i5472",
+    "filingMethod": ["paper", "efile"],
+    "whoMustFile": "Reporting corporations and certain foreign-owned U.S. disregarded entities that had reportable transactions with related parties during the tax year.",
+    "practicalOverview": "Form 5472 is one of the highest-risk compliance forms for foreign-owned U.S. entities because founders often think a zero-revenue year means no filing is needed. In practice, owner funding, reimbursements, loans, and other related-party movements can still make the filing mandatory.",
+    "practicalSteps": [
+      "Confirm whether the entity is a reporting corporation or a foreign-owned U.S. disregarded entity.",
+      "Identify reportable transactions with related parties, including capital contributions and loans.",
+      "Prepare the Form 5472 and attach it to the income tax return or pro forma Form 1120 package.",
+      "If more time is needed, file Form 7004 by the original due date."
+    ],
+    "dueDates": [
+      {
+        "description": "Attach to the reporting corporation's income tax return, or to the pro forma Form 1120 required for a foreign-owned U.S. disregarded entity.",
+        "date": "return-due-date",
+        "extension": "Form 7004"
+      }
+    ],
+    "penalty": "$25,000 for failing to file when due or failing to maintain required records, with additional penalties if the failure continues after IRS notice.",
+    "relatedForms": ["us-irs-7004"],
+    "relatedGuides": [
+      "form-5472-common-mistakes",
+      "how-to-submit-form-5472",
+      "form-5472-amendment"
+    ],
+    "historicalRevisions": [
+      {
+        "year": 2024,
+        "pdfUrl": "https://www.irs.gov/pub/irs-prior/f5472--2024.pdf"
+      }
+    ],
+    "lastUpdated": "2026-05-01T00:00:00.000Z",
+    "storageKey": "forms/us/irs/form-5472.json",
+    "sources": [
+      {
+        "label": "About Form 5472",
+        "url": "https://www.irs.gov/forms-pubs/about-form-5472",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "Instructions for Form 5472 (12/2024)",
+        "url": "https://www.irs.gov/instructions/i5472",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "us-irs-7004",
+    "slug": "7004",
+    "country": "us",
+    "authority": "IRS",
+    "formNumber": "7004",
+    "formName": "Application for Automatic Extension of Time To File Certain Business Income Tax, Information, and Other Returns",
+    "description": "Requests an automatic extension of time to file many business income tax, information, and other federal returns.",
+    "category": "extension",
+    "currentRevisionYear": 2025,
+    "pdfUrl": "https://www.irs.gov/pub/irs-pdf/f7004.pdf",
+    "instructionsUrl": "https://www.irs.gov/instructions/i7004",
+    "filingMethod": ["paper", "efile"],
+    "whoMustFile": "Businesses that need an automatic filing extension for a return listed in the Form 7004 instructions and file the request by the original due date.",
+    "practicalOverview": "Form 7004 is a deadline-management tool, not a cure for already-missed deadlines. It generally has to be filed on or before the due date of the return being extended, and it extends time to file rather than time to pay.",
+    "practicalSteps": [
+      "Identify the underlying return that needs to be extended.",
+      "Use the correct extension code from the IRS instructions.",
+      "File the extension by the original due date of the return.",
+      "Estimate and pay any tax due separately because the extension does not extend payment time."
+    ],
+    "dueDates": [
+      {
+        "description": "File on or before the due date of the return for which the extension is requested.",
+        "date": "return-due-date",
+        "extension": null
+      }
+    ],
+    "penalty": "Form 7004 extends the time to file, not the time to pay tax; underpayment and late-payment penalties can still apply.",
+    "relatedForms": ["us-irs-5472", "us-irs-ss-4"],
+    "relatedGuides": [
+      "monthly-compliance-routine",
+      "form-1120-f",
+      "when-1040-nr"
+    ],
+    "historicalRevisions": [
+      {
+        "year": 2025,
+        "pdfUrl": "https://www.irs.gov/pub/irs-pdf/f7004.pdf"
+      }
+    ],
+    "lastUpdated": "2026-05-01T00:00:00.000Z",
+    "storageKey": "forms/us/irs/form-7004.json",
+    "sources": [
+      {
+        "label": "About Form 7004",
+        "url": "https://www.irs.gov/forms-pubs/about-form-7004",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "Instructions for Form 7004 (12/2025)",
+        "url": "https://www.irs.gov/instructions/i7004",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "us-irs-ss-4",
+    "slug": "ss-4",
+    "country": "us",
+    "authority": "IRS",
+    "formNumber": "SS-4",
+    "formName": "Application for Employer Identification Number (EIN)",
+    "description": "Used to apply for an employer identification number for a business, trust, estate, or other entity.",
+    "category": "registration",
+    "currentRevisionYear": 2025,
+    "pdfUrl": "https://www.irs.gov/pub/irs-pdf/fss4.pdf",
+    "instructionsUrl": "https://www.irs.gov/instructions/iss4",
+    "filingMethod": ["paper", "fax", "efile"],
+    "whoMustFile": "Entities and persons that need an EIN for federal tax filing and reporting purposes, including many newly formed businesses and certain foreign-owned entities.",
+    "practicalOverview": "Form SS-4 is not an annual compliance form. It is the setup form that gives the entity the EIN needed for banking, payroll, and many federal and state filing workflows.",
+    "practicalSteps": [
+      "Decide which legal entity or responsible party needs the EIN.",
+      "Complete the SS-4 with the correct formation and classification details.",
+      "Apply electronically when eligible, or use the IRS paper or fax path if required.",
+      "Keep the EIN notice for later federal and state registrations."
+    ],
+    "dueDates": [
+      {
+        "description": "Submit before the EIN is needed for banking, payroll, or federal filing requirements.",
+        "date": "as-needed",
+        "extension": null
+      }
+    ],
+    "penalty": null,
+    "relatedForms": [],
+    "relatedGuides": [
+      "register-us-company",
+      "us-bank-account",
+      "itin-1040nr-connection"
+    ],
+    "historicalRevisions": [
+      {
+        "year": 2025,
+        "pdfUrl": "https://www.irs.gov/pub/irs-pdf/fss4.pdf"
+      }
+    ],
+    "lastUpdated": "2026-05-01T00:00:00.000Z",
+    "storageKey": "forms/us/irs/form-ss-4.json",
+    "sources": [
+      {
+        "label": "About Form SS-4",
+        "url": "https://www.irs.gov/forms-pubs/about-form-ss-4",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "Instructions for Form SS-4 (12/2025)",
+        "url": "https://www.irs.gov/instructions/iss4",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "us-ca-ftb-3522",
+    "slug": "ca-ftb-3522",
+    "country": "us",
+    "authority": "California Franchise Tax Board",
+    "formNumber": "FTB 3522",
+    "formName": "LLC Tax Voucher",
+    "description": "Voucher used to pay the California annual LLC tax.",
+    "category": "state-annual-tax",
+    "currentRevisionYear": 2026,
+    "pdfUrl": "https://www.ftb.ca.gov/forms/2026/2026-3522.pdf",
+    "instructionsUrl": null,
+    "filingMethod": ["paper", "efile"],
+    "whoMustFile": "LLCs doing business in California or organized or registered there that owe the annual LLC tax.",
+    "practicalOverview": "The annual California LLC tax does not wait for profitability. It is tied to doing business in California or being organized or registered there, and many founders miss it because they assume state tax only matters after revenue appears.",
+    "practicalSteps": [
+      "Confirm the LLC is subject to California's annual tax rule.",
+      "Pay the annual 800 USD tax by the 15th day of the 4th month of the taxable year.",
+      "Use FTB 3522 or the California online payment workflow for the payment.",
+      "Keep the payment record with the entity's annual compliance file."
+    ],
+    "dueDates": [
+      {
+        "description": "Annual California LLC tax payment.",
+        "date": "15th day of the 4th month of the taxable year",
+        "extension": null
+      }
+    ],
+    "penalty": "Late-payment penalties and interest can apply if the annual tax is not paid on time.",
+    "relatedForms": ["us-ca-ftb-3536", "us-ca-ftb-568"],
+    "relatedGuides": ["best-states-foreign-llc", "wyoming-annual-report", "delaware-franchise-tax"],
+    "historicalRevisions": [
+      {
+        "year": 2026,
+        "pdfUrl": "https://www.ftb.ca.gov/forms/2026/2026-3522.pdf"
+      },
+      {
+        "year": 2025,
+        "pdfUrl": "https://www.ftb.ca.gov/forms/2025/2025-3522.pdf"
+      }
+    ],
+    "lastUpdated": "2026-05-02T00:00:00.000Z",
+    "storageKey": "forms/us/ca/form-ftb-3522.json",
+    "sources": [
+      {
+        "label": "California LLC filing requirements",
+        "url": "https://www.ftb.ca.gov/file/business/types/limited-liability-company/index.html",
+        "verifiedAt": "2026-05-02"
+      },
+      {
+        "label": "California business due dates",
+        "url": "https://www.ftb.ca.gov/file/when-to-file/due-dates-business.html",
+        "verifiedAt": "2026-05-02"
+      },
+      {
+        "label": "2026 FTB 3522",
+        "url": "https://www.ftb.ca.gov/forms/2026/2026-3522.pdf",
+        "verifiedAt": "2026-05-02"
+      }
+    ]
+  },
+  {
+    "id": "us-ca-ftb-3536",
+    "slug": "ca-ftb-3536",
+    "country": "us",
+    "authority": "California Franchise Tax Board",
+    "formNumber": "FTB 3536",
+    "formName": "Estimated Fee for LLCs",
+    "description": "Payment form for the California LLC fee that can apply in addition to the annual tax.",
+    "category": "state-estimated-fee",
+    "currentRevisionYear": 2026,
+    "pdfUrl": "https://www.ftb.ca.gov/forms/2026/2026-3536.pdf",
+    "instructionsUrl": null,
+    "filingMethod": ["paper", "efile"],
+    "whoMustFile": "California LLCs that expect to owe the LLC fee based on California-source total income.",
+    "practicalOverview": "California's LLC fee is a second layer on top of the fixed 800 USD annual tax. That means an LLC can be current on the annual tax and still miss the income-based fee if no one checks the California-source total income thresholds.",
+    "practicalSteps": [
+      "Estimate whether the LLC will owe the California LLC fee based on California-source total income.",
+      "Pay the estimated fee by the 15th day of the 6th month of the current taxable year.",
+      "Reconcile the final fee on Form 568 when the return is prepared."
+    ],
+    "dueDates": [
+      {
+        "description": "Estimated California LLC fee payment.",
+        "date": "15th day of the 6th month of the taxable year",
+        "extension": null
+      }
+    ],
+    "penalty": "Late-payment penalties and interest can apply if the estimated fee is underpaid or paid late.",
+    "relatedForms": ["us-ca-ftb-3522", "us-ca-ftb-568"],
+    "relatedGuides": ["best-states-foreign-llc"],
+    "historicalRevisions": [
+      {
+        "year": 2026,
+        "pdfUrl": "https://www.ftb.ca.gov/forms/2026/2026-3536.pdf"
+      },
+      {
+        "year": 2025,
+        "pdfUrl": "https://www.ftb.ca.gov/forms/2025/2025-3536.pdf"
+      }
+    ],
+    "lastUpdated": "2026-05-02T00:00:00.000Z",
+    "storageKey": "forms/us/ca/form-ftb-3536.json",
+    "sources": [
+      {
+        "label": "California business due dates",
+        "url": "https://www.ftb.ca.gov/file/when-to-file/due-dates-business.html",
+        "verifiedAt": "2026-05-02"
+      },
+      {
+        "label": "Web Pay LLC payment types",
+        "url": "https://webapp.ftb.ca.gov/WebPay/Help/LLC",
+        "verifiedAt": "2026-05-02"
+      },
+      {
+        "label": "2026 FTB 3536",
+        "url": "https://www.ftb.ca.gov/forms/2026/2026-3536.pdf",
+        "verifiedAt": "2026-05-02"
+      }
+    ]
+  },
+  {
+    "id": "us-ca-ftb-568",
+    "slug": "ca-ftb-568",
+    "country": "us",
+    "authority": "California Franchise Tax Board",
+    "formNumber": "FTB 568",
+    "formName": "Limited Liability Company Return of Income",
+    "description": "California return used by many LLCs to report income, fee calculations, and other state filing information.",
+    "category": "state-return",
+    "currentRevisionYear": 2025,
+    "pdfUrl": "https://www.ftb.ca.gov/forms/2025/2025-568.pdf",
+    "instructionsUrl": "https://www.ftb.ca.gov/forms/2025/2025-568-booklet.pdf",
+    "filingMethod": ["paper", "efile"],
+    "whoMustFile": "LLCs with California filing obligations that are required to file the California LLC return.",
+    "practicalOverview": "Form 568 is where California's LLC return mechanics come together. It is also where many users finally discover that the annual tax and the LLC fee are separate concepts that have to be reconciled on the filing.",
+    "practicalSteps": [
+      "Confirm the LLC's federal and California classification.",
+      "Gather California-source total income information and any fee calculations.",
+      "Prepare Form 568 using the correct due date for the entity's classification.",
+      "Reconcile annual tax and estimated fee payments on the return."
+    ],
+    "dueDates": [
+      {
+        "description": "Return due date varies by entity classification under California rules.",
+        "date": "classification-dependent",
+        "extension": "California automatic filing extension may apply for the return, but tax and fee payment timing still matters"
+      }
+    ],
+    "penalty": "Late-filing, late-payment, and interest charges can apply under California law.",
+    "relatedForms": ["us-ca-ftb-3522", "us-ca-ftb-3536"],
+    "relatedGuides": ["best-states-foreign-llc"],
+    "historicalRevisions": [
+      {
+        "year": 2025,
+        "pdfUrl": "https://www.ftb.ca.gov/forms/2025/2025-568.pdf"
+      },
+      {
+        "year": 2024,
+        "pdfUrl": "https://www.ftb.ca.gov/forms/2024/2024-568.pdf"
+      }
+    ],
+    "lastUpdated": "2026-05-02T00:00:00.000Z",
+    "storageKey": "forms/us/ca/form-ftb-568.json",
+    "sources": [
+      {
+        "label": "California LLC filing requirements",
+        "url": "https://www.ftb.ca.gov/file/business/types/limited-liability-company/index.html",
+        "verifiedAt": "2026-05-02"
+      },
+      {
+        "label": "California business due dates",
+        "url": "https://www.ftb.ca.gov/file/when-to-file/due-dates-business.html",
+        "verifiedAt": "2026-05-02"
+      },
+      {
+        "label": "2025 Form 568",
+        "url": "https://www.ftb.ca.gov/forms/2025/2025-568.pdf",
+        "verifiedAt": "2026-05-02"
+      }
+    ]
+  },
+  {
+    "id": "gb-hmrc-self-assessment",
+    "slug": "self-assessment",
+    "country": "gb",
+    "authority": "HMRC",
+    "formNumber": "Self Assessment",
+    "formName": "Self Assessment tax return workflow",
+    "description": "HMRC filing workflow for Self Assessment registration, filing, payment, and penalties.",
+    "category": "filing-workflow",
+    "currentRevisionYear": 2026,
+    "pdfUrl": "https://www.gov.uk/self-assessment-tax-returns",
+    "instructionsUrl": "https://www.gov.uk/register-for-self-assessment",
+    "filingMethod": ["paper", "efile"],
+    "whoMustFile": "Individuals who must file a Self Assessment return under HMRC rules, including many self-employed people, landlords, and others with untaxed income or filing triggers.",
+    "practicalOverview": "Self Assessment is a workflow, not a single scary form on a website. Registration, filing deadline, payment date, and penalties all sit on different HMRC pages, which is why first-time filers often miss at least one step.",
+    "practicalSteps": [
+      "Check whether the individual needs to register for Self Assessment.",
+      "If new to Self Assessment, notify HMRC by 5 October after the tax year where the rule applies.",
+      "Prepare for the paper or online filing deadline, with 31 January remaining the main online deadline for the prior tax year.",
+      "Do not ignore the penalty ladder if filing will be late."
+    ],
+    "dueDates": [
+      {
+        "description": "Tell HMRC by 5 October after the tax year ends if the person needs to file and has not filed before.",
+        "date": "recurring-10-05",
+        "extension": null
+      },
+      {
+        "description": "Paper return deadline for the prior tax year.",
+        "date": "recurring-10-31",
+        "extension": null
+      },
+      {
+        "description": "Online filing and general payment deadline for the prior tax year.",
+        "date": "recurring-01-31",
+        "extension": null
+      }
+    ],
+    "penalty": "Late filing starts with a £100 penalty and can escalate after 3, 6, and 12 months under HMRC's public penalty rules.",
+    "relatedForms": ["gb-hmrc-us-individual-2002"],
+    "relatedGuides": [],
+    "historicalRevisions": [],
+    "lastUpdated": "2026-05-02T00:00:00.000Z",
+    "storageKey": "forms/gb/hmrc/self-assessment.json",
+    "sources": [
+      {
+        "label": "Check how to register for Self Assessment",
+        "url": "https://www.gov.uk/register-for-self-assessment",
+        "verifiedAt": "2026-05-02"
+      },
+      {
+        "label": "Self Assessment tax returns",
+        "url": "https://www.gov.uk/self-assessment-tax-returns",
+        "verifiedAt": "2026-05-02"
+      },
+      {
+        "label": "HMRC Self Assessment legal framework",
+        "url": "https://www.gov.uk/hmrc-internal-manuals/self-assessment-legal-framework/salf202",
+        "verifiedAt": "2026-05-02"
+      },
+      {
+        "label": "Self Assessment penalties",
+        "url": "https://www.gov.uk/self-assessment-tax-returns/penalties",
+        "verifiedAt": "2026-05-02"
+      }
+    ]
+  },
+  {
+    "id": "gb-hmrc-us-individual-2002",
+    "slug": "us-individual-2002",
+    "country": "gb",
+    "authority": "HMRC",
+    "formNumber": "US-Individual 2002",
+    "formName": "Double Taxation: United Kingdom - United States of America",
+    "description": "HMRC claim route for U.S. residents seeking treaty relief at source or repayment on certain UK-source income.",
+    "category": "treaty-relief",
+    "currentRevisionYear": 2002,
+    "pdfUrl": "https://www.gov.uk/government/publications/double-taxation-united-kingdomunited-states-of-america-si-2002-number-2848-form-us-individual-2002",
+    "instructionsUrl": "https://www.gov.uk/government/publications/non-residents-relief-under-double-taxation-agreements-hs304-self-assessment-helpsheet/hs304-non-residents-relief-under-double-taxation-agreements-2025",
+    "filingMethod": ["paper"],
+    "whoMustFile": "U.S. resident individuals claiming relief at source or repayment from UK Income Tax under the UK-U.S. treaty for qualifying income categories such as certain pensions, interest, and royalties.",
+    "practicalOverview": "This is where treaty theory becomes procedure. The presence of a treaty does not make reduced UK tax appear automatically. HMRC expects a claim route, supporting evidence, and the right treaty-income category analysis.",
+    "practicalSteps": [
+      "Identify the UK-source income category and relevant treaty article.",
+      "Use the HMRC U.S. individual treaty form route where relief at source or repayment is being claimed.",
+      "Read HS304 to understand the surrounding non-resident treaty relief framework.",
+      "Build the evidence package before the payment problem becomes urgent."
+    ],
+    "dueDates": [
+      {
+        "description": "Submit before requesting relief at source or as part of a repayment claim workflow.",
+        "date": "as-needed",
+        "extension": null
+      }
+    ],
+    "penalty": null,
+    "relatedForms": ["gb-hmrc-self-assessment"],
+    "relatedGuides": [],
+    "historicalRevisions": [],
+    "lastUpdated": "2026-05-02T00:00:00.000Z",
+    "storageKey": "forms/gb/hmrc/us-individual-2002.json",
+    "sources": [
+      {
+        "label": "Double Taxation: UK-USA form US-Individual 2002",
+        "url": "https://www.gov.uk/government/publications/double-taxation-united-kingdomunited-states-of-america-si-2002-number-2848-form-us-individual-2002",
+        "verifiedAt": "2026-05-02"
+      },
+      {
+        "label": "HS304 non-residents relief under double taxation agreements",
+        "url": "https://www.gov.uk/government/publications/non-residents-relief-under-double-taxation-agreements-hs304-self-assessment-helpsheet/hs304-non-residents-relief-under-double-taxation-agreements-2025",
+        "verifiedAt": "2026-05-02"
+      }
+    ]
+  },
+  {
+    "id": "us-tx-franchise-report",
+    "slug": "tx-franchise-report",
+    "country": "us",
+    "authority": "Texas Comptroller of Public Accounts",
+    "formNumber": "05-158-A / 05-158-B",
+    "formName": "Texas Franchise Tax Report",
+    "description": "Annual Texas franchise tax report package for taxable entities that must report franchise-tax liability or filing status.",
+    "category": "state-report",
+    "currentRevisionYear": 2026,
+    "pdfUrl": "https://comptroller.texas.gov/taxes/franchise/forms/2026-franchise.php",
+    "instructionsUrl": "https://comptroller.texas.gov/taxes/publications/98-806.php",
+    "filingMethod": ["paper", "efile"],
+    "whoMustFile": "Texas taxable entities that must satisfy annual franchise-tax filing requirements, including entities that owe tax and entities whose filing status still requires a report.",
+    "practicalOverview": "Texas franchise tax is not just a tax-payment issue. The annual report package is also how the entity keeps its state account current, and missing the report can create forfeiture and good-standing problems even when the tax due is low or zero.",
+    "practicalSteps": [
+      "Confirm whether the entity has a Texas franchise-tax filing obligation for the report year.",
+      "Check whether the entity owes tax or sits at or below the no-tax-due threshold.",
+      "Prepare the franchise tax report and the related information report that matches the entity type.",
+      "File by May 15 or the next business day if the date falls on a weekend or holiday."
+    ],
+    "dueDates": [
+      {
+        "description": "Annual Texas franchise tax report due date.",
+        "date": "May 15 each year",
+        "extension": "Texas extension payment or request may be available when filed timely"
+      }
+    ],
+    "penalty": "Texas can impose late-filing and late-payment consequences and may move toward forfeiture if franchise-tax filing requirements are not met.",
+    "relatedForms": ["us-tx-pir"],
+    "relatedGuides": ["best-states-foreign-llc"],
+    "historicalRevisions": [
+      {
+        "year": 2026,
+        "pdfUrl": "https://comptroller.texas.gov/taxes/franchise/forms/2026-franchise.php"
+      }
+    ],
+    "lastUpdated": "2026-05-02T00:00:00.000Z",
+    "storageKey": "forms/us/tx/form-05-158.json",
+    "sources": [
+      {
+        "label": "Texas Franchise Tax Report Forms for 2026",
+        "url": "https://comptroller.texas.gov/taxes/franchise/forms/2026-franchise.php",
+        "verifiedAt": "2026-05-02"
+      },
+      {
+        "label": "Texas Franchise Tax",
+        "url": "https://comptroller.texas.gov/taxes/franchise/",
+        "verifiedAt": "2026-05-02"
+      },
+      {
+        "label": "Texas Franchise Tax Overview",
+        "url": "https://comptroller.texas.gov/taxes/publications/98-806.php",
+        "verifiedAt": "2026-05-02"
+      }
+    ]
+  },
+  {
+    "id": "us-tx-pir",
+    "slug": "tx-pir",
+    "country": "us",
+    "authority": "Texas Comptroller of Public Accounts",
+    "formNumber": "05-102",
+    "formName": "Public Information Report",
+    "description": "Texas annual information report filed with the franchise-tax package for many entity types.",
+    "category": "state-information-report",
+    "currentRevisionYear": 2026,
+    "pdfUrl": "https://comptroller.texas.gov/forms/05-102-a-26.pdf",
+    "instructionsUrl": "https://comptroller.texas.gov/taxes/franchise/forms/2026-franchise.php",
+    "filingMethod": ["paper", "efile"],
+    "whoMustFile": "Texas entities that must file a Public Information Report as part of the annual franchise-tax filing package, generally instead of an Ownership Information Report.",
+    "practicalOverview": "The Public Information Report is the state-information layer attached to the annual Texas franchise-tax cycle. Founders often focus only on whether tax is owed and miss that the information report can still be part of staying compliant.",
+    "practicalSteps": [
+      "Confirm whether the entity files a Public Information Report rather than an Ownership Information Report.",
+      "Gather the reporting details the Comptroller requires for the annual filing.",
+      "File it together with the Texas franchise-tax report package by the annual due date."
+    ],
+    "dueDates": [
+      {
+        "description": "Annual Texas Public Information Report due date.",
+        "date": "May 15 each year",
+        "extension": "Follows the franchise-tax filing cycle"
+      }
+    ],
+    "penalty": "Failure to satisfy the overall Texas franchise-tax filing package can contribute to penalties, forfeiture notices, and loss of good standing.",
+    "relatedForms": ["us-tx-franchise-report"],
+    "relatedGuides": ["best-states-foreign-llc"],
+    "historicalRevisions": [
+      {
+        "year": 2026,
+        "pdfUrl": "https://comptroller.texas.gov/forms/05-102-a-26.pdf"
+      }
+    ],
+    "lastUpdated": "2026-05-02T00:00:00.000Z",
+    "storageKey": "forms/us/tx/form-05-102.json",
+    "sources": [
+      {
+        "label": "Texas Franchise Tax Report Forms for 2026",
+        "url": "https://comptroller.texas.gov/taxes/franchise/forms/2026-franchise.php",
+        "verifiedAt": "2026-05-02"
+      },
+      {
+        "label": "Official 2026 Public Information Report PDF",
+        "url": "https://comptroller.texas.gov/forms/05-102-a-26.pdf",
+        "verifiedAt": "2026-05-02"
+      },
+      {
+        "label": "Texas Franchise Tax",
+        "url": "https://comptroller.texas.gov/taxes/franchise/",
+        "verifiedAt": "2026-05-02"
+      }
+    ]
+  },
+  {
+    "id": "us-de-annual-llc-tax",
+    "slug": "de-annual-llc-tax",
+    "country": "us",
+    "authority": "Delaware Division of Corporations",
+    "formNumber": "Annual LLC Tax",
+    "formName": "Delaware annual LLC tax payment workflow",
+    "description": "Official Delaware annual tax payment workflow for LLCs formed in Delaware.",
+    "category": "state-annual-tax",
+    "currentRevisionYear": 2026,
+    "pdfUrl": "https://corp.delaware.gov/frtax/",
+    "instructionsUrl": "https://corp.delaware.gov/paytaxes/",
+    "filingMethod": ["efile"],
+    "whoMustFile": "Delaware LLCs formed in Delaware that owe the state's annual LLC tax.",
+    "practicalOverview": "Delaware LLC maintenance is simpler than many states because there is no LLC annual report, but it is not free. The annual tax still has to be paid every year, and the penalty structure is straightforward and painful if ignored.",
+    "practicalSteps": [
+      "Confirm the entity is a Delaware-formed LLC subject to the annual tax.",
+      "Pay the annual tax by June 1.",
+      "Keep the payment confirmation with the company's formation-state compliance records."
+    ],
+    "dueDates": [
+      {
+        "description": "Annual Delaware LLC tax payment.",
+        "date": "June 1 each year",
+        "extension": null
+      }
+    ],
+    "penalty": "Late payment adds a $200 penalty and interest generally accrues at 1.5% per month.",
+    "relatedForms": [],
+    "relatedGuides": ["best-states-foreign-llc", "delaware-franchise-tax"],
+    "historicalRevisions": [],
+    "lastUpdated": "2026-05-02T00:00:00.000Z",
+    "storageKey": "forms/us/de/annual-llc-tax.json",
+    "sources": [
+      {
+        "label": "Delaware annual report and tax information",
+        "url": "https://corp.delaware.gov/frtax/",
+        "verifiedAt": "2026-05-02"
+      },
+      {
+        "label": "Delaware pay taxes page",
+        "url": "https://corp.delaware.gov/paytaxes/",
+        "verifiedAt": "2026-05-02"
+      }
+    ]
+  },
+  {
+    "id": "us-wy-annual-report",
+    "slug": "wy-annual-report",
+    "country": "us",
+    "authority": "Wyoming Secretary of State",
+    "formNumber": "Annual Report",
+    "formName": "Wyoming annual report filing workflow",
+    "description": "Official Wyoming annual report workflow for active business entities, including online filing and mail-in options.",
+    "category": "state-annual-report",
+    "currentRevisionYear": 2026,
+    "pdfUrl": "https://wyobiz.wyo.gov/Business/AnnualReport.aspx",
+    "instructionsUrl": "https://sos.wyo.gov/faqs.aspx?root=BUS",
+    "filingMethod": ["paper", "efile"],
+    "whoMustFile": "Active Wyoming business entities that must file an annual report to remain in good standing.",
+    "practicalOverview": "Wyoming uses an anniversary-month annual report system instead of a single statewide deadline. That makes the compliance burden light, but it also means owners who assume every state uses a fixed May or June deadline can miss the filing entirely.",
+    "practicalSteps": [
+      "Look up the entity's initial filing date and determine the anniversary month.",
+      "Prepare the annual report for filing on or before the first day of that anniversary month.",
+      "Pay the license tax, which is generally $60 or $0.0002 of Wyoming assets, whichever is greater.",
+      "File online through the Wyoming wizard or print and mail the report if preferred."
+    ],
+    "dueDates": [
+      {
+        "description": "Annual report due date for most Wyoming entities.",
+        "date": "First day of the anniversary month of formation",
+        "extension": null
+      }
+    ],
+    "penalty": "The entity becomes delinquent on the second day of the month after the due date and can be administratively dissolved if the annual report is not filed within 60 days after the due date.",
+    "relatedForms": [],
+    "relatedGuides": ["best-states-foreign-llc", "wyoming-annual-report"],
+    "historicalRevisions": [],
+    "lastUpdated": "2026-05-02T00:00:00.000Z",
+    "storageKey": "forms/us/wy/annual-report.json",
+    "sources": [
+      {
+        "label": "Wyoming annual report filing page",
+        "url": "https://wyobiz.wyo.gov/Business/AnnualReport.aspx",
+        "verifiedAt": "2026-05-02"
+      },
+      {
+        "label": "Wyoming business FAQ",
+        "url": "https://sos.wyo.gov/faqs.aspx?root=BUS",
+        "verifiedAt": "2026-05-02"
+      },
+      {
+        "label": "Wyoming What's Next guidance",
+        "url": "https://sos.wyo.gov/Forms/WyoBiz/What%27s_Next.pdf",
+        "verifiedAt": "2026-05-02"
+      }
+    ]
+  },
+  {
+    "id": "us-fl-annual-report",
+    "slug": "fl-annual-report",
+    "country": "us",
+    "authority": "Florida Department of State, Division of Corporations",
+    "formNumber": "Annual Report",
+    "formName": "Florida annual report filing workflow",
+    "description": "Official Florida annual report workflow for LLCs, corporations, LPs, and LLLPs that need to maintain active status.",
+    "category": "state-annual-report",
+    "currentRevisionYear": 2026,
+    "pdfUrl": "https://efile.sunbiz.org/sbs_ar_instr.html",
+    "instructionsUrl": "https://efile.sunbiz.org/llc_ar_help.html",
+    "filingMethod": ["paper", "efile"],
+    "whoMustFile": "Florida LLCs, profit corporations, LPs, and LLLPs that must file an annual report each year to maintain active status on state records.",
+    "practicalOverview": "Florida's annual report is not a tax return, but it is still one of the most expensive entity-maintenance deadlines to miss because the late fee is blunt and not waivable for the entities most founders care about.",
+    "practicalSteps": [
+      "Confirm the entity is active and needs its current-year annual report.",
+      "File on or before May 1 if the business wants to stay active without the late fee.",
+      "Pay online or generate the payment voucher for mailing if not paying electronically.",
+      "Keep the filed report image and confirmation for the entity records."
+    ],
+    "dueDates": [
+      {
+        "description": "Annual Florida report due date.",
+        "date": "May 1 each year",
+        "extension": null
+      }
+    ],
+    "penalty": "For LLCs and many other for-profit entity types, a $400 late fee generally applies after May 1 and is not waived under the state's public guidance.",
+    "relatedForms": ["us-fl-f1120"],
+    "relatedGuides": ["best-states-foreign-llc"],
+    "historicalRevisions": [],
+    "lastUpdated": "2026-05-02T00:00:00.000Z",
+    "storageKey": "forms/us/fl/annual-report.json",
+    "sources": [
+      {
+        "label": "Florida annual report overview",
+        "url": "https://efile.sunbiz.org/sbs_ar_instr.html",
+        "verifiedAt": "2026-05-02"
+      },
+      {
+        "label": "Florida LLC annual report help",
+        "url": "https://efile.sunbiz.org/llc_ar_help.html",
+        "verifiedAt": "2026-05-02"
+      }
+    ]
+  },
+  {
+    "id": "us-fl-f1120",
+    "slug": "fl-f1120",
+    "country": "us",
+    "authority": "Florida Department of Revenue",
+    "formNumber": "F-1120",
+    "formName": "Florida Corporate Income/Franchise Tax Return",
+    "description": "Florida return used by corporations and entities taxed as corporations for Florida corporate income or franchise tax reporting.",
+    "category": "state-return",
+    "currentRevisionYear": 2026,
+    "pdfUrl": "https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx",
+    "instructionsUrl": "https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx",
+    "filingMethod": ["paper", "efile"],
+    "whoMustFile": "Corporations and other entities taxed as corporations that have a Florida corporate income or franchise tax filing obligation.",
+    "practicalOverview": "Florida corporate tax due dates look simple until they meet federal extensions and entity classification rules. The practical task is to verify the Florida due date against the related federal return timing instead of assuming one calendar rule fits every corporation.",
+    "practicalSteps": [
+      "Confirm the entity is taxable as a corporation for Florida purposes.",
+      "Check the Florida due date rule against the related federal return timing.",
+      "Prepare and file the Florida return with any required tax payment or extension analysis."
+    ],
+    "dueDates": [
+      {
+        "description": "For a calendar-year corporation, Florida states the return is generally due the later of the statutory due date or the 15th day after the related federal return due date without extension.",
+        "date": "Florida return timing depends on federal due-date alignment",
+        "extension": null
+      }
+    ],
+    "penalty": "Late-filing and late-payment consequences can apply under Florida corporate tax rules if the return or tax is not handled on time.",
+    "relatedForms": ["us-fl-annual-report"],
+    "relatedGuides": ["best-states-foreign-llc"],
+    "historicalRevisions": [],
+    "lastUpdated": "2026-05-02T00:00:00.000Z",
+    "storageKey": "forms/us/fl/form-f1120.json",
+    "sources": [
+      {
+        "label": "Florida corporate income tax",
+        "url": "https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx",
+        "verifiedAt": "2026-05-02"
+      }
+    ]
+  },
+  {
+    "id": "ch-vat-return",
+    "slug": "vat-return",
+    "country": "ch",
+    "authority": "Swiss Federal Tax Administration",
+    "formNumber": "VAT return",
+    "formName": "Swiss VAT return workflow",
+    "description": "Swiss periodic VAT return and payment workflow for VAT-registered businesses.",
+    "category": "vat-return",
+    "currentRevisionYear": 2026,
+    "pdfUrl": "https://www.estv.admin.ch/estv/en/home/value-added-tax/paying-vat.html",
+    "instructionsUrl": "https://www.estv.admin.ch/estv/en/home/value-added-tax/vat-rates-switzerland.html",
+    "filingMethod": ["efile"],
+    "whoMustFile": "Businesses registered for Swiss VAT that must file periodic VAT returns and settle VAT due for the reporting period.",
+    "practicalOverview": "Swiss VAT compliance is not just about choosing the right rate. The filing and payment cycle matters too, because a business can charge the correct VAT rate and still create exposure by missing the return and payment deadline.",
+    "practicalSteps": [
+      "Confirm the reporting method and reporting period used for the Swiss VAT account.",
+      "Prepare the VAT figures for the reporting period.",
+      "File the VAT return and pay the VAT generally within 60 days after the reporting period."
+    ],
+    "dueDates": [
+      {
+        "description": "Swiss VAT return and payment timing.",
+        "date": "Generally within 60 days after the reporting period",
+        "extension": null
+      }
+    ],
+    "penalty": "Late filing or late payment can create Swiss VAT exposure even when the underlying rate classification was correct.",
+    "relatedForms": [],
+    "relatedGuides": ["tax-system-switzerland"],
+    "historicalRevisions": [],
+    "lastUpdated": "2026-05-02T00:00:00.000Z",
+    "storageKey": "forms/ch/estv/vat-return.json",
+    "sources": [
+      {
+        "label": "Paying VAT",
+        "url": "https://www.estv.admin.ch/estv/en/home/value-added-tax/paying-vat.html",
+        "verifiedAt": "2026-05-02"
+      },
+      {
+        "label": "Swiss VAT rates",
+        "url": "https://www.estv.admin.ch/estv/en/home/value-added-tax/vat-rates-switzerland.html",
+        "verifiedAt": "2026-05-02"
+      }
+    ]
+  }
+]

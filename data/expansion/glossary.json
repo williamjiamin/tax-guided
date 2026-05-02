@@ -1,0 +1,490 @@
+[
+  {
+    "id": "effectively-connected-income",
+    "term": "Effectively Connected Income (ECI)",
+    "shortDefinition": "Income that is effectively connected with a foreign person's U.S. trade or business and generally taxed on a net basis in the United States.",
+    "fullDefinition": "ECI is a core U.S. international tax concept. When a nonresident alien or foreign corporation is engaged in a U.S. trade or business, certain income connected to that activity is generally taxed at graduated or corporate rates after allowable deductions rather than at a flat gross-basis withholding rate.",
+    "examples": [
+      "Profit earned by a foreign-owned business operating in the United States can be ECI.",
+      "Certain rental or investment income can be treated as ECI when statutory tests or elections apply."
+    ],
+    "relatedTerms": ["permanent-establishment", "disregarded-entity"],
+    "translations": {
+      "es": "ingreso efectivamente conectado",
+      "zh": "有效关联收入"
+    },
+    "jurisdictions": ["us"],
+    "cites": [
+      { "statute": "26 U.S.C.", "section": "864" }
+    ],
+    "sources": [
+      {
+        "label": "IRS: Effectively connected income (ECI)",
+        "url": "https://www.irs.gov/individuals/international-taxpayers/effectively-connected-income-eci",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "disregarded-entity",
+    "term": "Disregarded Entity",
+    "shortDefinition": "An entity treated as not separate from its owner for certain federal income tax purposes.",
+    "fullDefinition": "In U.S. federal tax practice, a disregarded entity is commonly a single-member LLC that has not elected corporate status. Its activities are generally treated as the owner's activities for income tax purposes, although separate treatment can still apply for some employment and excise tax rules.",
+    "examples": [
+      "A single-member LLC owned by an individual is generally disregarded unless it files Form 8832 to elect corporate treatment.",
+      "A foreign-owned U.S. disregarded entity may still have Form 5472 information return obligations."
+    ],
+    "relatedTerms": ["effectively-connected-income"],
+    "translations": {
+      "es": "entidad ignorada",
+      "zh": "被忽略实体"
+    },
+    "jurisdictions": ["us"],
+    "cites": [
+      { "statute": "Treas. Reg.", "section": "301.7701-3" }
+    ],
+    "sources": [
+      {
+        "label": "IRS: Single member limited liability companies",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/single-member-limited-liability-companies",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "Instructions for Form SS-4 (12/2025)",
+        "url": "https://www.irs.gov/instructions/iss4",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "permanent-establishment",
+    "term": "Permanent Establishment (PE)",
+    "shortDefinition": "A treaty concept used to decide when a business presence in another country is substantial enough to permit source-country business taxation.",
+    "fullDefinition": "Permanent establishment is a tax treaty threshold that generally looks for a fixed place of business or other treaty-defined presence in the source country. It matters because many treaties limit source-country business profits taxation unless the nonresident enterprise has a PE there.",
+    "examples": [
+      "A dependent agent with authority to conclude contracts may create a PE under some treaties.",
+      "Construction sites often trigger a PE only if they last longer than the treaty's time threshold."
+    ],
+    "relatedTerms": ["effectively-connected-income"],
+    "translations": {
+      "es": "establecimiento permanente",
+      "zh": "常设机构"
+    },
+    "jurisdictions": ["treaty", "oecd"],
+    "cites": [
+      { "statute": "OECD Model Tax Convention", "section": "Article 5" }
+    ],
+    "sources": [
+      {
+        "label": "OECD Model Tax Convention",
+        "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2015/10/model-tax-convention-on-income-and-on-capital-2014-full-version_g1g57dda/9789264239081-en.pdf",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "beneficial-owner",
+    "term": "Beneficial Owner",
+    "shortDefinition": "The person or entity that actually enjoys the benefit of the income and is not merely holding it for someone else.",
+    "fullDefinition": "Beneficial ownership matters in treaty and withholding analysis because a reduced rate usually depends on more than being the named payee. The recipient generally needs to be the real economic beneficiary under the governing rule rather than a conduit or nominee.",
+    "examples": [
+      "A company receiving royalties on behalf of another party may fail a beneficial-ownership test.",
+      "A lender claiming treaty benefits on interest usually needs to be the beneficial owner of the interest."
+    ],
+    "relatedTerms": ["tax-treaty", "withholding-tax"],
+    "translations": {
+      "es": "beneficiario efectivo",
+      "zh": "受益所有人"
+    },
+    "jurisdictions": ["treaty", "uk", "us"],
+    "cites": [
+      { "statute": "HMRC HS304", "section": "Treaty claim framework" }
+    ],
+    "sources": [
+      {
+        "label": "HS304 non-residents relief under double taxation agreements",
+        "url": "https://www.gov.uk/government/publications/non-residents-relief-under-double-taxation-agreements-hs304-self-assessment-helpsheet/hs304-non-residents-relief-under-double-taxation-agreements-2025",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "gross-income",
+    "term": "Gross Income",
+    "shortDefinition": "All income from whatever source derived unless a specific rule excludes it.",
+    "fullDefinition": "Gross income is one of the foundational federal income-tax concepts. It is the starting point for determining what enters the tax base before exclusions, deductions, credits, and other modifications are applied.",
+    "examples": [
+      "Compensation, business income, interest, rents, and royalties are listed examples of gross income in section 61.",
+      "Many tax disputes begin by asking whether an item is gross income before asking whether another rule excludes it."
+    ],
+    "relatedTerms": ["effectively-connected-income"],
+    "translations": {
+      "es": "ingreso bruto",
+      "zh": "总收入"
+    },
+    "jurisdictions": ["us"],
+    "cites": [
+      { "statute": "26 U.S.C.", "section": "61" }
+    ],
+    "sources": [
+      {
+        "label": "26 U.S.C. section 61",
+        "url": "https://uscode.house.gov/view.xhtml?req=%28title%3A26+section%3A61%28a%29+edition%3Aprelim%29",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "marketplace-facilitator",
+    "term": "Marketplace Facilitator",
+    "shortDefinition": "A platform operator treated by law as the retailer or seller for certain sales-tax collection purposes on marketplace sales.",
+    "fullDefinition": "A marketplace facilitator is typically a platform that lists goods or services for third-party sellers and, under state law, may be required to collect and remit sales tax on marketplace transactions. That relieves some seller collection burden, but it does not erase every other tax obligation the seller may still have.",
+    "examples": [
+      "A state may require Amazon to collect tax on qualifying marketplace sales by third-party sellers.",
+      "A seller's direct website sales are usually not covered by marketplace-facilitator collection rules."
+    ],
+    "relatedTerms": ["withholding-tax"],
+    "translations": {
+      "es": "facilitador de mercado",
+      "zh": "市场平台促成者"
+    },
+    "jurisdictions": ["us"],
+    "cites": [
+      { "statute": "CDTFA", "section": "Marketplace Facilitator Act" }
+    ],
+    "sources": [
+      {
+        "label": "California Marketplace Facilitator Act guide",
+        "url": "https://www.cdtfa.ca.gov/industry/MPFAct.htm",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "Texas marketplace providers and marketplace sellers",
+        "url": "https://comptroller.texas.gov/taxes/sales/marketplace-providers-sellers.php",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "reportable-transaction",
+    "term": "Reportable Transaction",
+    "shortDefinition": "For Form 5472 purposes, a related-party transaction that must be reported under the governing rules.",
+    "fullDefinition": "In the foreign-owned entity reporting context, a reportable transaction includes more than obvious sales or fee income. Capital contributions, loans, reimbursements, and other movements between the entity and related parties can matter and can trigger a Form 5472 filing obligation.",
+    "examples": [
+      "A foreign owner funding a U.S. disregarded entity's bank account can create a reportable transaction.",
+      "A related-party loan can be reportable even when the business had little or no operating revenue."
+    ],
+    "relatedTerms": ["disregarded-entity"],
+    "translations": {
+      "es": "transacción reportable",
+      "zh": "应报告交易"
+    },
+    "jurisdictions": ["us"],
+    "cites": [
+      { "statute": "26 U.S.C.", "section": "6038A" }
+    ],
+    "sources": [
+      {
+        "label": "Instructions for Form 5472 (12/2024)",
+        "url": "https://www.irs.gov/instructions/i5472",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "tax-treaty",
+    "term": "Tax Treaty",
+    "shortDefinition": "A bilateral agreement that allocates taxing rights and addresses double taxation between two countries.",
+    "fullDefinition": "A tax treaty is a negotiated international agreement that can reduce withholding, protect business profits absent a permanent establishment, provide residence tie-breaker rules, and shape how cross-border income is taxed. Treaty benefits depend on the actual treaty text, the relevant article, and the taxpayer's facts.",
+    "examples": [
+      "A treaty can reduce dividend withholding below domestic-law rates.",
+      "A treaty can limit source-country business taxation where no permanent establishment exists."
+    ],
+    "relatedTerms": ["permanent-establishment", "beneficial-owner"],
+    "translations": {
+      "es": "tratado fiscal",
+      "zh": "税收协定"
+    },
+    "jurisdictions": ["treaty"],
+    "cites": [
+      { "statute": "IRS Publication", "section": "901" }
+    ],
+    "sources": [
+      {
+        "label": "IRS Publication 901",
+        "url": "https://www.irs.gov/publications/p901",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "withholding-tax",
+    "term": "Withholding Tax",
+    "shortDefinition": "Tax collected at source by the payer or other responsible party on certain payments.",
+    "fullDefinition": "Withholding tax is an operational collection mechanism. Instead of waiting for the recipient to pay later, the law requires the payer or another responsible party to withhold tax when the payment is made. In cross-border cases, the practical dispute is often over the withholding rate and the documentation needed to justify a reduced treaty rate or exemption.",
+    "examples": [
+      "A payer of U.S.-source FDAP income may need to withhold unless a treaty form supports a lower rate.",
+      "FIRPTA withholding can apply at closing before the final return determines the seller's ultimate tax liability."
+    ],
+    "relatedTerms": ["beneficial-owner", "tax-treaty"],
+    "translations": {
+      "es": "impuesto de retención",
+      "zh": "预提税"
+    },
+    "jurisdictions": ["us", "treaty", "uk"],
+    "cites": [
+      { "statute": "IRS Publication", "section": "515" }
+    ],
+    "sources": [
+      {
+        "label": "IRS Publication 515",
+        "url": "https://www.irs.gov/publications/p515",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "certificate-of-overseas-residence",
+    "term": "Certificate of Overseas Residence",
+    "shortDefinition": "A residence certificate used to support certain treaty-relief claims on cross-border income.",
+    "fullDefinition": "A certificate of overseas residence is practical treaty paperwork. In the UK treaty-claim context, it is the document many non-UK claimants need to support relief at source or repayment claims by showing residence in the treaty partner country.",
+    "examples": [
+      "A U.S. resident claiming reduced UK-source withholding may need a residence certificate to support the HMRC treaty claim file.",
+      "A treaty analysis can be correct in substance and still fail operationally if the residence-certificate step is missing."
+    ],
+    "relatedTerms": ["beneficial-owner", "tax-treaty"],
+    "translations": {
+      "es": "certificado de residencia en el extranjero",
+      "zh": "海外税务居民证明"
+    },
+    "jurisdictions": ["uk", "treaty"],
+    "cites": [
+      { "statute": "HMRC HS304", "section": "Treaty claim framework" }
+    ],
+    "sources": [
+      {
+        "label": "HS304 non-residents relief under double taxation agreements",
+        "url": "https://www.gov.uk/government/publications/non-residents-relief-under-double-taxation-agreements-hs304-self-assessment-helpsheet/hs304-non-residents-relief-under-double-taxation-agreements-2025",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "foreign-owned-us-disregarded-entity",
+    "term": "Foreign-Owned U.S. Disregarded Entity",
+    "shortDefinition": "A U.S. disregarded entity owned directly or indirectly by a foreign person and subject to special reporting rules.",
+    "fullDefinition": "A foreign-owned U.S. disregarded entity is usually the structure sitting behind many Form 5472 compliance failures. Even when the entity is disregarded for income-tax classification purposes, it can still face separate information-reporting and recordkeeping obligations because of its foreign ownership.",
+    "examples": [
+      "A single-member U.S. LLC owned by a non-U.S. person can be a foreign-owned U.S. disregarded entity.",
+      "Zero operating revenue does not automatically eliminate the Form 5472 risk for this type of entity."
+    ],
+    "relatedTerms": ["disregarded-entity", "reportable-transaction"],
+    "translations": {
+      "es": "entidad estadounidense ignorada de propiedad extranjera",
+      "zh": "外国人拥有的美国被忽略实体"
+    },
+    "jurisdictions": ["us"],
+    "cites": [
+      { "statute": "Instructions for Form 5472", "section": "Reporting corporations and foreign-owned U.S. DEs" }
+    ],
+    "sources": [
+      {
+        "label": "Instructions for Form 5472 (12/2024)",
+        "url": "https://www.irs.gov/instructions/i5472",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "no-tax-due-threshold",
+    "term": "No Tax Due Threshold",
+    "shortDefinition": "The Texas revenue threshold below which an entity may avoid franchise-tax liability while still having filing obligations.",
+    "fullDefinition": "The no tax due threshold is a Texas franchise-tax concept that changes the liability answer but not always the filing answer. Founders often hear 'no tax due' and stop there, even though Texas can still require the annual information-report side of the filing package.",
+    "examples": [
+      "An entity below the threshold may still need to file a Public Information Report or Ownership Information Report.",
+      "Using an outdated threshold can produce the wrong answer about whether tax is due for the report year."
+    ],
+    "relatedTerms": ["turnover"],
+    "translations": {
+      "es": "umbral de no adeudo tributario",
+      "zh": "无需纳税门槛"
+    },
+    "jurisdictions": ["us", "texas"],
+    "cites": [
+      { "statute": "Texas franchise tax", "section": "No Tax Due Threshold" }
+    ],
+    "sources": [
+      {
+        "label": "Texas Franchise Tax",
+        "url": "https://comptroller.texas.gov/taxes/franchise/",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "ordinary-and-necessary-expense",
+    "term": "Ordinary and Necessary Expense",
+    "shortDefinition": "A business expense standard used in Section 162 for trade-or-business deductions.",
+    "fullDefinition": "An ordinary and necessary expense is one of the most cited deduction standards in U.S. federal tax law. The phrase matters because 'ordinary' and 'necessary' are legal tests, not casual labels taxpayers can attach to any business-looking payment.",
+    "examples": [
+      "A cost can feel useful to the owner and still fail the Section 162 standard in context.",
+      "Deduction disputes often focus on whether the expense belongs to the taxpayer's own trade or business."
+    ],
+    "relatedTerms": ["gross-income"],
+    "translations": {
+      "es": "gasto ordinario y necesario",
+      "zh": "普通且必要的费用"
+    },
+    "jurisdictions": ["us"],
+    "cites": [
+      { "statute": "26 U.S.C.", "section": "162" }
+    ],
+    "sources": [
+      {
+        "label": "26 U.S.C. section 162",
+        "url": "https://uscode.house.gov/view.xhtml?edition=2010&num=0&req=granuleid%3AUSC-2010-title26-section162",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "pro-forma-form-1120",
+    "term": "Pro Forma Form 1120",
+    "shortDefinition": "A mostly blank Form 1120 shell used by certain foreign-owned disregarded entities to attach Form 5472.",
+    "fullDefinition": "Pro forma Form 1120 is procedural rather than elective in the foreign-owned disregarded-entity context. The form often exists mainly as the attachment vehicle for Form 5472, which is why many founders misunderstand it as a choice to become a full U.S. corporation for tax purposes.",
+    "examples": [
+      "A foreign-owned U.S. disregarded entity can need a pro forma Form 1120 solely to file Form 5472.",
+      "The attachment workflow is different from preparing a full corporate-return package for a domestic corporation."
+    ],
+    "relatedTerms": ["foreign-owned-us-disregarded-entity", "reportable-transaction"],
+    "translations": {
+      "es": "Formulario 1120 pro forma",
+      "zh": "1120 备考表"
+    },
+    "jurisdictions": ["us"],
+    "cites": [
+      { "statute": "Instructions for Form 5472", "section": "Foreign-owned U.S. DE filing method" }
+    ],
+    "sources": [
+      {
+        "label": "Instructions for Form 5472 (12/2024)",
+        "url": "https://www.irs.gov/instructions/i5472",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "self-assessment",
+    "term": "Self Assessment",
+    "shortDefinition": "HMRC's system that places responsibility on the taxpayer to file the information needed to calculate the tax charge.",
+    "fullDefinition": "Self Assessment is the UK filing system under which taxpayers provide the information needed to establish the correct tax liability. It is better understood as a process with registration, filing, payment, and penalty rules rather than as one isolated form.",
+    "examples": [
+      "A first-time filer may need to notify HMRC by 5 October before the later online filing deadline arrives.",
+      "Penalty analysis depends on where the taxpayer failed inside the Self Assessment process."
+    ],
+    "relatedTerms": ["certificate-of-overseas-residence"],
+    "translations": {
+      "es": "Self Assessment",
+      "zh": "自我申报制度"
+    },
+    "jurisdictions": ["uk"],
+    "cites": [
+      { "statute": "HMRC SALF", "section": "202" }
+    ],
+    "sources": [
+      {
+        "label": "HMRC Self Assessment legal framework",
+        "url": "https://www.gov.uk/hmrc-internal-manuals/self-assessment-legal-framework/salf202",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "turnover",
+    "term": "Turnover",
+    "shortDefinition": "A revenue measure used in many non-U.S. systems to determine registration or tax-regime entry.",
+    "fullDefinition": "Turnover is the practical threshold measure in many international tax systems. It matters because VAT registration, corporate-tax entry for some natural persons, and similar rules often depend on turnover rather than on net profit.",
+    "examples": [
+      "Ireland's VAT threshold analysis begins with what the business supplies and the turnover from those supplies.",
+      "The UAE natural-person corporate-tax threshold turns on turnover from business activity, not on every personal cash inflow."
+    ],
+    "relatedTerms": ["vat"],
+    "translations": {
+      "es": "volumen de negocios",
+      "zh": "营业额"
+    },
+    "jurisdictions": ["ie", "ae"],
+    "cites": [
+      { "statute": "Ireland VAT thresholds", "section": "Registration thresholds" }
+    ],
+    "sources": [
+      {
+        "label": "Ireland VAT thresholds",
+        "url": "https://www.revenue.ie/en/vat/vat-registration/who-should-register-for-vat/vat-thresholds.aspx",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "FTA basis of taxation for natural persons",
+        "url": "https://tax.gov.ae/en/taxes/corporate.tax/corporate.tax.topics/basis.of.taxation.natural.person.aspx",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "vat",
+    "term": "Value-Added Tax (VAT)",
+    "shortDefinition": "A transaction tax charged on taxable supplies in systems that use a value-added tax model.",
+    "fullDefinition": "VAT is a broad indirect-tax system used in many countries outside the United States. It becomes a practical operating issue because the questions are not just rate questions; they also involve registration thresholds, invoice rules, timing, and the classification of supplies.",
+    "examples": [
+      "Switzerland applies different VAT rates to standard supplies and accommodation services.",
+      "A business can need to think about VAT registration long before it worries about income-tax profitability."
+    ],
+    "relatedTerms": ["turnover"],
+    "translations": {
+      "es": "impuesto al valor agregado (IVA)",
+      "zh": "增值税"
+    },
+    "jurisdictions": ["ch", "ie", "eu"],
+    "cites": [
+      { "statute": "Swiss VAT", "section": "VAT rates" }
+    ],
+    "sources": [
+      {
+        "label": "Swiss VAT rates",
+        "url": "https://www.estv.admin.ch/estv/en/home/value-added-tax/vat-rates-switzerland.html",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "withholding-agent",
+    "term": "Withholding Agent",
+    "shortDefinition": "The payer or other responsible party that must withhold and remit tax when the rules require it.",
+    "fullDefinition": "A withholding agent is the operational actor in many cross-border tax systems. The recipient may care about the final rate, but the withholding agent is the party that has to collect the tax, manage the documentation, and bear the immediate compliance risk for getting that step wrong.",
+    "examples": [
+      "A U.S. payer making FDAP payments can be the withholding agent for Chapter 3 withholding purposes.",
+      "Source-country withholding disputes often begin with what the payer was allowed to rely on at the time of payment."
+    ],
+    "relatedTerms": ["withholding-tax", "beneficial-owner"],
+    "translations": {
+      "es": "agente de retención",
+      "zh": "扣缴义务人"
+    },
+    "jurisdictions": ["us", "treaty"],
+    "cites": [
+      { "statute": "IRS withholding rules", "section": "Withholding agent responsibilities" }
+    ],
+    "sources": [
+      {
+        "label": "Withholding exemption on effectively connected income",
+        "url": "https://www.irs.gov/individuals/international-taxpayers/withholding-exemption-on-effectively-connected-income",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "IRS Publication 515",
+        "url": "https://www.irs.gov/publications/p515",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  }
+]

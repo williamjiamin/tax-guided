@@ -15,6 +15,15 @@ routes = [
 binding = "SUBSCRIBERS"
 id = "e59bdc1adcad46518d10e8716ae9021d"
 
+# Expansion plan bindings — enable after provisioning the actual resources.
+# [[r2_buckets]]
+# binding = "TAX_DATA"
+# bucket_name = "taxguided-data"
+#
+# [[kv_namespaces]]
+# binding = "TAX_INDEX"
+# id = "REPLACE_WITH_TAX_INDEX_NAMESPACE_ID"
+
 # Static assets
 [assets]
 directory = ".open-next/assets"

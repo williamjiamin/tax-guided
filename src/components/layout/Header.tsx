@@ -23,6 +23,7 @@ const NAV_SECTIONS = [
     label: "Tools",
     items: [
       { label: "Quick Tax Check", href: "/tools/quick-tax-check" },
+      { label: "Calculators", href: "/calculators" },
       { label: "ECI Assessment", href: "/tools/eci-assessment" },
       { label: "Penalty Calculator", href: "/tools/penalty-calculator" },
       { label: "Tax Calendar", href: "/tools/tax-calendar" },
@@ -35,11 +36,17 @@ const NAV_SECTIONS = [
     label: "Laws",
     items: [
       { label: "All Countries", href: "/laws" },
+      { label: "Forms Library", href: "/forms" },
+      { label: "State Taxes", href: "/states" },
+      { label: "Treaties", href: "/treaties" },
+      { label: "Statutes", href: "/statutes" },
+      { label: "Case Law", href: "/case-law" },
+      { label: "Historical Rates", href: "/historical" },
+      { label: "Glossary", href: "/glossary" },
+      { label: "Translations", href: "/translations" },
+      { label: "Industry Guides", href: "/industry" },
+      { label: "Directory", href: "/directory" },
       { label: "United States", href: "/laws/us" },
-      { label: "China", href: "/laws/cn" },
-      { label: "United Kingdom", href: "/laws/gb" },
-      { label: "Canada", href: "/laws/ca" },
-      { label: "Singapore", href: "/laws/sg" },
     ],
   },
 ];
@@ -106,6 +113,18 @@ export function Header() {
 
           <Link href="/tools/quick-tax-check" className="text-gray-300 hover:text-white transition-colors">
             Tools
+          </Link>
+
+          <Link href="/forms" className="text-gray-300 hover:text-white transition-colors">
+            Forms
+          </Link>
+
+          <Link href="/treaties" className="text-gray-300 hover:text-white transition-colors">
+            Treaties
+          </Link>
+
+          <Link href="/translations" className="text-gray-300 hover:text-white transition-colors">
+            Translations
           </Link>
 
           <Link href="/community" className="text-gray-300 hover:text-white transition-colors">

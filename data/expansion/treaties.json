@@ -1,0 +1,316 @@
+[
+  {
+    "id": "us-uk",
+    "slug": "us-uk",
+    "countryA": "us",
+    "countryB": "gb",
+    "signedDate": "2001-07-24",
+    "effectiveDate": "2004-01-01",
+    "protocolDates": ["2002-07-19"],
+    "fullTextUrl": "https://www.irs.gov/pub/irs-trty/uk.pdf",
+    "fullTextHtmlUrl": "https://www.gov.uk/government/publications/usa-tax-treaties",
+    "withholdingMatrix": {
+      "dividends": {
+        "individualRate": 15,
+        "corporateRate": 5,
+        "conditions": "Lower corporate rate generally depends on direct ownership thresholds and treaty qualification. Certain pension and exempt-entity cases can differ."
+      },
+      "interest": {
+        "rate": 0,
+        "exceptions": "Treaty analysis still depends on article-specific conditions and beneficial-ownership requirements."
+      },
+      "royalties": {
+        "rate": 0,
+        "type": "Most royalties are generally exempt from source-country withholding under the treaty when treaty conditions are met."
+      },
+      "technicalServices": null
+    },
+    "articles": [
+      {
+        "number": 4,
+        "title": "Residence",
+        "summary": "Defines who is treated as a resident of a contracting state for treaty purposes and supports tie-breaker analysis.",
+        "fullText": "This article is the starting point for treaty entitlement. In practice, it matters when a person could be treated as resident in both countries or needs treaty status to claim a reduced withholding result."
+      },
+      {
+        "number": 5,
+        "title": "Permanent Establishment",
+        "summary": "Sets the taxable-presence threshold for business profits in the other country.",
+        "fullText": "The PE article is central for founders, consultants, and cross-border businesses. A treaty-compliant page should explain fixed place and agent concepts rather than reducing the analysis to sales volume alone."
+      },
+      {
+        "number": 7,
+        "title": "Business Profits",
+        "summary": "Generally allocates business profits to the residence state unless the enterprise has a permanent establishment in the other state.",
+        "fullText": "This article is where many cross-border operating questions become real. The treaty usually protects business profits from source-country taxation unless the PE threshold is crossed."
+      },
+      {
+        "number": 10,
+        "title": "Dividends",
+        "summary": "Provides treaty limits on source-country dividend withholding in qualifying cases.",
+        "fullText": "The dividend article is relevant to founders and investors deciding whether treaty documentation can reduce withholding below domestic rates."
+      },
+      {
+        "number": 11,
+        "title": "Interest",
+        "summary": "Generally removes source-country withholding on qualifying interest under the treaty.",
+        "fullText": "The interest article is especially valuable in lender-borrower and investment situations, but the page should stress that beneficial ownership and documentation still matter."
+      },
+      {
+        "number": 12,
+        "title": "Royalties",
+        "summary": "Generally eliminates source-country withholding on qualifying royalties.",
+        "fullText": "This article matters for software, IP, and licensing structures. It is one of the clearest examples of a treaty changing the withholding result materially."
+      }
+    ],
+    "permanentEstablishment": {
+      "constructionThreshold": "12 months",
+      "serviceThreshold": null,
+      "dependentAgentRules": "Dependent-agent analysis remains relevant where a person habitually concludes contracts or plays the principal role leading to their conclusion, subject to treaty wording and later interpretive developments."
+    },
+    "capitalGains": {
+      "realEstateCarveOut": true,
+      "substantialShareholding": true
+    },
+    "pensions": {
+      "taxedIn": "split",
+      "notes": "Pension treatment depends on the specific article and category of pension or similar remuneration."
+    },
+    "studentClause": true,
+    "teachersClause": false,
+    "exchangeOfInformation": true,
+    "mli": {
+      "covered": false,
+      "mliEffectiveDate": null
+    },
+    "lastUpdated": "2026-05-01T00:00:00.000Z",
+    "sources": [
+      {
+        "label": "IRS U.K. treaty documents page",
+        "url": "https://www.irs.gov/businesses/international-businesses/united-kingdom-uk-tax-treaty-documents",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "HMRC manual on convention in force",
+        "url": "https://www.gov.uk/hmrc-internal-manuals/double-taxation-relief/dt19850",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "Official U.S.-UK treaty PDF",
+        "url": "https://www.irs.gov/pub/irs-trty/uk.pdf",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "us-canada",
+    "slug": "us-canada",
+    "countryA": "us",
+    "countryB": "ca",
+    "signedDate": "1980-09-26",
+    "effectiveDate": "1985-01-01",
+    "protocolDates": ["1983-06-14", "1984-03-28", "1995-03-17", "1997-07-29", "2007-09-21"],
+    "fullTextUrl": "https://www.irs.gov/pub/irs-trty/canada.pdf",
+    "fullTextHtmlUrl": "https://www.irs.gov/businesses/international-businesses/canada-tax-treaty-documents",
+    "withholdingMatrix": {
+      "dividends": {
+        "individualRate": 15,
+        "corporateRate": 5,
+        "conditions": "The lower corporate rate generally applies where ownership and treaty-qualification conditions are satisfied."
+      },
+      "interest": {
+        "rate": 0,
+        "exceptions": "Specific exceptions and anti-abuse rules still require article-level review."
+      },
+      "royalties": {
+        "rate": 10,
+        "type": "The treaty includes category-specific royalty treatment; some categories can differ from the general royalty rule."
+      },
+      "technicalServices": null
+    },
+    "articles": [
+      {
+        "number": 4,
+        "title": "Residence",
+        "summary": "Defines treaty residence and supports dual-resident tie-breaker analysis.",
+        "fullText": "Residence is the gateway issue for treaty benefits. Taxpayers moving between the two countries should not jump to a withholding article before confirming treaty residence."
+      },
+      {
+        "number": 5,
+        "title": "Permanent Establishment",
+        "summary": "Determines when business presence in the other state is substantial enough to permit source-country business taxation.",
+        "fullText": "The PE article is a recurring decision point for founders, remote businesses, and services providers operating across the border."
+      },
+      {
+        "number": 7,
+        "title": "Business Profits",
+        "summary": "Generally allocates business profits to the residence state unless a permanent establishment exists in the other state.",
+        "fullText": "This article is the working core for many cross-border business questions, and it should be read together with the PE article."
+      },
+      {
+        "number": 10,
+        "title": "Dividends",
+        "summary": "Limits source-country withholding on dividends in qualifying cases.",
+        "fullText": "The dividend article is commonly used in portfolio and closely held corporate structures, especially where U.S. and Canadian holding companies interact."
+      },
+      {
+        "number": 12,
+        "title": "Royalties",
+        "summary": "Provides treaty treatment for royalty payments and category-specific rules.",
+        "fullText": "The royalty article is important for software, IP, and licensing questions. It should not be summarized as a one-number answer without checking the income category."
+      },
+      {
+        "number": 18,
+        "title": "Pensions and Annuities",
+        "summary": "Contains high-value rules for retirement distributions and cross-border pension treatment.",
+        "fullText": "The pension article is one of the most practically important parts of the treaty for individuals, and it is a reason Publication 597 is especially useful."
+      }
+    ],
+    "permanentEstablishment": {
+      "constructionThreshold": "12 months",
+      "serviceThreshold": null,
+      "dependentAgentRules": "Dependent-agent rules remain relevant where a person acts on behalf of the enterprise with sufficient authority under the treaty framework."
+    },
+    "capitalGains": {
+      "realEstateCarveOut": true,
+      "substantialShareholding": true
+    },
+    "pensions": {
+      "taxedIn": "split",
+      "notes": "Retirement-income treatment depends on the article, the plan type, and the specific payment."
+    },
+    "studentClause": true,
+    "teachersClause": false,
+    "exchangeOfInformation": true,
+    "mli": {
+      "covered": false,
+      "mliEffectiveDate": null
+    },
+    "lastUpdated": "2026-05-01T00:00:00.000Z",
+    "sources": [
+      {
+        "label": "Canada treaty documents page",
+        "url": "https://www.irs.gov/businesses/international-businesses/canada-tax-treaty-documents",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "Official U.S.-Canada treaty PDF",
+        "url": "https://www.irs.gov/pub/irs-trty/canada.pdf",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "IRS Publication 597",
+        "url": "https://www.irs.gov/publications/p597",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "us-germany",
+    "slug": "us-germany",
+    "countryA": "us",
+    "countryB": "de",
+    "signedDate": "1989-08-29",
+    "effectiveDate": "1990-01-01",
+    "protocolDates": ["2006-06-01"],
+    "fullTextUrl": "https://www.irs.gov/pub/irs-trty/germany.pdf",
+    "fullTextHtmlUrl": "https://www.irs.gov/businesses/international-businesses/germany-tax-treaty-documents",
+    "withholdingMatrix": {
+      "dividends": {
+        "individualRate": 15,
+        "corporateRate": 5,
+        "conditions": "The reduced corporate rate generally depends on treaty qualification and direct ownership requirements."
+      },
+      "interest": {
+        "rate": 0,
+        "exceptions": "Article-level review remains necessary for category-specific exceptions and anti-abuse conditions."
+      },
+      "royalties": {
+        "rate": 0,
+        "type": "The treaty generally eliminates withholding on qualifying royalties."
+      },
+      "technicalServices": null
+    },
+    "articles": [
+      {
+        "number": 4,
+        "title": "Residence",
+        "summary": "Defines treaty residence and supports dual-resident tie-breaker work.",
+        "fullText": "Treaty residence comes first. Users should not skip straight to dividend or royalty rates without confirming whether the person or entity qualifies as a resident for treaty purposes."
+      },
+      {
+        "number": 5,
+        "title": "Permanent Establishment",
+        "summary": "Sets the business-presence threshold that allows source-country taxation of business profits.",
+        "fullText": "The PE article matters for branches, project work, dependent-agent activity, and cross-border operating models that do not fit neatly into simple withholding tables."
+      },
+      {
+        "number": 7,
+        "title": "Business Profits",
+        "summary": "Allocates business profits unless a permanent establishment exists in the other state.",
+        "fullText": "This article is essential for founder and consulting questions and should be cross-read with the PE article and any protocol updates."
+      },
+      {
+        "number": 10,
+        "title": "Dividends",
+        "summary": "Provides treaty-based reduced withholding rates for dividends in qualifying cases.",
+        "fullText": "The dividend article is a core planning and documentation article for holding-company and investment structures."
+      },
+      {
+        "number": 11,
+        "title": "Interest",
+        "summary": "Generally removes withholding on qualifying interest.",
+        "fullText": "This article is important for financing structures and related-party lending, but documentation and beneficial-ownership analysis remain central."
+      },
+      {
+        "number": 12,
+        "title": "Royalties",
+        "summary": "Generally removes withholding on qualifying royalties.",
+        "fullText": "Germany-U.S. royalty structures often turn on this article, especially in software, technology, and licensing arrangements."
+      }
+    ],
+    "permanentEstablishment": {
+      "constructionThreshold": "12 months",
+      "serviceThreshold": null,
+      "dependentAgentRules": "Dependent-agent rules remain important, and the later protocol/technical explanation materials should be reviewed with the treaty text."
+    },
+    "capitalGains": {
+      "realEstateCarveOut": true,
+      "substantialShareholding": true
+    },
+    "pensions": {
+      "taxedIn": "split",
+      "notes": "Pension treatment requires article-specific analysis and can differ by payment type."
+    },
+    "studentClause": true,
+    "teachersClause": false,
+    "exchangeOfInformation": true,
+    "mli": {
+      "covered": false,
+      "mliEffectiveDate": null
+    },
+    "lastUpdated": "2026-05-01T00:00:00.000Z",
+    "sources": [
+      {
+        "label": "Germany treaty documents page",
+        "url": "https://www.irs.gov/businesses/international-businesses/germany-tax-treaty-documents",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "IRS list of tax treaties table",
+        "url": "https://www.irs.gov/pub/irs-lbi/table-3-list-of-tax-treaties.pdf",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "Official U.S.-Germany treaty PDF",
+        "url": "https://www.irs.gov/pub/irs-trty/germany.pdf",
+        "verifiedAt": "2026-05-01"
+      },
+      {
+        "label": "Germany technical explanation and protocol materials",
+        "url": "https://www.irs.gov/pub/irs-trty/germanyte07.pdf",
+        "verifiedAt": "2026-05-01"
+      }
+    ]
+  }
+]

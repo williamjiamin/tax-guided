@@ -15,6 +15,7 @@ export function Footer() {
 
   const tools = [
     { label: "Quick Tax Check", href: "/tools/quick-tax-check" },
+    { label: "Calculators", href: "/calculators" },
     { label: "ECI Assessment", href: "/tools/eci-assessment" },
     { label: "Penalty Calculator", href: "/tools/penalty-calculator" },
     { label: "Tax Calendar", href: "/tools/tax-calendar" },
@@ -26,17 +27,24 @@ export function Footer() {
 
   const laws = [
     { label: "All Countries", href: "/laws" },
-    { label: "United States", href: "/laws/us" },
-    { label: "China", href: "/laws/cn" },
-    { label: "United Kingdom", href: "/laws/gb" },
-    { label: "Canada", href: "/laws/ca" },
-    { label: "Singapore", href: "/laws/sg" },
+    { label: "Forms Library", href: "/forms" },
+    { label: "State Taxes", href: "/states" },
+    { label: "Treaties", href: "/treaties" },
+    { label: "Statutes", href: "/statutes" },
+    { label: "Case Law", href: "/case-law" },
+    { label: "Historical Rates", href: "/historical" },
+    { label: "Glossary", href: "/glossary" },
+    { label: "Translations", href: "/translations" },
+    { label: "Compliance Calendar", href: "/calendar" },
   ];
 
   const resources = [
     { label: "Learning Hub", href: "/learn" },
     { label: "Community Q&A", href: "/community" },
     { label: "Tax Quiz", href: "/quiz" },
+    { label: "Industry Guides", href: "/industry" },
+    { label: "Practitioner Directory", href: "/directory" },
+    { label: "Translation Library", href: "/translations" },
   ];
 
   return (
