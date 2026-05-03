@@ -9,6 +9,9 @@ import { FORMS_RATES_AND_NICHE_GUIDES } from "./guides-forms-rates-niche";
 import { TAX_SCENARIOS, type TaxScenario } from "./scenarios-v2";
 import { TAX_SHORTS, type TaxShort } from "./shorts-v2";
 import { TAX_NEWS_AND_COMMENTARY, type NewsCommentaryItem } from "./news-commentary";
+// AUTO-GENERATED daily by scripts/cross-project-drip.ts — fed by the
+// foreignllctax.com cross-project router. See ./auto-news.ts header + CLAUDE.md.
+import { AUTO_NEWS_COMMENTARY } from "./auto-news";
 
 export type { EditorialGuide, TaxScenario, TaxShort, NewsCommentaryItem };
 
@@ -20,7 +23,10 @@ export const ALL_EDITORIAL_GUIDES: EditorialGuide[] = [
 
 export const ALL_TAX_SCENARIOS: TaxScenario[] = [...TAX_SCENARIOS];
 export const ALL_TAX_SHORTS: TaxShort[] = [...TAX_SHORTS];
-export const ALL_NEWS_COMMENTARY: NewsCommentaryItem[] = [...TAX_NEWS_AND_COMMENTARY];
+export const ALL_NEWS_COMMENTARY: NewsCommentaryItem[] = [
+  ...TAX_NEWS_AND_COMMENTARY,
+  ...AUTO_NEWS_COMMENTARY,
+];
 
 export function getEditorialGuideBySlug(slug: string): EditorialGuide | undefined {
   return ALL_EDITORIAL_GUIDES.find((g) => g.slug === slug);
