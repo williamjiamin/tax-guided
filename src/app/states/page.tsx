@@ -6,7 +6,9 @@ import { buildMetadata, buildBreadcrumbJsonLd, absoluteUrl } from "@/lib/expansi
 import {
   getExpansionCoverageSummary,
   getStateCountries,
+  getStates,
 } from "@/lib/expansion/repository";
+import { getCountryName } from "@/lib/expansion/constants";
 
 export const metadata = buildMetadata({
   title: "State and provincial tax library",
@@ -62,6 +64,45 @@ export default function StatesPage() {
           </Link>
         ))}
       </section>
+
+      {/* Direct deep links to every state. Click depth from /states is 1
+          instead of 2, so Googlebot can reach state pages without traversing
+          the country index page first. */}
+      {(() => {
+        const states = getStates();
+        if (states.length === 0) return null;
+        const byCountry = new Map<string, typeof states>();
+        for (const s of states) {
+          const list = byCountry.get(s.country) ?? [];
+          list.push(s);
+          byCountry.set(s.country, list);
+        }
+        return (
+          <section className="mt-8 space-y-6">
+            <h2 className="text-base font-semibold text-[#0a1628]">
+              Browse every jurisdiction
+            </h2>
+            {Array.from(byCountry.entries()).map(([country, list]) => (
+              <div key={country}>
+                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gray-500 mb-2">
+                  {getCountryName(country)}
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {list.map((state) => (
+                    <Link
+                      key={state.id}
+                      href={`/states/${state.id}`}
+                      className="inline-flex items-center gap-1.5 rounded-full border border-gray-200 bg-gray-50 px-3 py-1 text-xs text-gray-700 hover:border-[#c9a84c] hover:text-[#0a1628]"
+                    >
+                      {state.state}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </section>
+        );
+      })()}
 
       <DisclaimerCard />
     </ExpansionPageShell>

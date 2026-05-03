@@ -161,8 +161,28 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.65,
   }));
 
-  // Community Q&A threads — high-value SEO content
+  // Community Q&A threads + pagination + flat index — high-value SEO content.
+  // The /community/all and /community/page/N routes give Googlebot multiple
+  // entry points into the deep slug graph (foreignllctax SEO recipe).
+  const PAGE_SIZE = 30;
+  const totalCommunityPages = Math.max(1, Math.ceil(QA_CATALOG.length / PAGE_SIZE));
+  const communityPaginationUrls: MetadataRoute.Sitemap = [];
+  for (let i = 2; i <= totalCommunityPages; i++) {
+    communityPaginationUrls.push({
+      url: `${BASE_URL}/community/page/${i}`,
+      lastModified: now,
+      changeFrequency: "weekly" as const,
+      priority: 0.6,
+    });
+  }
   const communityPages: MetadataRoute.Sitemap = [
+    {
+      url: `${BASE_URL}/community/all`,
+      lastModified: now,
+      changeFrequency: "weekly" as const,
+      priority: 0.8,
+    },
+    ...communityPaginationUrls,
     ...QA_CATALOG.map((t) => ({
       url: `${BASE_URL}/community/${t.slug}`,
       lastModified: now,

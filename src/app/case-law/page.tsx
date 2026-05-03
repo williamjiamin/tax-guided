@@ -18,6 +18,20 @@ export default function CaseLawPage() {
   const summary = getExpansionCoverageSummary();
   const countries = Array.from(new Set(cases.map((entry) => entry.country)));
 
+  // Build a map of court → first case (for court-list links). Each unique
+  // court gets one anchor link from the hub so the court-list page is reachable
+  // without depending on the sitemap alone.
+  const courtsByCountry = new Map<string, Set<string>>();
+  for (const entry of cases) {
+    const courtSlug = entry.court
+      .toLowerCase()
+      .replaceAll(/[^a-z0-9]+/g, "-")
+      .replace(/^-|-$/g, "");
+    const set = courtsByCountry.get(entry.country) ?? new Set<string>();
+    set.add(courtSlug);
+    courtsByCountry.set(entry.country, set);
+  }
+
   return (
     <ExpansionPageShell
       eyebrow="Pillar 7"
@@ -43,6 +57,29 @@ export default function CaseLawPage() {
           { name: "Case law", path: "/case-law" },
         ])}
       />
+
+      {/* Court-level navigation. Surfaces every /case-law/{country}/{court} URL
+          from the sitemap so Googlebot can reach the court-list pages from the
+          hub directly, not only by following individual case links. */}
+      {courtsByCountry.size > 0 && (
+        <section className="rounded-3xl border border-gray-200 bg-white p-6 mb-6">
+          <h2 className="text-base font-semibold text-[#0a1628] mb-3">Browse by court</h2>
+          <div className="flex flex-wrap gap-2">
+            {Array.from(courtsByCountry.entries()).flatMap(([country, courts]) =>
+              Array.from(courts).map((courtSlug) => (
+                <Link
+                  key={`${country}-${courtSlug}`}
+                  href={`/case-law/${country}/${courtSlug}`}
+                  className="inline-flex items-center gap-1.5 rounded-full border border-gray-200 bg-gray-50 px-3 py-1 text-xs text-gray-700 hover:border-[#c9a84c] hover:text-[#0a1628] transition-colors"
+                >
+                  {getCountryName(country)} ·{" "}
+                  {courtSlug.replace(/-/g, " ").replace(/\b\w/g, (l) => l.toUpperCase())}
+                </Link>
+              ))
+            )}
+          </div>
+        </section>
+      )}
 
       <section className="space-y-4">
         {cases.map((entry) => {

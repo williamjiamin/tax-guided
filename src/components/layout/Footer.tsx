@@ -41,6 +41,7 @@ export function Footer() {
   const resources = [
     { label: "Learning Hub", href: "/learn" },
     { label: "Community Q&A", href: "/community" },
+    { label: "All Q&A Threads (full index)", href: "/community/all" },
     { label: "Tax Quiz", href: "/quiz" },
     { label: "Industry Guides", href: "/industry" },
     { label: "Practitioner Directory", href: "/directory" },

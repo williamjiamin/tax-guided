@@ -3,7 +3,12 @@ import { ExpansionPageShell } from "@/components/expansion/ExpansionPageShell";
 import { DisclaimerCard } from "@/components/expansion/DisclaimerCard";
 import { JsonLdScript } from "@/components/expansion/JsonLdScript";
 import { buildBreadcrumbJsonLd, buildMetadata, absoluteUrl } from "@/lib/expansion/seo";
-import { getExpansionCoverageSummary, getStatuteCodesByCountry, getStatuteCountries } from "@/lib/expansion/repository";
+import {
+  getExpansionCoverageSummary,
+  getStatuteCodesByCountry,
+  getStatuteCountries,
+  getStatuteSections,
+} from "@/lib/expansion/repository";
 
 export const metadata = buildMetadata({
   title: "Statutory text library",
@@ -66,6 +71,54 @@ export default function StatutesPage() {
           </div>
         ))}
       </section>
+
+      {/* Direct deep links to every statute section. Eliminates the click-depth-3
+          requirement for reaching e.g. /statutes/us/irc/61 — Googlebot can now
+          follow a one-hop link from /statutes. */}
+      {(() => {
+        type Section = {
+          country: string;
+          statute: string;
+          section: string;
+          slug?: string;
+          title: string;
+        };
+        const allSections: Section[] = [];
+        for (const country of countries) {
+          for (const code of getStatuteCodesByCountry(country.code)) {
+            for (const sec of getStatuteSections(country.code, code)) {
+              allSections.push({
+                country: country.code,
+                statute: code,
+                section: sec.section,
+                slug: sec.slug,
+                title: sec.title,
+              });
+            }
+          }
+        }
+        if (allSections.length === 0) return null;
+        return (
+          <section className="mt-8 rounded-3xl border border-gray-200 bg-white p-6">
+            <h2 className="text-base font-semibold text-[#0a1628] mb-4">
+              Browse every section
+            </h2>
+            <ul className="space-y-2 text-sm">
+              {allSections.map((s) => (
+                <li key={`${s.country}-${s.statute}-${s.section}`}>
+                  <Link
+                    href={`/statutes/${s.country}/${s.statute}/${s.slug ?? s.section}`}
+                    className="text-blue-700 hover:text-blue-900 hover:underline"
+                  >
+                    {s.country.toUpperCase()} {s.statute.toUpperCase()} §{s.section} —{" "}
+                    {s.title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        );
+      })()}
 
       <DisclaimerCard />
     </ExpansionPageShell>
