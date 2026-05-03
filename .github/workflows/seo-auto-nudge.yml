@@ -1,0 +1,107 @@
+# Daily SEO auto-nudge — pings IndexNow (Bing/Yandex/Naver/Seznam) with a
+# rotating batch of priority URLs from taxguided.com so they prioritize
+# crawling them. Google has no public "request indexing" API for general
+# URLs, so the levers we can automate are:
+#   - IndexNow (this workflow)
+#   - Cloudflare Crawler Hints (zone setting, set-and-forget)
+#   - Sitemap lastmod freshness (handled in sitemap.ts, redeployed nightly)
+#
+# Architecture: see CLAUDE.md "SEO automation" section.
+#
+# Required GitHub Actions secrets:
+#   - INDEXNOW_KEY : 32-char hex key, must match the file at /<key>.txt on
+#                    the live site (currently public/edb5407b9bfef3806250e60fd40a949d.txt).
+#
+# Optional repo variable to disable without removing the workflow:
+#   - vars.SEO_AUTO_NUDGE_DISABLED = true
+#
+# Manual: Actions tab → "SEO auto-nudge" → Run workflow
+
+name: SEO auto-nudge
+
+on:
+  schedule:
+    # 06:11 UTC every day — runs ~50 min after the cross-project-drip job
+    # at 05:23 UTC, so any auto-news content added today is included.
+    - cron: "11 6 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry-run (no IndexNow POST, no state write)"
+        required: false
+        default: "false"
+      max_urls:
+        description: "Max URLs this run (default 10)"
+        required: false
+        default: "10"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: seo-auto-nudge
+  cancel-in-progress: false
+
+jobs:
+  nudge:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check kill switch
+        if: ${{ vars.SEO_AUTO_NUDGE_DISABLED == 'true' }}
+        run: |
+          echo "::warning::SEO_AUTO_NUDGE_DISABLED repo variable is true — skipping run."
+          exit 0
+
+      - name: Checkout
+        if: ${{ vars.SEO_AUTO_NUDGE_DISABLED != 'true' }}
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Node
+        if: ${{ vars.SEO_AUTO_NUDGE_DISABLED != 'true' }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Verify IndexNow key file is live
+        if: ${{ vars.SEO_AUTO_NUDGE_DISABLED != 'true' }}
+        env:
+          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+        run: |
+          if [ -z "$INDEXNOW_KEY" ]; then
+            echo "::error::INDEXNOW_KEY secret is not set."
+            exit 1
+          fi
+          status=$(curl -s -o /tmp/key.txt -w "%{http_code}" "https://taxguided.com/${INDEXNOW_KEY}.txt")
+          if [ "$status" != "200" ]; then
+            echo "::error::Key file https://taxguided.com/${INDEXNOW_KEY}.txt returned $status. The key file must be publicly reachable for IndexNow to accept POSTs."
+            exit 1
+          fi
+          if ! grep -q "$INDEXNOW_KEY" /tmp/key.txt; then
+            echo "::error::Key file content does not match INDEXNOW_KEY secret."
+            exit 1
+          fi
+          echo "Key file verified."
+
+      - name: Run nudge
+        if: ${{ vars.SEO_AUTO_NUDGE_DISABLED != 'true' }}
+        env:
+          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+          DRY_RUN: ${{ inputs.dry_run || 'false' }}
+          MAX_URLS: ${{ inputs.max_urls || '10' }}
+        run: npx -y tsx scripts/seo-auto-nudge.ts
+
+      - name: Commit state file
+        if: ${{ vars.SEO_AUTO_NUDGE_DISABLED != 'true' && inputs.dry_run != 'true' }}
+        run: |
+          if [ -n "$(git status --porcelain .cron/seo-nudge-history.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add .cron/seo-nudge-history.json
+            git commit -m "chore(seo): daily nudge state $(date -u +%Y-%m-%d)"
+            git push
+          else
+            echo "No state change to commit."
+          fi
