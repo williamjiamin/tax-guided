@@ -119,47 +119,64 @@ Schema (also documented in foreignllctax.com `docs/seo-automation.md`):
 }
 ```
 
-**File is overwritten daily.** Tax-guided is responsible for its own dedup against a state file (mirror foreignllctax's `.cron/irs-seen.json` pattern).
+**File is overwritten daily.** Tax-guided dedups against `.cron/news-seen.json`.
 
-### What you (the tax-guided AI session) should build to consume it
+### Cross-project consumer — ALREADY BUILT (commit `5bf78d0`)
 
-A daily GitHub Actions workflow that:
+A previous Claude session (the foreignllctax session, with router context fresh) built tax-guided's consumer pipeline as part of the same engagement. Status:
 
-1. Fetches `https://foreignllctax.com/tax-news-router-output.json`
-2. Diffs against `.cron/news-seen.json` (committed state file in this repo)
-3. For each new item, decides whether it fits an existing tax-guided content type:
-   - Regulation → append to `data/regulations.latest.json` + regenerate `src/lib/regulations/feed-data.ts`
-   - News article → write to a new `src/lib/news/auto-news.ts` (mirror foreignllctax's drip pattern)
-   - Statute/treaty/case-law update → route to the appropriate lib
-4. Auto-commits + pushes (or opens a PR — your call based on confidence)
+| File | Purpose | Built? |
+|---|---|---|
+| `scripts/cross-project-drip.ts` | Fetches router URL, AI-generates commentary via Workers AI Llama 3.3 70B FP8 Fast, validates strictly | ✅ Built |
+| `.github/workflows/cross-project-drip.yml` | Daily 05:23 UTC + manual trigger + auto-commit + push | ✅ Built |
+| `.cron/news-seen.json` | Committed dedup state | ✅ Built |
+| `src/lib/editorial/auto-news.ts` | AUTO-GENERATED target with `// ==== AUTO-CONTENT START/END ====` markers | ✅ Built |
+| `src/lib/editorial/index.ts` | `ALL_NEWS_COMMENTARY` now spreads `AUTO_NEWS_COMMENTARY` from auto-news.ts | ✅ Wired |
+| GH Actions secrets `CF_API_TOKEN` + `CF_ACCOUNT_ID` | Set in `gh secret list` | ✅ Set |
 
-### Reference implementation
+**Verified via GH Actions workflow_dispatch dry-run on 2026-05-03:**
+- Fetched 12 items from router feed
+- AI generated 2 valid commentary entries (relevanceScore >= 6)
+- Items irrelevant for foreignllctax (tribal fishing rights, fuel tax refunds) ARE substantive for tax-guided's broader audience — verified routing logic correct
+- Workflow exited success after 50s, no commit (dry-run)
 
-The full pattern is in foreignllctax.com:
-- `scripts/content-drip.ts` — fetcher + AI generator + validator + appender
-- `.github/workflows/cron-content-drip.yml` — daily cron + auto-commit
-- `src/lib/qa/qa-content-irs-drip.ts` — AUTO-GENERATED target file with markers
-- `docs/seo-automation.md` — full architecture writeup
+### How the consumer works (so you don't reinvent it)
 
-You can clone the structure of `content-drip.ts` for tax-guided. Key adaptations:
+```
+05:23 UTC daily:
+  fetch https://foreignllctax.com/tax-news-router-output.json (12-ish items typical)
+  filter against .cron/news-seen.json (committed state)
+  cap at MAX_NEW=5 (env override possible; do NOT raise without GSC trend evidence)
+  for each fresh item:
+    POST to Cloudflare Workers AI (Llama 3.3 70B FP8 Fast)
+    parse JSON response (model returns parsed object — no code-fence stripping needed)
+    validate: relevanceScore>=6, title/summary/seoTitle/seoDescription length bounds, >=2 sections
+    on success: render TS literal block, append between AUTO-CONTENT markers
+  commit + push → triggers existing cf:deploy
+```
 
-| foreignllctax | tax-guided equivalent |
-|---|---|
-| Audience: foreign-owned U.S. LLC owners | Audience: tax professionals + general taxpayers, multi-jurisdiction |
-| Filter: very narrow (Form 5472, FATCA, FIRPTA, etc.) | Filter: broad (any substantive tax regulation/law/news) |
-| Output: `src/lib/qa/qa-content-irs-drip.ts` (Q&A format) | Output: probably `src/lib/news/auto-news.ts` (article format) or update `data/regulations.latest.json` |
-| Source: IRS Newsroom + Federal Register direct | Source: foreignllctax router feed (already pre-filtered) + your own additional sources (China STA per your existing `sync-regulations.mjs`) |
-| AI: Cloudflare Workers AI (Llama 3.3 70B FP8 Fast), free tier | Same — use your existing CF account ID `b592217282aafffff49d2fd557b56fc9` and create your own API token |
+### What's safe to change
 
-### Required GitHub Actions secrets when you implement
-
-- `CF_API_TOKEN` — Cloudflare API token with Workers AI Read perm (create your own; do NOT reuse foreignllctax's)
-- `CF_ACCOUNT_ID` — `b592217282aafffff49d2fd557b56fc9`
-- (Optional) `CRON_SECRET` — if you add an HTTP cron endpoint here too
+- Drip cap `MAX_NEW`: keep at 5 unless you have 4+ weeks of GSC Crawl Stats trend showing budget is growing (mirroring foreignllctax's caution after the April 18 sitemap-spike outage)
+- AI provider: swap to Anthropic Claude (~$1.50/mo) if Workers AI quality drops. Same JSON schema, just change the API call in `cross-project-drip.ts`
+- Source URL: `ROUTER_URL` env var in the workflow lets you point at a different feed for testing
+- Validation thresholds: `MIN_RELEVANCE_SCORE` constant in cross-project-drip.ts (currently 6 — looser than foreignllctax's 7 because tax-guided's audience is broader)
 
 ### Kill switch
 
-Mirror foreignllctax pattern: a repo variable like `CONTENT_DRIP_DISABLED=true` that the workflow checks before running.
+```bash
+gh variable set CROSS_PROJECT_DRIP_DISABLED true   # halts daily cron
+gh variable delete CROSS_PROJECT_DRIP_DISABLED     # re-enable
+```
+
+### What you might still want to add later
+
+The current pipeline writes to `src/lib/editorial/auto-news.ts` only. Future work the operator may ask for:
+
+1. **Route certain item types to `data/regulations.latest.json` instead of auto-news.ts** — Federal Register rulemakings ARE regulations, could update the existing regulation feed too. Current code goes to commentary only because that has the richer structure.
+2. **Add own sources beyond the router feed** — the existing `sync-regulations.mjs` already pulls from China STA. Could expand cross-project-drip to fetch HMRC, CRA, ATO, NTA, IRAS feeds directly (the audience is global per the homepage).
+3. **PR-review mode** — currently auto-merges. If quality drops, switch the workflow to `gh pr create` instead of direct push.
+4. **Cross-publish back to foreignllctax** — bidirectional router. If tax-guided generates content that turns out to be relevant for foreign LLC owners, route it back. Low priority.
 
 ## YMYL / E-E-A-T baseline (already-shipped on foreignllctax — apply same to tax-guided)
 
