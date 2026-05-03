@@ -50,4 +50,19 @@ Disallow: /
 User-agent: *
 Allow: /
 
+# Primary sitemap index (lists all sub-sitemaps)
+Sitemap: https://taxguided.com/sitemap-index.xml
+
+# Individual sub-sitemaps (for crawlers that prefer flat declarations)
 Sitemap: https://taxguided.com/sitemap.xml
+Sitemap: https://taxguided.com/sitemap-forms.xml
+Sitemap: https://taxguided.com/sitemap-states.xml
+Sitemap: https://taxguided.com/sitemap-treaties.xml
+Sitemap: https://taxguided.com/sitemap-statutes.xml
+Sitemap: https://taxguided.com/sitemap-case-law.xml
+Sitemap: https://taxguided.com/sitemap-historical.xml
+Sitemap: https://taxguided.com/sitemap-calculators.xml
+Sitemap: https://taxguided.com/sitemap-glossary.xml
+Sitemap: https://taxguided.com/sitemap-calendar.xml
+Sitemap: https://taxguided.com/sitemap-industry.xml
+Sitemap: https://taxguided.com/sitemap-directory.xml

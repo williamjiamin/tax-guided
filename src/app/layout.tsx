@@ -29,6 +29,22 @@ export const metadata: Metadata = {
     "tax guided",
   ],
   metadataBase: new URL("https://taxguided.com"),
+  alternates: {
+    canonical: "/",
+    languages: {
+      "x-default": "https://taxguided.com/",
+      en: "https://taxguided.com/",
+      es: "https://taxguided.com/translations/es",
+      pt: "https://taxguided.com/translations/pt",
+      zh: "https://taxguided.com/translations/zh",
+      fr: "https://taxguided.com/translations/fr",
+      de: "https://taxguided.com/translations/de",
+      ar: "https://taxguided.com/translations/ar",
+      hi: "https://taxguided.com/translations/hi",
+      ja: "https://taxguided.com/translations/ja",
+      ko: "https://taxguided.com/translations/ko",
+    },
+  },
   openGraph: {
     title: "TaxGuided.com — Your Complete Guide to Tax Laws Around the World",
     description:

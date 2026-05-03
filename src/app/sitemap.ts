@@ -2,21 +2,11 @@ import type { MetadataRoute } from "next";
 import { getUniqueVideos } from "@/lib/learn/video-catalog";
 import { QA_CATALOG } from "@/lib/qa/qa-catalog";
 import { ALL_COUNTRY_CODES } from "@/lib/laws/catalog-index";
-import {
-  getCalculators,
-  getComplianceCountries,
-  getDirectoryRegistries,
-  getFormCountries,
-  getHistoricalSeriesSummaries,
-  getIndustryGuides,
-  getStatuteCountries,
-  getStatuteCodesByCountry,
-  getStatuteSections,
-  getStateCountries,
-  getTaxCases,
-  getTreaties,
-} from "@/lib/expansion/repository";
 import { TRANSLATION_LOCALES } from "@/lib/expansion/translations";
+
+// Note: expansion content (forms, states, treaties, statutes, case-law, historical,
+// calculators, calendar, glossary, industry, directory) lives in dedicated sub-sitemaps
+// at /sitemap-{section}.xml so we do not duplicate them in the main sitemap.
 
 const BASE_URL = "https://taxguided.com";
 
@@ -192,108 +182,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ];
 
-  const formCountries: MetadataRoute.Sitemap = getFormCountries().map((country) => ({
-    url: `${BASE_URL}/forms/${country.code}`,
-    lastModified: now,
-    changeFrequency: "weekly" as const,
-    priority: 0.7,
-  }));
-
-  const stateCountries: MetadataRoute.Sitemap = getStateCountries().map((country) => ({
-    url: `${BASE_URL}/states/${country.code}`,
-    lastModified: now,
-    changeFrequency: "weekly" as const,
-    priority: 0.7,
-  }));
-
-  const historicalSeries: MetadataRoute.Sitemap = getHistoricalSeriesSummaries().map((item) => ({
-    url: `${BASE_URL}/historical/${item.country}/${item.taxType}`,
-    lastModified: now,
-    changeFrequency: "monthly" as const,
-    priority: 0.6,
-  }));
-
-  const calendarCountries: MetadataRoute.Sitemap = getComplianceCountries().map((country) => ({
-    url: `${BASE_URL}/calendar/${country.code}`,
-    lastModified: now,
-    changeFrequency: "weekly" as const,
-    priority: 0.6,
-  }));
-
+  // Translations have no sub-sitemap of their own, so they live here.
   const translationPages: MetadataRoute.Sitemap = TRANSLATION_LOCALES.map((locale) => ({
     url: `${BASE_URL}/translations/${locale}`,
-    lastModified: now,
-    changeFrequency: "monthly" as const,
-    priority: 0.5,
-  }));
-
-  const calculators: MetadataRoute.Sitemap = getCalculators().map((calculator) => ({
-    url: `${BASE_URL}/calculators/${calculator.slug}`,
-    lastModified: now,
-    changeFrequency: "monthly" as const,
-    priority: 0.7,
-  }));
-
-  const treaties: MetadataRoute.Sitemap = getTreaties().map((treaty) => ({
-    url: `${BASE_URL}/treaties/${treaty.slug ?? treaty.id}`,
-    lastModified: treaty.lastUpdated,
-    changeFrequency: "monthly" as const,
-    priority: 0.7,
-  }));
-
-  const statutes: MetadataRoute.Sitemap = getStatuteCountries().flatMap((country) => [
-    ...getStatuteCodesByCountry(country.code).map((code) => ({
-      url: `${BASE_URL}/statutes/${country.code}/${code}`,
-      lastModified: now,
-      changeFrequency: "monthly" as const,
-      priority: 0.6,
-    })),
-    ...getStatuteCodesByCountry(country.code).flatMap((code) =>
-      getStatuteSections(country.code, code).map((section) => ({
-        url: `${BASE_URL}/statutes/${country.code}/${code}/${section.slug ?? section.section}`,
-        lastModified: section.lastUpdated,
-        changeFrequency: "monthly" as const,
-        priority: 0.6,
-      }))
-    ),
-  ]);
-
-  const caseLawEntries = new Map<string, MetadataRoute.Sitemap[number]>();
-  for (const entry of getTaxCases()) {
-    const courtSlug = entry.court
-      .toLowerCase()
-      .replaceAll(/[^a-z0-9]+/g, "-")
-      .replace(/^-|-$/g, "");
-    const year = entry.decisionDate.slice(0, 4);
-
-    caseLawEntries.set(`${BASE_URL}/case-law/${entry.country}/${courtSlug}`, {
-      url: `${BASE_URL}/case-law/${entry.country}/${courtSlug}`,
-      lastModified: entry.decisionDate,
-      changeFrequency: "monthly",
-      priority: 0.6,
-    });
-
-    caseLawEntries.set(
-      `${BASE_URL}/case-law/${entry.country}/${courtSlug}/${year}/${entry.slug ?? entry.id}`,
-      {
-        url: `${BASE_URL}/case-law/${entry.country}/${courtSlug}/${year}/${entry.slug ?? entry.id}`,
-        lastModified: entry.decisionDate,
-        changeFrequency: "monthly",
-        priority: 0.6,
-      }
-    );
-  }
-  const caseLaw: MetadataRoute.Sitemap = Array.from(caseLawEntries.values());
-
-  const industry: MetadataRoute.Sitemap = getIndustryGuides().map((guide) => ({
-    url: `${BASE_URL}/industry/${guide.country}/${guide.slug ?? guide.industry}`,
-    lastModified: now,
-    changeFrequency: "monthly" as const,
-    priority: 0.6,
-  }));
-
-  const directory: MetadataRoute.Sitemap = getDirectoryRegistries().map((registry) => ({
-    url: `${BASE_URL}/directory/${registry.country}/${registry.slug}`,
     lastModified: now,
     changeFrequency: "monthly" as const,
     priority: 0.5,
@@ -306,16 +197,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...learnArticles,
     ...communityPages,
     ...lawsPages,
-    ...formCountries,
-    ...stateCountries,
-    ...historicalSeries,
-    ...calendarCountries,
     ...translationPages,
-    ...calculators,
-    ...treaties,
-    ...statutes,
-    ...caseLaw,
-    ...industry,
-    ...directory,
   ];
 }
