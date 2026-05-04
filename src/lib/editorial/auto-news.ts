@@ -16,5 +16,83 @@ import type { NewsCommentaryItem } from "./news-commentary";
 
 export const AUTO_NEWS_COMMENTARY: NewsCommentaryItem[] = [
   // ==== AUTO-CONTENT START ====
+  {
+    id: "news-cross-tribal-fishing-rights-income-regulations-1777875912853",
+    slug: "tribal-fishing-rights-income-regulations",
+    title: "Final Regulations on Income from Indian Fishing Rights-Related Activity",
+    publishedAt: "2026-05-04",
+    summary: "The final regulations provide that income from Indian fishing rights-related activity may be treated as compensation for qualified retirement plan purposes. This affects participants, beneficiaries, sponsors, and administrators of Tribal plans. The regulations clarify the treatment of such income for retirement plan benefits and contributions.",
+    seoTitle: "Tribal Fishing Rights Income Regulations",
+    seoDescription: "Final regulations treat income from Indian fishing rights-related activity as compensation for qualified retirement plan purposes, affecting Tribal plans and their participants.",
+    sections: [
+      {
+        heading: "What the official source actually said",
+        body: "The final regulations provide clarity on the treatment of income from Indian fishing rights-related activity as compensation for purposes of applying the limits on qualified retirement plan benefits and contributions. This means that amounts paid to a member of an Indian Tribe as remuneration for services performed in a fishing rights-related activity may be treated as compensation. The regulations are intended to provide consistency and clarity in the application of retirement plan rules to Tribal plans.",
+      },
+      {
+        heading: "Why this matters / who is affected",
+        body: "The final regulations affect participants, beneficiaries, sponsors, and administrators of Tribal plans. This includes individuals who receive income from Indian fishing rights-related activity and are participating in a qualified retirement plan. The regulations may also impact the administration and management of Tribal plans, as plan sponsors and administrators will need to consider the treatment of such income when applying the limits on qualified retirement plan benefits and contributions. The regulations may provide greater flexibility and consistency in the treatment of income from Indian fishing rights-related activity for retirement plan purposes.",
+      },
+      {
+        heading: "What practitioners or affected taxpayers should do",
+        body: "Practitioners and affected taxpayers should review the final regulations and consider their impact on Tribal plans and participants. Plan sponsors and administrators should update their plan documents and administrative procedures to reflect the new regulations. Individuals who receive income from Indian fishing rights-related activity should consult with their plan administrator or a qualified tax professional to determine how the regulations may affect their retirement plan benefits and contributions. For more information, see the final regulations at https://www.federalregister.gov/documents/2026/05/04/2026-08613/treatment-of-income-from-indian-fishing-rights-related-activity-as-compensation",
+      },
+    ],
+    sources: [
+      { label: "Treatment of Income From Indian Fishing Rights-Related Activity as Compensation", url: "https://www.federalregister.gov/documents/2026/05/04/2026-08613/treatment-of-income-from-indian-fishing-rights-related-activity-as-compensation" },
+    ],
+  },
+  {
+    id: "news-cross-dyed-fuel-tax-refunds-1777875912854",
+    slug: "dyed-fuel-tax-refunds",
+    title: "Refunds for Previously Taxed Dyed Fuel Under Section 6435",
+    publishedAt: "2026-05-01",
+    summary: "The federal government has issued temporary regulations regarding payments to taxpayers for previously taxed dyed fuel. The regulations provide guidance on eligible taxpayers and claim procedures. Taxpayers who have paid tax on dyed fuel may be eligible for refunds under these new rules.",
+    seoTitle: "Dyed Fuel Tax Refunds",
+    seoDescription: "New regulations provide refunds for previously taxed dyed fuel under Section 6435, guiding eligible taxpayers and claim procedures",
+    sections: [
+      {
+        heading: "What the official source actually said",
+        body: "The Federal Register has published temporary regulations related to Section 6435 payments, which concern refunds for previously taxed dyed fuel. These regulations outline the procedures taxpayers must follow to claim payments and specify which taxpayers are eligible. The text of the temporary regulations also serves as the proposed regulations.",
+      },
+      {
+        heading: "Why this matters / who is affected",
+        body: "The new regulations are significant for taxpayers who have previously paid tax on dyed fuel, as they may now be eligible for refunds. This development affects businesses and individuals who have used dyed fuel and paid the associated taxes. The guidance provided by the regulations will help these taxpayers navigate the claim process and potentially receive refunds.",
+      },
+      {
+        heading: "What practitioners or affected taxpayers should do",
+        body: "Tax practitioners and affected taxpayers should review the temporary regulations to understand the eligibility criteria and claim procedures. They can find more information at https://www.federalregister.gov/documents/2026/05/01/2026-08546/section-6435-payments-refunds-for-previously-taxed-dyed-fuel. By following the guidelines outlined in the regulations, eligible taxpayers can take advantage of the refund opportunity and recover previously paid taxes on dyed fuel.",
+      },
+    ],
+    sources: [
+      { label: "Section 6435 Payments; Refunds for Previously Taxed Dyed Fuel", url: "https://www.federalregister.gov/documents/2026/05/01/2026-08546/section-6435-payments-refunds-for-previously-taxed-dyed-fuel" },
+    ],
+  },
+  {
+    id: "news-cross-dyed-fuel-tax-refunds-1777875912855",
+    slug: "dyed-fuel-tax-refunds",
+    title: "Temporary Regulations Issued for Refunds on Previously Taxed Dyed Fuel",
+    publishedAt: "2026-05-01",
+    summary: "The federal government has issued temporary regulations regarding payments to taxpayers for previously taxed dyed fuel. The regulations outline which taxpayers are eligible for payments and the procedures for claiming them. This guidance affects taxpayers who have been taxed on dyed fuel and are seeking refunds.",
+    seoTitle: "Dyed Fuel Tax Refunds",
+    seoDescription: "Temporary regulations issued for refunds on previously taxed dyed fuel, outlining eligibility and procedures for taxpayers",
+    sections: [
+      {
+        heading: "What the official source actually said",
+        body: "The federal government has published temporary regulations concerning payments to taxpayers for certain previously taxed dyed fuel. These regulations provide guidance on which taxpayers can claim such payments and the necessary procedures to follow. The text of the temporary regulations also serves as the proposed regulations in the notice of proposed rulemaking on this subject. The regulations aim to clarify the process for taxpayers to receive refunds on previously taxed dyed fuel.",
+      },
+      {
+        heading: "Why this matters / who is affected",
+        body: "These temporary regulations are significant for taxpayers who have been taxed on dyed fuel and are seeking refunds. The guidance provided will help taxpayers understand their eligibility for payments and the steps required to claim them. This development affects businesses and individuals who use dyed fuel and have been subject to taxation on it. The regulations will provide clarity and consistency in the refund process, ensuring that eligible taxpayers receive the payments they are entitled to.",
+      },
+      {
+        heading: "What practitioners or affected taxpayers should do",
+        body: "Tax practitioners and affected taxpayers should review the temporary regulations to understand the eligibility criteria and procedures for claiming payments. They should also be aware of the notice of proposed rulemaking and the opportunity to provide comments on the regulations. For more information, taxpayers can refer to the official source: https://www.federalregister.gov/documents/2026/05/01/2026-08545/section-6435-payments-refunds-for-previously-taxed-dyed-fuel",
+      },
+    ],
+    sources: [
+      { label: "Section 6435 Payments; Refunds for Previously Taxed Dyed Fuel", url: "https://www.federalregister.gov/documents/2026/05/01/2026-08545/section-6435-payments-refunds-for-previously-taxed-dyed-fuel" },
+    ],
+  },
   // ==== AUTO-CONTENT END ====
 ];
