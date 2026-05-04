@@ -332,6 +332,10 @@ export function getCaseByPath(
   );
 }
 
+export function getTaxCaseById(id: string): TaxCase | null {
+  return TAX_CASES.find((entry) => entry.id === id) ?? null;
+}
+
 export function getIndustryCountries(): CountryCollectionSummary[] {
   const counts = new Map<string, number>();
   for (const guide of INDUSTRY_GUIDES) {

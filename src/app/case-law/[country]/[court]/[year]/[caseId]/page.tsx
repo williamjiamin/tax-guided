@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ExpansionPageShell } from "@/components/expansion/ExpansionPageShell";
 import { DisclaimerCard } from "@/components/expansion/DisclaimerCard";
@@ -5,7 +6,7 @@ import { JsonLdScript } from "@/components/expansion/JsonLdScript";
 import { SourceList } from "@/components/expansion/SourceList";
 import { getCountryName } from "@/lib/expansion/constants";
 import { absoluteUrl, buildBreadcrumbJsonLd, buildMetadata } from "@/lib/expansion/seo";
-import { getCaseByPath } from "@/lib/expansion/repository";
+import { getCaseByPath, getTaxCaseById } from "@/lib/expansion/repository";
 
 export const dynamicParams = true;
 export const revalidate = 86400;
@@ -34,6 +35,13 @@ export default async function CaseDetailPage({ params }: Props) {
   if (!entry) {
     notFound();
   }
+
+  const citedCases = entry.citedCases
+    .map((relatedCaseId) => getTaxCaseById(relatedCaseId))
+    .filter((relatedCase): relatedCase is NonNullable<typeof relatedCase> => Boolean(relatedCase));
+  const citingCases = entry.citingCases
+    .map((relatedCaseId) => getTaxCaseById(relatedCaseId))
+    .filter((relatedCase): relatedCase is NonNullable<typeof relatedCase> => Boolean(relatedCase));
 
   return (
     <ExpansionPageShell
@@ -109,6 +117,42 @@ export default async function CaseDetailPage({ params }: Props) {
               Open official decision
             </a>
           </div>
+
+          {citedCases.length ? (
+            <div className="rounded-3xl border border-gray-200 bg-white p-6">
+              <h2 className="text-xl font-semibold text-gray-900">Cases cited</h2>
+              <div className="mt-4 space-y-3">
+                {citedCases.map((relatedCase) => (
+                  <Link
+                    key={relatedCase.id}
+                    href={`/case-law/${relatedCase.country}/${relatedCase.court.toLowerCase().replaceAll(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}/${relatedCase.decisionDate.slice(0, 4)}/${relatedCase.slug ?? relatedCase.id}`}
+                    className="block rounded-2xl bg-gray-50 p-4 text-sm text-gray-700 transition hover:bg-white hover:shadow-sm"
+                  >
+                    <p className="font-semibold text-[#0a1628]">{relatedCase.caseName}</p>
+                    <p className="mt-1 text-xs text-gray-500">{relatedCase.citation}</p>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          ) : null}
+
+          {citingCases.length ? (
+            <div className="rounded-3xl border border-gray-200 bg-white p-6">
+              <h2 className="text-xl font-semibold text-gray-900">Later cases in this library</h2>
+              <div className="mt-4 space-y-3">
+                {citingCases.map((relatedCase) => (
+                  <Link
+                    key={relatedCase.id}
+                    href={`/case-law/${relatedCase.country}/${relatedCase.court.toLowerCase().replaceAll(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}/${relatedCase.decisionDate.slice(0, 4)}/${relatedCase.slug ?? relatedCase.id}`}
+                    className="block rounded-2xl bg-gray-50 p-4 text-sm text-gray-700 transition hover:bg-white hover:shadow-sm"
+                  >
+                    <p className="font-semibold text-[#0a1628]">{relatedCase.caseName}</p>
+                    <p className="mt-1 text-xs text-gray-500">{relatedCase.citation}</p>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          ) : null}
         </div>
       </section>
 

@@ -177,5 +177,101 @@
         "verifiedAt": "2026-05-01"
       }
     ]
+  },
+  {
+    "id": "us-irc-1441",
+    "slug": "1441",
+    "country": "us",
+    "statute": "irc",
+    "section": "1441",
+    "subsection": "a",
+    "title": "Withholding of tax on nonresident aliens",
+    "fullText": "Section 1441 is the core U.S. withholding rule for many payments of U.S.-source fixed or determinable income to nonresident alien individuals and certain foreign partnerships. In the baseline case, the withholding agent must deduct and withhold 30 percent unless an exception, effectively connected income rule, or treaty-backed reduction applies.",
+    "effectiveDate": null,
+    "amendmentHistory": [],
+    "crossReferences": ["26 U.S.C. 871", "26 U.S.C. 1442", "26 U.S.C. 1446"],
+    "treasuryRegs": ["Treas. Reg. 1.1441-1"],
+    "caseLaw": [],
+    "guidesOnSite": ["form-1042-s", "cross-border-payments", "w8ben-brokerage-trap"],
+    "lastUpdated": "2026-05-04T00:00:00.000Z",
+    "sources": [
+      {
+        "label": "26 U.S.C. section 1441",
+        "url": "https://uscode.house.gov/view.xhtml?req=%28title%3A26+section%3A1441+edition%3Aprelim%29",
+        "verifiedAt": "2026-05-04"
+      }
+    ]
+  },
+  {
+    "id": "us-irc-1442",
+    "slug": "1442",
+    "country": "us",
+    "statute": "irc",
+    "section": "1442",
+    "subsection": "a",
+    "title": "Withholding of tax on foreign corporations",
+    "fullText": "Section 1442 applies the chapter 3 withholding regime to foreign corporations receiving U.S.-source fixed or determinable income that is not effectively connected with a U.S. trade or business. In practice, it works alongside section 1441 and the W-8 / Form 1042-S documentation chain.",
+    "effectiveDate": null,
+    "amendmentHistory": [],
+    "crossReferences": ["26 U.S.C. 881", "26 U.S.C. 882", "26 U.S.C. 1441"],
+    "treasuryRegs": ["Treas. Reg. 1.1442-1"],
+    "caseLaw": [],
+    "guidesOnSite": ["form-1042-s", "form-1120-f", "cross-border-payments"],
+    "lastUpdated": "2026-05-04T00:00:00.000Z",
+    "sources": [
+      {
+        "label": "26 U.S.C. section 1442",
+        "url": "https://uscode.house.gov/view.xhtml?req=%28title%3A26+section%3A1442+edition%3Aprelim%29",
+        "verifiedAt": "2026-05-04"
+      }
+    ]
+  },
+  {
+    "id": "us-irc-1446",
+    "slug": "1446",
+    "country": "us",
+    "statute": "irc",
+    "section": "1446",
+    "subsection": "a",
+    "title": "Withholding of tax on foreign partners' share of effectively connected income",
+    "fullText": "Section 1446 requires partnerships with effectively connected taxable income allocable to foreign partners to pay withholding tax under rules prescribed by the Secretary. It also includes the modern withholding framework for certain dispositions of partnership interests under subsection (f).",
+    "effectiveDate": null,
+    "amendmentHistory": [],
+    "crossReferences": ["26 U.S.C. 864", "26 U.S.C. 704", "26 U.S.C. 1446(f)"],
+    "treasuryRegs": ["Treas. Reg. 1.1446-1"],
+    "caseLaw": [],
+    "guidesOnSite": ["section-1446", "form-1065", "cross-border-payments"],
+    "lastUpdated": "2026-05-04T00:00:00.000Z",
+    "sources": [
+      {
+        "label": "26 U.S.C. section 1446",
+        "url": "https://uscode.house.gov/view.xhtml?req=%28title%3A26+section%3A1446+edition%3Aprelim%29",
+        "verifiedAt": "2026-05-04"
+      }
+    ]
+  },
+  {
+    "id": "us-irc-6114",
+    "slug": "6114",
+    "country": "us",
+    "statute": "irc",
+    "section": "6114",
+    "subsection": null,
+    "title": "Treaty-based return positions",
+    "fullText": "Section 6114 requires disclosure when a taxpayer takes the position that a U.S. treaty overrules or otherwise modifies an internal revenue law of the United States. In practical terms, this is the Code hook behind Form 8833 and many treaty-disclosure questions faced by cross-border taxpayers.",
+    "effectiveDate": null,
+    "amendmentHistory": [],
+    "crossReferences": ["26 U.S.C. 6712", "26 U.S.C. 7701"],
+    "treasuryRegs": ["Treas. Reg. 301.6114-1", "Treas. Reg. 301.7701(b)-7"],
+    "caseLaw": [],
+    "guidesOnSite": ["form-1040-nr", "form-1120-f", "w8ben-brokerage-trap"],
+    "lastUpdated": "2026-05-04T00:00:00.000Z",
+    "sources": [
+      {
+        "label": "26 U.S.C. section 6114",
+        "url": "https://uscode.house.gov/view.xhtml?req=%28title%3A26+section%3A6114+edition%3Aprelim%29",
+        "verifiedAt": "2026-05-04"
+      }
+    ]
   }
 ]

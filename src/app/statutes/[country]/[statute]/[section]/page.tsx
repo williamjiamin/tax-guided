@@ -6,7 +6,7 @@ import { JsonLdScript } from "@/components/expansion/JsonLdScript";
 import { SourceList } from "@/components/expansion/SourceList";
 import { getCountryName } from "@/lib/expansion/constants";
 import { absoluteUrl, buildBreadcrumbJsonLd, buildMetadata } from "@/lib/expansion/seo";
-import { getStatuteSection } from "@/lib/expansion/repository";
+import { getStatuteSection, getTaxCaseById } from "@/lib/expansion/repository";
 
 export const dynamicParams = true;
 export const revalidate = 86400;
@@ -35,6 +35,8 @@ export default async function StatuteSectionPage({ params }: Props) {
   if (!entry) {
     notFound();
   }
+
+  const relatedCases = entry.caseLaw.map((caseId) => getTaxCaseById(caseId));
 
   return (
     <ExpansionPageShell
@@ -125,10 +127,24 @@ export default async function StatuteSectionPage({ params }: Props) {
             <div className="rounded-3xl border border-gray-200 bg-white p-6">
               <h2 className="text-xl font-semibold text-gray-900">Related cases</h2>
               <div className="mt-4 space-y-2">
-                {entry.caseLaw.map((caseId) => (
-                  <div key={caseId} className="rounded-2xl bg-gray-50 p-4 text-sm text-gray-700">
-                    {caseId}
-                  </div>
+                {relatedCases.map((caseEntry, index) => (
+                  caseEntry ? (
+                    <Link
+                      key={caseEntry.id}
+                      href={`/case-law/${caseEntry.country}/${caseEntry.court.toLowerCase().replaceAll(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}/${caseEntry.decisionDate.slice(0, 4)}/${caseEntry.slug ?? caseEntry.id}`}
+                      className="block rounded-2xl bg-gray-50 p-4 text-sm text-gray-700 transition hover:bg-white hover:shadow-sm"
+                    >
+                      <p className="font-semibold text-[#0a1628]">{caseEntry.caseName}</p>
+                      <p className="mt-1 text-xs text-gray-500">{caseEntry.citation}</p>
+                    </Link>
+                  ) : (
+                    <div
+                      key={`${entry.caseLaw[index]}-missing`}
+                      className="rounded-2xl bg-gray-50 p-4 text-sm text-gray-700"
+                    >
+                      {entry.caseLaw[index]}
+                    </div>
+                  )
                 ))}
               </div>
             </div>

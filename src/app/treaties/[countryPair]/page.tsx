@@ -107,6 +107,9 @@ export default async function TreatyDetailPage({ params }: Props) {
               Pensions: {treaty.pensions.taxedIn}
             </div>
             <div className="rounded-2xl bg-gray-50 p-4 text-sm text-gray-700">
+              Protocols: {treaty.protocolDates.length ? treaty.protocolDates.join(", ") : "None seeded"}
+            </div>
+            <div className="rounded-2xl bg-gray-50 p-4 text-sm text-gray-700">
               Exchange of information: {treaty.exchangeOfInformation ? "Yes" : "No"}
             </div>
             <div className="rounded-2xl bg-gray-50 p-4 text-sm text-gray-700">
@@ -116,6 +119,7 @@ export default async function TreatyDetailPage({ params }: Props) {
               Teacher article: {treaty.teachersClause ? "Yes" : "No"}
             </div>
           </div>
+          <p className="mt-4 text-sm leading-6 text-gray-600">{treaty.pensions.notes}</p>
         </div>
       </section>
 

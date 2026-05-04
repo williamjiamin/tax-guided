@@ -807,5 +807,317 @@
         "verifiedAt": "2026-05-02"
       }
     ]
+  },
+  {
+    "id": "us-irs-8833",
+    "slug": "8833",
+    "country": "us",
+    "authority": "IRS",
+    "formNumber": "8833",
+    "formName": "Treaty-Based Return Position Disclosure Under Section 6114 or 7701(b)",
+    "description": "Disclosure form used when a taxpayer takes a treaty-based return position that overrules or modifies U.S. internal revenue law, including certain dual-resident positions.",
+    "category": "treaty-disclosure",
+    "currentRevisionYear": 2022,
+    "pdfUrl": "https://www.irs.gov/pub/irs-pdf/f8833.pdf",
+    "instructionsUrl": null,
+    "filingMethod": ["paper", "efile"],
+    "whoMustFile": "Taxpayers that must disclose a treaty-based return position under Internal Revenue Code section 6114, including dual-resident taxpayers making the disclosure described in Regulations section 301.7701(b)-7.",
+    "practicalOverview": "Form 8833 is where treaty benefits move from theory into actual filing risk. Many cross-border taxpayers focus on the reduced withholding rate or treaty residence answer and miss the separate disclosure obligation that can apply when the treaty position changes the normal U.S. tax result.",
+    "practicalSteps": [
+      "Identify whether the return position depends on a treaty override or treaty-based modification of the ordinary Internal Revenue Code result.",
+      "Match the treaty article and the factual position to the specific disclosure being made.",
+      "Attach the disclosure to the federal return for the year in which the treaty-based return position is taken.",
+      "Keep the treaty analysis and supporting residence documentation with the return workpapers."
+    ],
+    "dueDates": [
+      {
+        "description": "Attach to the return for the year in which the treaty-based return position is taken.",
+        "date": "file with the underlying federal return for the relevant tax year",
+        "extension": null
+      }
+    ],
+    "penalty": "Failure to disclose a required treaty-based return position can trigger section 6712 penalties in addition to any substantive tax adjustment.",
+    "relatedForms": ["us-irs-8802", "us-irs-w-8ben", "us-irs-w-8ben-e"],
+    "relatedGuides": ["form-1040-nr", "form-1120-f", "w8ben-brokerage-trap"],
+    "historicalRevisions": [
+      {
+        "year": 2022,
+        "pdfUrl": "https://www.irs.gov/pub/irs-pdf/f8833.pdf"
+      }
+    ],
+    "lastUpdated": "2026-05-04T00:00:00.000Z",
+    "storageKey": "forms/us/irs/form-8833.json",
+    "sources": [
+      {
+        "label": "About Form 8833",
+        "url": "https://www.irs.gov/forms-pubs/about-form-8833",
+        "verifiedAt": "2026-05-04"
+      },
+      {
+        "label": "Form 8833 PDF",
+        "url": "https://www.irs.gov/pub/irs-pdf/f8833.pdf",
+        "verifiedAt": "2026-05-04"
+      }
+    ]
+  },
+  {
+    "id": "us-irs-8802",
+    "slug": "8802",
+    "country": "us",
+    "authority": "IRS",
+    "formNumber": "8802",
+    "formName": "Application for United States Residency Certification",
+    "description": "Application used to request IRS certification of U.S. tax residency, usually through Form 6166, for treaty and foreign tax administration purposes.",
+    "category": "residency-certification",
+    "currentRevisionYear": 2018,
+    "pdfUrl": "https://www.irs.gov/pub/irs-pdf/f8802.pdf",
+    "instructionsUrl": "https://www.irs.gov/instructions/i8802",
+    "filingMethod": ["paper"],
+    "whoMustFile": "Taxpayers that need IRS certification of U.S. residency for treaty relief, foreign withholding reduction, or another foreign tax-administration request.",
+    "practicalOverview": "Form 8802 is the operational bridge between a U.S. tax return and a foreign payer or foreign tax authority that wants proof of U.S. residency. The risk is usually not legal complexity but timing: the certificate is often needed before a payment, refund claim, or foreign filing deadline arrives.",
+    "practicalSteps": [
+      "Confirm which person or entity needs the residency certification and for which country and year.",
+      "Gather the identifying information and return history the IRS uses to process the request.",
+      "File Form 8802 early enough to allow for IRS processing and international delivery if the certificate will be used abroad.",
+      "Keep the issued certificate and the foreign-side use case together in the compliance file."
+    ],
+    "dueDates": [
+      {
+        "description": "No fixed annual due date; file far enough in advance of the foreign withholding, refund, or compliance deadline that depends on the certificate.",
+        "date": "as-needed",
+        "extension": null
+      }
+    ],
+    "penalty": null,
+    "relatedForms": ["us-irs-8833", "us-irs-w-8ben", "us-irs-w-8ben-e"],
+    "relatedGuides": ["cross-border-payments", "w8ben-brokerage-trap", "form-1040-nr"],
+    "historicalRevisions": [
+      {
+        "year": 2018,
+        "pdfUrl": "https://www.irs.gov/pub/irs-pdf/f8802.pdf"
+      }
+    ],
+    "lastUpdated": "2026-05-04T00:00:00.000Z",
+    "storageKey": "forms/us/irs/form-8802.json",
+    "sources": [
+      {
+        "label": "About Form 8802",
+        "url": "https://www.irs.gov/forms-pubs/about-form-8802",
+        "verifiedAt": "2026-05-04"
+      },
+      {
+        "label": "Instructions for Form 8802",
+        "url": "https://www.irs.gov/instructions/i8802",
+        "verifiedAt": "2026-05-04"
+      }
+    ]
+  },
+  {
+    "id": "us-irs-1042-s",
+    "slug": "1042-s",
+    "country": "us",
+    "authority": "IRS",
+    "formNumber": "1042-S",
+    "formName": "Foreign Person's U.S. Source Income Subject to Withholding",
+    "description": "Information return used to report U.S.-source income paid to foreign persons and the withholding, exemption, or treaty result attached to that payment.",
+    "category": "withholding-reporting",
+    "currentRevisionYear": 2026,
+    "pdfUrl": "https://www.irs.gov/pub/irs-pdf/f1042s.pdf",
+    "instructionsUrl": "https://www.irs.gov/instructions/i1042s",
+    "filingMethod": ["paper", "efile"],
+    "whoMustFile": "Withholding agents, intermediaries, and certain other payers that must report U.S.-source income paid to foreign persons and the amounts withheld or exempted.",
+    "practicalOverview": "Form 1042-S is the downstream proof of how a withholding decision was actually reported. When treaty forms, withholding certificates, or FDAP classifications are mishandled, the problem often becomes visible here first because the form has to reconcile the payee type, income code, exemption logic, and withholding amount.",
+    "practicalSteps": [
+      "Classify the payment correctly and determine the income code, recipient status, and treaty or exemption result.",
+      "Collect and validate the underlying withholding documentation, including any applicable W-8 forms.",
+      "Prepare the recipient copy and the IRS filing using the correct income, exemption, and withholding data.",
+      "Reconcile the form with the related Form 1042 and payment records before filing."
+    ],
+    "dueDates": [
+      {
+        "description": "Recipient statement and IRS filing are generally due by March 15 following the calendar year of payment.",
+        "date": "March 15 following the calendar year of payment",
+        "extension": null
+      }
+    ],
+    "penalty": "Information-return penalties and withholding exposure can apply if Forms 1042-S are late, missing, or materially incorrect.",
+    "relatedForms": ["us-irs-w-8ben", "us-irs-w-8ben-e", "us-irs-8833"],
+    "relatedGuides": ["form-1042-s", "section-1446", "cross-border-payments"],
+    "historicalRevisions": [
+      {
+        "year": 2026,
+        "pdfUrl": "https://www.irs.gov/pub/irs-pdf/f1042s.pdf"
+      }
+    ],
+    "lastUpdated": "2026-05-04T00:00:00.000Z",
+    "storageKey": "forms/us/irs/form-1042-s.json",
+    "sources": [
+      {
+        "label": "About Form 1042-S",
+        "url": "https://www.irs.gov/forms-pubs/about-form-1042-s",
+        "verifiedAt": "2026-05-04"
+      },
+      {
+        "label": "Instructions for Form 1042-S",
+        "url": "https://www.irs.gov/instructions/i1042s",
+        "verifiedAt": "2026-05-04"
+      }
+    ]
+  },
+  {
+    "id": "us-irs-8832",
+    "slug": "8832",
+    "country": "us",
+    "authority": "IRS",
+    "formNumber": "8832",
+    "formName": "Entity Classification Election",
+    "description": "Election form used by an eligible entity to choose how it will be classified for U.S. federal tax purposes.",
+    "category": "entity-classification",
+    "currentRevisionYear": 2013,
+    "pdfUrl": "https://www.irs.gov/pub/irs-pdf/f8832.pdf",
+    "instructionsUrl": null,
+    "filingMethod": ["paper"],
+    "whoMustFile": "Eligible entities that want to elect a federal tax classification different from the default classification that would otherwise apply.",
+    "practicalOverview": "Form 8832 is the formal checkpoint behind many founder conversations about whether an entity will be taxed as a corporation or under its default classification. The operational risk is not just the classification choice itself but the timing window for when the election can take effect.",
+    "practicalSteps": [
+      "Confirm the entity is eligible to make a classification election and identify its default status under the check-the-box rules.",
+      "Choose the intended effective date and check that it fits within the IRS timing window for late, current, or prospective elections.",
+      "Complete the election consistently with the entity's ownership and intended federal filing posture.",
+      "Align later filings, including federal returns and information returns, with the classification actually elected."
+    ],
+    "dueDates": [
+      {
+        "description": "File when the entity needs a classification election; the requested effective date generally cannot be more than 75 days before filing or more than 12 months after filing.",
+        "date": "as-needed based on the intended effective date of the election",
+        "extension": null
+      }
+    ],
+    "penalty": null,
+    "relatedForms": ["us-irs-ss-4", "us-irs-5472"],
+    "relatedGuides": ["register-us-company", "best-states-foreign-llc", "form-1120-c-corp"],
+    "historicalRevisions": [
+      {
+        "year": 2013,
+        "pdfUrl": "https://www.irs.gov/pub/irs-pdf/f8832.pdf"
+      }
+    ],
+    "lastUpdated": "2026-05-04T00:00:00.000Z",
+    "storageKey": "forms/us/irs/form-8832.json",
+    "sources": [
+      {
+        "label": "About Form 8832",
+        "url": "https://www.irs.gov/forms-pubs/about-form-8832",
+        "verifiedAt": "2026-05-04"
+      },
+      {
+        "label": "Form 8832 PDF",
+        "url": "https://www.irs.gov/pub/irs-pdf/f8832.pdf",
+        "verifiedAt": "2026-05-04"
+      }
+    ]
+  },
+  {
+    "id": "us-irs-w-8ben",
+    "slug": "w-8ben",
+    "country": "us",
+    "authority": "IRS",
+    "formNumber": "W-8BEN",
+    "formName": "Certificate of Foreign Status of Beneficial Owner for United States Tax Withholding and Reporting (Individuals)",
+    "description": "Withholding certificate used by foreign individuals to document beneficial-owner status and claim treaty rates or exemptions where available.",
+    "category": "withholding-certificate",
+    "currentRevisionYear": 2021,
+    "pdfUrl": "https://www.irs.gov/pub/irs-pdf/fw8ben.pdf",
+    "instructionsUrl": "https://www.irs.gov/instructions/iw8ben",
+    "filingMethod": ["paper"],
+    "whoMustFile": "Foreign individuals that must give the form to a withholding agent or payer to document foreign status, beneficial ownership, or treaty eligibility for an amount subject to withholding.",
+    "practicalOverview": "Form W-8BEN is often the single document standing between a payee and default 30 percent U.S. withholding. The usual failure mode is not forgetting the form exists but completing it without matching the treaty article, residence, or beneficial-owner facts that the payer will rely on.",
+    "practicalSteps": [
+      "Identify the income stream and confirm the individual is the beneficial owner for U.S. withholding purposes.",
+      "Complete the residency, foreign TIN, and treaty-claim fields consistently with the individual's actual facts.",
+      "Deliver the form to the withholding agent or payer before payment or when requested.",
+      "Refresh the form when circumstances change or when the payer requires an updated certification."
+    ],
+    "dueDates": [
+      {
+        "description": "Give the form to the withholding agent or payer before payment or when requested; update it when the underlying facts change.",
+        "date": "as-needed before payment or withholding review",
+        "extension": null
+      }
+    ],
+    "penalty": "If the form is missing, incomplete, or unsupported, the payer may default to 30 percent withholding or deny the claimed treaty rate.",
+    "relatedForms": ["us-irs-w-8ben-e", "us-irs-1042-s", "us-irs-8833"],
+    "relatedGuides": ["w8ben-brokerage-trap", "cross-border-payments", "form-1040-nr"],
+    "historicalRevisions": [
+      {
+        "year": 2021,
+        "pdfUrl": "https://www.irs.gov/pub/irs-pdf/fw8ben.pdf"
+      }
+    ],
+    "lastUpdated": "2026-05-04T00:00:00.000Z",
+    "storageKey": "forms/us/irs/form-w-8ben.json",
+    "sources": [
+      {
+        "label": "About Form W-8BEN",
+        "url": "https://www.irs.gov/forms-pubs/about-form-w-8-ben",
+        "verifiedAt": "2026-05-04"
+      },
+      {
+        "label": "Instructions for Form W-8BEN",
+        "url": "https://www.irs.gov/instructions/iw8ben",
+        "verifiedAt": "2026-05-04"
+      }
+    ]
+  },
+  {
+    "id": "us-irs-w-8ben-e",
+    "slug": "w-8ben-e",
+    "country": "us",
+    "authority": "IRS",
+    "formNumber": "W-8BEN-E",
+    "formName": "Certificate of Status of Beneficial Owner for United States Tax Withholding and Reporting (Entities)",
+    "description": "Withholding certificate used by foreign entities to document chapter 3 and chapter 4 status and claim treaty relief where the facts support it.",
+    "category": "withholding-certificate",
+    "currentRevisionYear": 2021,
+    "pdfUrl": "https://www.irs.gov/pub/irs-pdf/fw8bene.pdf",
+    "instructionsUrl": "https://www.irs.gov/instructions/iw8bene",
+    "filingMethod": ["paper"],
+    "whoMustFile": "Foreign entities that must document their chapter 3, chapter 4, or other Code-status position to a withholding agent or payer, including entities claiming treaty benefits.",
+    "practicalOverview": "W-8BEN-E is one of the densest operational forms in cross-border tax because it mixes treaty entitlement, entity characterization, FATCA status, and documentation timing in a single certificate. The practical challenge is choosing the right chapter 3 and chapter 4 classifications before the treaty rate box is ever checked.",
+    "practicalSteps": [
+      "Determine the entity's chapter 3 status, chapter 4 status, and whether it is the beneficial owner of the payment.",
+      "Complete the treaty-benefits and limitation-on-benefits portions only after the entity status work is settled.",
+      "Provide the form to the withholding agent or payer before payment or when requested.",
+      "Track ownership or status changes that require a refreshed certification."
+    ],
+    "dueDates": [
+      {
+        "description": "Give the form to the withholding agent or payer before payment or when requested; replace it when the underlying facts change.",
+        "date": "as-needed before payment or withholding review",
+        "extension": null
+      }
+    ],
+    "penalty": "If the form is missing, incomplete, or unsupported, the payer may impose default withholding or refuse the claimed treaty outcome.",
+    "relatedForms": ["us-irs-w-8ben", "us-irs-1042-s", "us-irs-8833"],
+    "relatedGuides": ["cross-border-payments", "form-1120-f", "w8ben-brokerage-trap"],
+    "historicalRevisions": [
+      {
+        "year": 2021,
+        "pdfUrl": "https://www.irs.gov/pub/irs-pdf/fw8bene.pdf"
+      }
+    ],
+    "lastUpdated": "2026-05-04T00:00:00.000Z",
+    "storageKey": "forms/us/irs/form-w-8ben-e.json",
+    "sources": [
+      {
+        "label": "About Form W-8BEN-E",
+        "url": "https://www.irs.gov/forms-pubs/about-form-w-8-ben-e",
+        "verifiedAt": "2026-05-04"
+      },
+      {
+        "label": "Instructions for Form W-8BEN-E",
+        "url": "https://www.irs.gov/instructions/iw8bene",
+        "verifiedAt": "2026-05-04"
+      }
+    ]
   }
 ]

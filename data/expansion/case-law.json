@@ -24,7 +24,7 @@
     "fullDecisionUrl": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep319/usrep319436/usrep319436.pdf",
     "fullDecisionPdfUrl": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep319/usrep319436/usrep319436.pdf",
     "appealHistory": [],
-    "citingCases": [],
+    "citingCases": ["national-carbide-v-commissioner", "commissioner-v-bollinger"],
     "citedCases": [],
     "sources": [
       {
@@ -171,6 +171,111 @@
         "label": "Official opinion PDF",
         "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep499/usrep499554/usrep499554.pdf",
         "verifiedAt": "2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "gregory-v-helvering",
+    "slug": "gregory-v-helvering",
+    "country": "us",
+    "court": "Supreme Court",
+    "citation": "293 U.S. 465 (1935)",
+    "caseName": "Gregory v. Helvering",
+    "decisionDate": "1935-01-07",
+    "judges": ["Sutherland"],
+    "parties": {
+      "taxpayer": "Gregory",
+      "respondent": "Helvering, Commissioner of Internal Revenue"
+    },
+    "taxYears": [],
+    "amountInDispute": null,
+    "holding": "A transaction that fits the literal words of the reorganization statute but lacks any real business or corporate purpose apart from tax avoidance is not respected as a tax-free reorganization.",
+    "facts": "The taxpayer caused a corporation to create and use another corporation to transfer appreciated stock to her and then quickly liquidated the new entity, arguing that the steps qualified as a tax-free corporate reorganization rather than a taxable dividend.",
+    "reasoning": "The Court held that the statute must be read in light of the kind of corporate reorganization Congress intended to protect. Because the newly created corporation served no business function and existed only as a conduit for a preplanned stock transfer, the transaction was a formal shell rather than a real reorganization.",
+    "outcome": "for-government",
+    "statutesApplied": ["Revenue Act of 1928 section 112(g)", "Revenue Act of 1928 section 112(i)(1)"],
+    "formsInvolved": [],
+    "topics": ["substance over form", "reorganization", "tax avoidance"],
+    "fullDecisionUrl": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep293/usrep293465/usrep293465.pdf",
+    "fullDecisionPdfUrl": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep293/usrep293465/usrep293465.pdf",
+    "appealHistory": [],
+    "citingCases": [],
+    "citedCases": [],
+    "sources": [
+      {
+        "label": "Official opinion PDF",
+        "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep293/usrep293465/usrep293465.pdf",
+        "verifiedAt": "2026-05-04"
+      }
+    ]
+  },
+  {
+    "id": "national-carbide-v-commissioner",
+    "slug": "national-carbide-v-commissioner",
+    "country": "us",
+    "court": "Supreme Court",
+    "citation": "336 U.S. 422 (1949)",
+    "caseName": "National Carbide Corp. v. Commissioner",
+    "decisionDate": "1949-03-28",
+    "judges": ["Vinson"],
+    "parties": {
+      "taxpayer": "National Carbide Corp. and related subsidiaries",
+      "respondent": "Commissioner of Internal Revenue"
+    },
+    "taxYears": [1938],
+    "amountInDispute": null,
+    "holding": "A corporation formed or operated for business purposes must bear its own tax consequences, and a wholly owned subsidiary is not ignored merely because it claims to act as its parent's agent.",
+    "facts": "Air Reduction Corporation used wholly owned subsidiaries as operating companies, supplied their working capital, and required them by contract to turn over nearly all profits to the parent while the subsidiaries retained title to assets and conducted the assigned business lines.",
+    "reasoning": "The Court treated the subsidiaries as separate taxable entities because they were genuine operating corporations, not mere nominees. It emphasized that complete ownership and contractual control do not erase corporate tax status and that true agency requires more than labels placed on intercompany agreements.",
+    "outcome": "for-government",
+    "statutesApplied": ["26 U.S.C. 11"],
+    "formsInvolved": [],
+    "topics": ["corporate separateness", "agency", "entity taxation"],
+    "fullDecisionUrl": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep336/usrep336422/usrep336422.pdf",
+    "fullDecisionPdfUrl": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep336/usrep336422/usrep336422.pdf",
+    "appealHistory": [],
+    "citingCases": ["commissioner-v-bollinger"],
+    "citedCases": ["moline-properties-v-commissioner"],
+    "sources": [
+      {
+        "label": "Official opinion PDF",
+        "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep336/usrep336422/usrep336422.pdf",
+        "verifiedAt": "2026-05-04"
+      }
+    ]
+  },
+  {
+    "id": "commissioner-v-bollinger",
+    "slug": "commissioner-v-bollinger",
+    "country": "us",
+    "court": "Supreme Court",
+    "citation": "485 U.S. 340 (1988)",
+    "caseName": "Commissioner v. Bollinger",
+    "decisionDate": "1988-03-22",
+    "judges": ["Scalia"],
+    "parties": {
+      "taxpayer": "Bollinger et al.",
+      "respondent": "Commissioner of Internal Revenue"
+    },
+    "taxYears": [],
+    "amountInDispute": null,
+    "holding": "A corporation can be disregarded as the owner's true agent for federal tax purposes when the relationship is genuine in both form and substance rather than a dressed-up ownership arrangement.",
+    "facts": "Kentucky lenders required apartment-project borrowers to use a corporation as the record titleholder and nominal debtor because of state usury rules. The partnerships and the corporation documented that the corporation would hold title solely as nominee and agent while the partnerships remained the real owners.",
+    "reasoning": "The Court accepted the agency arrangement because the written nominee relationship existed from the start, the corporation acted only on the partnerships' behalf, and the surrounding facts showed real agency rather than a tax-motivated attempt to hide ownership. It rejected the Commissioner's view that a separate agency fee or strict arm's-length dealing was always required.",
+    "outcome": "for-taxpayer",
+    "statutesApplied": ["26 U.S.C. 61", "26 U.S.C. 167"],
+    "formsInvolved": [],
+    "topics": ["agency", "beneficial ownership", "nominee arrangements", "real estate"],
+    "fullDecisionUrl": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep485/usrep485340/usrep485340.pdf",
+    "fullDecisionPdfUrl": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep485/usrep485340/usrep485340.pdf",
+    "appealHistory": [],
+    "citingCases": [],
+    "citedCases": ["national-carbide-v-commissioner", "moline-properties-v-commissioner"],
+    "sources": [
+      {
+        "label": "Official opinion PDF",
+        "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep485/usrep485340/usrep485340.pdf",
+        "verifiedAt": "2026-05-04"
       }
     ]
   }

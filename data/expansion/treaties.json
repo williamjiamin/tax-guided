@@ -312,5 +312,329 @@
         "verifiedAt": "2026-05-01"
       }
     ]
+  },
+  {
+    "id": "us-france",
+    "slug": "us-france",
+    "countryA": "us",
+    "countryB": "fr",
+    "signedDate": "1994-08-31",
+    "effectiveDate": "1996-01-01",
+    "protocolDates": ["2004-08-12", "2009-01-13"],
+    "fullTextUrl": "https://www.irs.gov/pub/irs-trty/france.pdf",
+    "fullTextHtmlUrl": "https://www.irs.gov/businesses/international-businesses/france-tax-treaty-documents",
+    "withholdingMatrix": {
+      "dividends": {
+        "individualRate": 15,
+        "corporateRate": 5,
+        "conditions": "The 5 percent corporate rate generally depends on direct ownership and treaty qualification. Certain protocol-based exceptions and anti-abuse rules still require article-level review."
+      },
+      "interest": {
+        "rate": 0,
+        "exceptions": "The treaty table shows a general zero-percent result, but beneficial ownership, article scope, and protocol updates still matter."
+      },
+      "royalties": {
+        "rate": 0,
+        "type": "The treaty generally eliminates withholding on royalties, including the core copyright, patent, and know-how categories summarized in IRS Treaty Table 1."
+      },
+      "technicalServices": null
+    },
+    "articles": [
+      {
+        "number": 4,
+        "title": "Residence",
+        "summary": "Defines treaty residence and is the starting point for any claim to reduced withholding or treaty protection.",
+        "fullText": "The residence article is especially important for dual-country fact patterns and for any claim that depends on being a resident of France or the United States for treaty purposes rather than just domestic-law residence."
+      },
+      {
+        "number": 5,
+        "title": "Permanent Establishment",
+        "summary": "Sets the business-presence threshold that permits source-country taxation of business profits.",
+        "fullText": "For France, Article 5 includes a classic construction and installation rule: a building site, construction or installation project, drilling rig, or ship becomes a permanent establishment only if it lasts more than twelve months."
+      },
+      {
+        "number": 7,
+        "title": "Business Profits",
+        "summary": "Generally reserves business profits to the residence state unless a permanent establishment exists in the other state.",
+        "fullText": "This is the operating rule founders and consultants usually care about after the PE analysis. It is the article that keeps business profits from being taxed in the other state when the PE threshold has not been crossed."
+      },
+      {
+        "number": 10,
+        "title": "Dividends",
+        "summary": "Provides treaty limits on source-country dividend withholding in qualifying cases.",
+        "fullText": "The dividend article matters for closely held companies, holding-company structures, and founder distributions. The treaty table's 15 percent and 5 percent rates are the quick snapshot, but the full article and protocols control the outcome."
+      },
+      {
+        "number": 11,
+        "title": "Interest",
+        "summary": "Generally removes source-country withholding on qualifying interest.",
+        "fullText": "Interest is one of the clearest areas where the treaty can materially change the domestic-law withholding result, but the practical analysis still depends on documentation and beneficial ownership."
+      },
+      {
+        "number": 12,
+        "title": "Royalties",
+        "summary": "Generally removes source-country withholding on qualifying royalties.",
+        "fullText": "The royalty article is especially valuable for software, licensing, and IP structures because the treaty table shows a broad zero-percent result across the major royalty categories."
+      }
+    ],
+    "permanentEstablishment": {
+      "constructionThreshold": "more than 12 months",
+      "serviceThreshold": null,
+      "dependentAgentRules": "Dependent-agent analysis remains important where a person habitually concludes contracts or habitually secures orders on behalf of the enterprise under the treaty wording."
+    },
+    "capitalGains": {
+      "realEstateCarveOut": true,
+      "substantialShareholding": true
+    },
+    "pensions": {
+      "taxedIn": "split",
+      "notes": "Pension treatment is article-specific. IRS treaty tables show that some U.S.-source pension payments can still face source-country withholding, so pension questions should not be reduced to the general dividend-interest-royalty snapshot."
+    },
+    "studentClause": true,
+    "teachersClause": false,
+    "exchangeOfInformation": true,
+    "mli": {
+      "covered": false,
+      "mliEffectiveDate": null
+    },
+    "lastUpdated": "2026-05-04T00:00:00.000Z",
+    "sources": [
+      {
+        "label": "France treaty documents page",
+        "url": "https://www.irs.gov/businesses/international-businesses/france-tax-treaty-documents",
+        "verifiedAt": "2026-05-04"
+      },
+      {
+        "label": "Official U.S.-France treaty PDF",
+        "url": "https://www.irs.gov/pub/irs-trty/france.pdf",
+        "verifiedAt": "2026-05-04"
+      },
+      {
+        "label": "IRS Tax Treaty Table 1",
+        "url": "https://www.irs.gov/pub/irs-lbi/tax-treaty-table-1.pdf",
+        "verifiedAt": "2026-05-04"
+      },
+      {
+        "label": "France technical explanation",
+        "url": "https://www.irs.gov/pub/irs-trty/francetech.pdf",
+        "verifiedAt": "2026-05-04"
+      }
+    ]
+  },
+  {
+    "id": "us-japan",
+    "slug": "us-japan",
+    "countryA": "us",
+    "countryB": "jp",
+    "signedDate": "2003-11-06",
+    "effectiveDate": "2004-07-01",
+    "protocolDates": ["2003-11-10", "2013-01-24"],
+    "fullTextUrl": "https://home.treasury.gov/system/files/131/Treaty-Japan-11-6-2003.pdf",
+    "fullTextHtmlUrl": "https://www.irs.gov/businesses/international-businesses/japan-tax-treaty-documents",
+    "withholdingMatrix": {
+      "dividends": {
+        "individualRate": 10,
+        "corporateRate": 5,
+        "conditions": "IRS Treaty Table 1 shows 10 percent and 5 percent rates as the general snapshot, but certain parent-subsidiary, pension, and other qualified cases can produce lower or zero rates under the treaty and later protocol materials."
+      },
+      "interest": {
+        "rate": 10,
+        "exceptions": "IRS Treaty Table 1 footnote e notes important exemptions for certain financial institutions, government entities, pension funds, and qualifying sale-on-credit indebtedness."
+      },
+      "royalties": {
+        "rate": 0,
+        "type": "The treaty generally eliminates source-country withholding on qualifying royalties."
+      },
+      "technicalServices": null
+    },
+    "articles": [
+      {
+        "number": 4,
+        "title": "Residence",
+        "summary": "Defines treaty residence and controls access to the treaty's reduced withholding and business-profit protections.",
+        "fullText": "Residence is especially important in the Japan treaty because many of the most valuable benefits, including reduced withholding and PE-based protection, depend on satisfying both residence and limitation-on-benefits style requirements."
+      },
+      {
+        "number": 5,
+        "title": "Permanent Establishment",
+        "summary": "Sets the taxable-presence threshold for cross-border business activity.",
+        "fullText": "The Japan treaty follows the familiar rule that a building site, construction or installation project, drilling rig, or ship creates a permanent establishment only if it lasts more than twelve months."
+      },
+      {
+        "number": 7,
+        "title": "Business Profits",
+        "summary": "Generally reserves business profits to the residence state unless a permanent establishment exists in the other state.",
+        "fullText": "This is the article users usually care about after they finish the PE analysis. It is the treaty rule that prevents source-country tax on ordinary business profits when the treaty nexus threshold has not been met."
+      },
+      {
+        "number": 10,
+        "title": "Dividends",
+        "summary": "Provides reduced treaty withholding rates for qualifying dividends and is one of the treaty's highest-value articles in financing and holding-company planning.",
+        "fullText": "The Japan dividend article is more nuanced than a single chart number because some intercompany and pension-linked cases can qualify for more favorable results than the 10 percent and 5 percent table snapshot."
+      },
+      {
+        "number": 11,
+        "title": "Interest",
+        "summary": "Provides a 10 percent treaty rate with important exemptions for qualifying categories of interest.",
+        "fullText": "Japan is a good example of why treaty tables need footnotes. The 10 percent headline rate is useful, but the treaty table also flags multiple categories that can qualify for zero withholding."
+      },
+      {
+        "number": 12,
+        "title": "Royalties",
+        "summary": "Generally removes source-country withholding on qualifying royalties.",
+        "fullText": "For cross-border software, licensing, and IP structures, the royalty article is one of the treaty's clearest practical benefits because it moves many payments from a domestic-law withholding posture to zero percent."
+      }
+    ],
+    "permanentEstablishment": {
+      "constructionThreshold": "more than 12 months",
+      "serviceThreshold": null,
+      "dependentAgentRules": "Dependent-agent analysis remains important where a person habitually concludes contracts or otherwise acts in a way that creates source-country business presence under the treaty text."
+    },
+    "capitalGains": {
+      "realEstateCarveOut": true,
+      "substantialShareholding": true
+    },
+    "pensions": {
+      "taxedIn": "residence",
+      "notes": "IRS Treaty Table 1 shows a zero-percent U.S. withholding result for the general pension line under Article 17(1), but specialized pension or public-payment questions still deserve article-level review."
+    },
+    "studentClause": true,
+    "teachersClause": false,
+    "exchangeOfInformation": true,
+    "mli": {
+      "covered": false,
+      "mliEffectiveDate": null
+    },
+    "lastUpdated": "2026-05-04T00:00:00.000Z",
+    "sources": [
+      {
+        "label": "Japan treaty documents page",
+        "url": "https://www.irs.gov/businesses/international-businesses/japan-tax-treaty-documents",
+        "verifiedAt": "2026-05-04"
+      },
+      {
+        "label": "Official 2003 U.S.-Japan treaty PDF",
+        "url": "https://home.treasury.gov/system/files/131/Treaty-Japan-11-6-2003.pdf",
+        "verifiedAt": "2026-05-04"
+      },
+      {
+        "label": "IRS Tax Treaty Table 1",
+        "url": "https://www.irs.gov/pub/irs-lbi/tax-treaty-table-1.pdf",
+        "verifiedAt": "2026-05-04"
+      },
+      {
+        "label": "IRS Announcement 2004-54 effective-date guidance",
+        "url": "https://www.irs.gov/irb/2004-24_IRB",
+        "verifiedAt": "2026-05-04"
+      }
+    ]
+  },
+  {
+    "id": "us-netherlands",
+    "slug": "us-netherlands",
+    "countryA": "us",
+    "countryB": "nl",
+    "signedDate": "1992-12-18",
+    "effectiveDate": "1994-01-01",
+    "protocolDates": ["2004-03-08"],
+    "fullTextUrl": "https://www.irs.gov/pub/irs-trty/nether.pdf",
+    "fullTextHtmlUrl": "https://www.irs.gov/businesses/international-businesses/netherlands-tax-treaty-documents",
+    "withholdingMatrix": {
+      "dividends": {
+        "individualRate": 15,
+        "corporateRate": 5,
+        "conditions": "The reduced corporate rate generally depends on direct ownership and treaty qualification, and later protocol materials should be checked for special cases."
+      },
+      "interest": {
+        "rate": 0,
+        "exceptions": "The treaty table shows a general zero-percent result, but article scope and beneficial ownership still matter."
+      },
+      "royalties": {
+        "rate": 0,
+        "type": "The treaty generally removes source-country withholding on qualifying royalties across the major royalty categories summarized in IRS Treaty Table 1."
+      },
+      "technicalServices": null
+    },
+    "articles": [
+      {
+        "number": 4,
+        "title": "Residence",
+        "summary": "Defines treaty residence and is the gateway to reduced withholding and business-profit protections.",
+        "fullText": "Residence is a threshold issue in Netherlands treaty planning because reduced rates do not apply simply because a payment moves between the two countries. The claimant still has to be a treaty resident entitled to benefits."
+      },
+      {
+        "number": 5,
+        "title": "Permanent Establishment",
+        "summary": "Sets the source-country nexus threshold for business profits.",
+        "fullText": "The treaty states that a building site or construction or installation project becomes a permanent establishment only if it lasts more than twelve months, which is one of the practical timing thresholds operators actually plan around."
+      },
+      {
+        "number": 7,
+        "title": "Business Profits",
+        "summary": "Generally reserves business profits to the residence state unless a permanent establishment exists in the other state.",
+        "fullText": "This is the treaty rule that most operating businesses care about after finishing the PE analysis, especially for cross-border services and remote operating structures."
+      },
+      {
+        "number": 10,
+        "title": "Dividends",
+        "summary": "Provides reduced treaty withholding rates on qualifying dividends.",
+        "fullText": "The 15 percent and 5 percent dividend rates are the quick reference points, but real-world use still depends on ownership thresholds, residency, and limitation-on-benefits style analysis."
+      },
+      {
+        "number": 11,
+        "title": "Interest",
+        "summary": "Generally removes source-country withholding on qualifying interest.",
+        "fullText": "The Netherlands treaty is one of the clearer examples of a treaty turning a domestic-law withholding problem into a zero-percent result, provided the recipient qualifies and the payment fits the article."
+      },
+      {
+        "number": 13,
+        "title": "Royalties",
+        "summary": "Generally removes source-country withholding on qualifying royalties.",
+        "fullText": "Royalty planning under the Netherlands treaty often matters for software, licensing, and IP structures because the treaty table shows a broad zero-percent result."
+      }
+    ],
+    "permanentEstablishment": {
+      "constructionThreshold": "more than 12 months",
+      "serviceThreshold": null,
+      "dependentAgentRules": "Dependent-agent concepts remain relevant where a person acts on behalf of the enterprise with sufficient authority or contract-closing power under the treaty text."
+    },
+    "capitalGains": {
+      "realEstateCarveOut": true,
+      "substantialShareholding": true
+    },
+    "pensions": {
+      "taxedIn": "split",
+      "notes": "IRS treaty tables show a zero-percent withholding result for the general pension line, but pension outcomes still depend on the specific article category and payment type."
+    },
+    "studentClause": true,
+    "teachersClause": false,
+    "exchangeOfInformation": true,
+    "mli": {
+      "covered": false,
+      "mliEffectiveDate": null
+    },
+    "lastUpdated": "2026-05-04T00:00:00.000Z",
+    "sources": [
+      {
+        "label": "Netherlands treaty documents page",
+        "url": "https://www.irs.gov/businesses/international-businesses/netherlands-tax-treaty-documents",
+        "verifiedAt": "2026-05-04"
+      },
+      {
+        "label": "Official U.S.-Netherlands treaty PDF",
+        "url": "https://www.irs.gov/pub/irs-trty/nether.pdf",
+        "verifiedAt": "2026-05-04"
+      },
+      {
+        "label": "IRS Tax Treaty Table 1",
+        "url": "https://www.irs.gov/pub/irs-lbi/tax-treaty-table-1.pdf",
+        "verifiedAt": "2026-05-04"
+      },
+      {
+        "label": "Netherlands technical explanation",
+        "url": "https://www.irs.gov/businesses/international-businesses/netherlands-technical-explanation",
+        "verifiedAt": "2026-05-04"
+      }
+    ]
   }
 ]
