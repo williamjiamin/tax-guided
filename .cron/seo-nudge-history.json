@@ -11,10 +11,22 @@
       "https://taxguided.com/community/page/14",
       "https://taxguided.com/community/page/15",
       "https://taxguided.com/community/page/16"
+    ],
+    "2026-05-04": [
+      "https://taxguided.com/",
+      "https://taxguided.com/statutes",
+      "https://taxguided.com/community/page/17",
+      "https://taxguided.com/community/page/18",
+      "https://taxguided.com/community/page/19",
+      "https://taxguided.com/community/page/20",
+      "https://taxguided.com/community/page/21",
+      "https://taxguided.com/community/page/22",
+      "https://taxguided.com/community/page/23",
+      "https://taxguided.com/community/page/24"
     ]
   },
   "lastNudged": {
-    "https://taxguided.com/": "2026-05-03",
+    "https://taxguided.com/": "2026-05-04",
     "https://taxguided.com/states": "2026-05-03",
     "https://taxguided.com/community/all": "2026-05-03",
     "https://taxguided.com/community/page/2": "2026-05-03",
@@ -31,6 +43,15 @@
     "https://taxguided.com/community/page/13": "2026-05-03",
     "https://taxguided.com/community/page/14": "2026-05-03",
     "https://taxguided.com/community/page/15": "2026-05-03",
-    "https://taxguided.com/community/page/16": "2026-05-03"
+    "https://taxguided.com/community/page/16": "2026-05-03",
+    "https://taxguided.com/statutes": "2026-05-04",
+    "https://taxguided.com/community/page/17": "2026-05-04",
+    "https://taxguided.com/community/page/18": "2026-05-04",
+    "https://taxguided.com/community/page/19": "2026-05-04",
+    "https://taxguided.com/community/page/20": "2026-05-04",
+    "https://taxguided.com/community/page/21": "2026-05-04",
+    "https://taxguided.com/community/page/22": "2026-05-04",
+    "https://taxguided.com/community/page/23": "2026-05-04",
+    "https://taxguided.com/community/page/24": "2026-05-04"
   }
 }
